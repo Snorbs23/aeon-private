@@ -2,7 +2,6 @@
 #
 # Enable skills by setting enabled: true. Multiple skills at the same time run in parallel.
 # Set var: "value" to pass a default parameter to the skill.
-
 skills:
   # --- 2 AM UTC (9 AM Bangkok) ---
   morning-brief: { enabled: true, schedule: "0 2 * * *" }
@@ -12,9 +11,14 @@ skills:
   article: { enabled: true, schedule: "0 4 * * *" }
   research-brief: { enabled: true, schedule: "0 4 * * *" }
   # --- 9 AM UTC (4 PM Bangkok) ---
-  token-alert-mid: { enabled: true, schedule: "0 9 * * *" }
+  token-alert: { enabled: true, schedule: "0 9 * * *" }
+  defi-monitor: { enabled: true, schedule: "0 9 * * *" }
+  defi-overview: { enabled: true, schedule: "0 9 * * *" }
+  polymarket: { enabled: true, schedule: "0 9 * * *" }
+  # --- 12 PM UTC (7 PM Bangkok) ---
+  idea-capture: { enabled: true, schedule: "0 12 * * *" }
   # --- 4 PM UTC (11 PM Bangkok) ---
-  token-alert-eve: { enabled: true, schedule: "0 16 * * *" }
+  token-alert: { enabled: true, schedule: "0 16 * * *" }
   # --- 5 PM UTC (12 AM Bangkok) ---
   memory-flush: { enabled: true, schedule: "0 17 * * *" }
   reflect: { enabled: true, schedule: "0 17 * * *" }
