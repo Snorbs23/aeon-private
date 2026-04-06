@@ -48,3 +48,4 @@ Steps:
    *Today's schedule*
    - skill at time
 5. Log to memory/logs/${today}.md.
+Keep the total notification message under 4000 characters. Truncate headlines if needed.
