@@ -1,0 +1,330 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Overview — 2026-04-06"
+      },
+      "children": [
+        "stat_tvl",
+        "sep1",
+        "heading_chains",
+        "table_chains",
+        "sep2",
+        "heading_protocols",
+        "table_protocols",
+        "sep3",
+        "heading_movers",
+        "stack_movers",
+        "sep4",
+        "heading_dex",
+        "stat_dex_volume",
+        "table_dex",
+        "sep5",
+        "heading_stables",
+        "stat_stables",
+        "text_stables_breakdown",
+        "sep6",
+        "heading_yields",
+        "table_yields"
+      ]
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL (All Chains)",
+        "value": "$94.5B"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_chains": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Chains by TVL",
+        "level": "h2"
+      }
+    },
+    "table_chains": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Chain",
+          "TVL",
+          "Dominance"
+        ],
+        "rows": [
+          [
+            "1",
+            "Ethereum",
+            "$54.35B",
+            "57.5%"
+          ],
+          [
+            "2",
+            "Solana",
+            "$5.55B",
+            "—"
+          ],
+          [
+            "3",
+            "BSC",
+            "$5.37B",
+            "—"
+          ],
+          [
+            "4",
+            "Tron",
+            "$4.86B",
+            "—"
+          ],
+          [
+            "5",
+            "Bitcoin",
+            "$4.69B",
+            "—"
+          ],
+          [
+            "6",
+            "Base",
+            "$4.15B",
+            "—"
+          ],
+          [
+            "7",
+            "Arbitrum",
+            "$1.92B",
+            "—"
+          ],
+          [
+            "8",
+            "Hyperliquid L1",
+            "$1.64B",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_protocols": {
+      "type": "Heading",
+      "props": {
+        "text": "Top DeFi Protocols (excl. CEXes)",
+        "level": "h2"
+      }
+    },
+    "table_protocols": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Rank",
+          "Protocol",
+          "TVL",
+          "1d Change"
+        ],
+        "rows": [
+          [
+            "1",
+            "Aave V3",
+            "$24.35B",
+            "+3.41%"
+          ],
+          [
+            "2",
+            "Lido",
+            "$19.94B",
+            "+5.27%"
+          ],
+          [
+            "3",
+            "SSV Network",
+            "$15.76B",
+            "+5.04%"
+          ],
+          [
+            "4",
+            "EigenCloud",
+            "$8.72B",
+            "+5.11%"
+          ],
+          [
+            "5",
+            "WBTC",
+            "$8.08B",
+            "+3.68%"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_movers": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Movers (>5% 1d)",
+        "level": "h2"
+      }
+    },
+    "stack_movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_lido",
+        "badge_eigencloud",
+        "badge_ssv"
+      ]
+    },
+    "badge_lido": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Lido: +5.27%",
+        "variant": "default"
+      }
+    },
+    "badge_eigencloud": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ EigenCloud: +5.11%",
+        "variant": "default"
+      }
+    },
+    "badge_ssv": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ SSV Network: +5.04%",
+        "variant": "default"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_dex": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "stat_dex_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Total DEX Volume",
+        "value": "$3.71B"
+      }
+    },
+    "table_dex": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "DEX",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "Orca",
+            "$167M"
+          ],
+          [
+            "Raydium",
+            "$102M"
+          ],
+          [
+            "Curve",
+            "$75M"
+          ],
+          [
+            "PancakeSwap",
+            "$44M"
+          ]
+        ]
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_stables": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoins",
+        "level": "h2"
+      }
+    },
+    "stat_stables": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Stablecoin Supply",
+        "value": "$275.6B"
+      }
+    },
+    "text_stables_breakdown": {
+      "type": "Text",
+      "props": {
+        "text": "USDT: $184B | USDC: $77.5B | USDS: $8.9B | USDe: $5.9B | DAI: $4.7B",
+        "variant": "body"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_yields": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Yields (>$10M TVL)",
+        "level": "h2"
+      }
+    },
+    "table_yields": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "APY",
+          "TVL"
+        ],
+        "rows": [
+          [
+            "Sky SUSDS",
+            "3.8%",
+            "$6.75B"
+          ],
+          [
+            "Maple USDC",
+            "4.5%",
+            "$3.18B"
+          ],
+          [
+            "Jito JitoSOL",
+            "5.5%",
+            "$919M"
+          ],
+          [
+            "DZero dzSOL",
+            "5.3%",
+            "$837M"
+          ],
+          [
+            "BlackRock BUIDL",
+            "3.6%",
+            "$893M"
+          ]
+        ]
+      }
+    }
+  }
+}
