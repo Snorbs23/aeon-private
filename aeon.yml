@@ -27,7 +27,7 @@ skills:
   # --- Fallback (must be last) ---
   heartbeat: { enabled: true, schedule: "0 * * * *" }
 
-model: claude-opus-4-6
+model: claude-sonnet-4-6
 
 channels:
   jsonrender:
