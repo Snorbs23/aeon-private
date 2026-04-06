@@ -1,0 +1,155 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "reflect"
+      },
+      "children": [
+        "heading",
+        "date",
+        "sep1",
+        "action_stack",
+        "sep2",
+        "metrics_stack",
+        "sep3",
+        "status_text",
+        "sep4",
+        "priority_stack"
+      ]
+    },
+    "heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory consolidated",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-04-06",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "action_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "action_label",
+        "action_detail"
+      ]
+    },
+    "action_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Action",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "action_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Pruned duplicate digest and priority sections from MEMORY.md"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "metrics_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "metrics_label",
+        "line_stat"
+      ]
+    },
+    "metrics_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Metrics",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "line_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "MEMORY.md lines",
+        "value": "55",
+        "delta": "from ~75 lines"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "No stale entries beyond duplicates"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "priority_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "priority_label",
+        "priority_detail"
+      ]
+    },
+    "priority_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Open Priority",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "priority_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Wire cron schedule to aeon.yml"
+      },
+      "children": []
+    }
+  }
+}
