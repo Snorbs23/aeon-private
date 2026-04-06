@@ -1,0 +1,213 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Self Review",
+        "description": "2026-04-06 (final)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quality_section",
+        "sep1",
+        "reliability_section",
+        "sep2",
+        "actions_section",
+        "sep3",
+        "recommendations_section"
+      ]
+    },
+    "quality_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quality_heading",
+        "quality_good",
+        "quality_noise_label",
+        "quality_badges"
+      ]
+    },
+    "quality_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quality",
+        "level": "h3"
+      }
+    },
+    "quality_good": {
+      "type": "Text",
+      "props": {
+        "text": "Good overall. AI agents article and token alerts were substantive."
+      }
+    },
+    "quality_noise_label": {
+      "type": "Text",
+      "props": {
+        "text": "Noise identified:",
+        "variant": "caption"
+      }
+    },
+    "quality_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_heartbeat",
+        "badge_ideacapture"
+      ]
+    },
+    "badge_heartbeat": {
+      "type": "Badge",
+      "props": {
+        "text": "Heartbeat ×5",
+        "variant": "destructive"
+      }
+    },
+    "badge_ideacapture": {
+      "type": "Badge",
+      "props": {
+        "text": "idea-capture ×2 (empty)",
+        "variant": "destructive"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reliability_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reliability_heading",
+        "stat_runs",
+        "reliability_alert"
+      ]
+    },
+    "reliability_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reliability",
+        "level": "h3"
+      }
+    },
+    "stat_runs": {
+      "type": "Stat",
+      "props": {
+        "label": "Meaningful skill runs today",
+        "value": "~12"
+      }
+    },
+    "reliability_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "18-day gap before today",
+        "message": "Confirms no-cron problem",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "actions_heading",
+        "action1",
+        "action2"
+      ]
+    },
+    "actions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Actions Taken",
+        "level": "h3"
+      }
+    },
+    "action1": {
+      "type": "Text",
+      "props": {
+        "text": "Cleaned MEMORY.md duplicate sections"
+      }
+    },
+    "action2": {
+      "type": "Text",
+      "props": {
+        "text": "Updated self-review article with full-day coverage"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rec_heading",
+        "rec1",
+        "rec2",
+        "rec3"
+      ]
+    },
+    "rec_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendations",
+        "level": "h3"
+      }
+    },
+    "rec1": {
+      "type": "Alert",
+      "props": {
+        "title": "Add schedule cron to aeon.yml",
+        "message": "Critical blocker for autonomy",
+        "type": "error"
+      }
+    },
+    "rec2": {
+      "type": "Text",
+      "props": {
+        "text": "Guard idea-capture against empty var"
+      }
+    },
+    "rec3": {
+      "type": "Text",
+      "props": {
+        "text": "Add heartbeat/morning-brief dedup checks"
+      }
+    }
+  }
+}

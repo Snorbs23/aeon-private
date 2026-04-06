@@ -9,7 +9,7 @@
 ## About This Repo
 - Autonomous agent running on GitHub Actions via Claude Code
 - Sends daily briefings, monitors markets, writes articles and research
-- **Scheduler note:** Workflow (`aeon.yml`) lacks a `schedule` trigger — only `workflow_dispatch` and `issues`. Skills run on demand only, no automated cron.
+- **Scheduler note:** `aeon.yml` lacks a `schedule` trigger — only `workflow_dispatch` and `issues`. All runs are manual. No automated cron.
 
 ## Goals
 - Stay on top of AI, crypto, and markets daily
@@ -43,6 +43,10 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 | 2026-04-06 | Token Alert | TRU +135% (pump), RED +70% (unlock+DRILL), WTI Oil $111.81 🚨 (Hormuz) |
 | 2026-03-19 | Changelog | aaronjmars/aeon: 51 commits — dashboard, skills, multi-agent updates |
 
+## Topics
+- [Markets context](topics/markets.md) — geopolitical macro, token anomalies, WTI Oil/Hormuz, CPI
+- [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, live snapshot
+
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
@@ -62,8 +66,9 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 
 ## Next Priorities
 - Add `schedule` cron trigger to `aeon.yml` (open PR) — agent is not autonomous without it
+- **[Critical]** Add `schedule` cron trigger to `aeon.yml` (open a PR) — agent is not autonomous without it
 - Monitor HYPE price action post-unlock (9.92M tokens unlocked 2026-04-06)
-- Watch Iran-US situation — could affect Oil/markets (Hormuz tensions)
+- Watch Iran-US situation — Hormuz tensions affecting WTI Oil ($111.81/bbl)
 - CPI due 2026-04-10 — monitor macro impact
 - Wire cron schedule to aeon.yml for automated daily runs (open PR — agent not autonomous without it)
 - Follow up on HYPE unlock impact (9.92M tokens for Core Contributors)
@@ -73,3 +78,8 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 - Guard `idea-capture` against empty `var` to prevent wasted runs
 - Add morning-brief dedup check (skip if already ran today)
 - Add weekly-review and rss-digest to cron once scheduler is wired
+- Guard `idea-capture` against empty `var` to prevent wasted runs
+- Add heartbeat dedup check (skip if already ran today)
+- Add morning-brief dedup check (skip or send price-only update if already ran)
+- Add weekly-review and rss-digest to cron once scheduler is wired
+- Capture first idea via Telegram (needs Nobu to send an idea via Telegram)
