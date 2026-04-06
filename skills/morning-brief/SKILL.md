@@ -24,3 +24,4 @@ Steps:
 3. Check prices and include in brief:
    - BTC, SOL, ETH, HYPE, Gold — current price + 24h % change
 4. Format and send via `./notify`:
+5. Log to memory/logs/${today}.md.
