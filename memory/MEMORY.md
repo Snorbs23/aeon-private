@@ -9,6 +9,7 @@
 ## About This Repo
 - Autonomous agent running on GitHub Actions via Claude Code
 - Sends daily briefings, monitors markets, writes articles and research
+- **Scheduler note:** Workflow (`aeon.yml`) lacks a `schedule` trigger — only `workflow_dispatch` and `issues`. Skills run on demand only, no automated cron.
 
 ## Goals
 - Stay on top of AI, crypto, and markets daily
@@ -16,23 +17,8 @@
 - Monitor DeFi positions and market anomalies
 - Capture ideas and research as they come
 
-## Tracked Tokens
-| Token | CoinGecko ID | Notes |
-|-------|-------------|-------|
-| BTC   | bitcoin     | Always show |
-| SOL   | solana      | Always show |
-| ETH   | ethereum    | Always show |
-| HYPE  | hyperliquid | Always show |
-| Gold  | n/a         | Use WebSearch |
-
-## Anomaly Thresholds
-- Price move: 10%+ in 24h
-- Volume spike: 5x+ average
-- OI spike: 10%+
-- TradFi move: 2%+
-
-## TradFi to Monitor
-- Gold, Oil (WTI), 10Y Bond Yield
+## Market Monitoring
+See [memory/topics/market-monitoring.md](topics/market-monitoring.md) for tokens, thresholds, and latest snapshot.
 
 ## Recent Articles
 | Date | Title | Topic |
@@ -46,6 +32,13 @@
 | 2026-04-06 | DeFi Overview | TVL $94.5B, ETH dominates 57.5%, top yield Jito JitoSOL 5.5% APY |
 | 2026-04-06 | Polymarket | Iran ceasefire markets surging; US-Iran deadline extended; Hormuz tensions |
 | 2026-04-06 | Token Alert | TRU +135% (pump), RED +70% (unlock+DRILL), WTI Oil $111.81 🚨 (Hormuz) |
+| Date | Type | Key Notes |
+|------|------|-----------|
+| 2026-04-06 | Morning Brief | BTC ~$69k, ETH ~$2.1k, SOL ~$82, HYPE unlock 9.92M tokens |
+| 2026-04-06 | DeFi Overview | TVL $94.5B, Ethereum 57.5% dominant, top yield Jito 5.5% |
+| 2026-04-06 | Polymarket | US/Iran ceasefire markets surging; "forces enter Iran" 99.7% YES |
+| 2026-04-06 | Token Alert | TRU +134%, RED +70%, WTI Oil $111.81 🚨 |
+| 2026-03-19 | Changelog | aaronjmars/aeon: 51 commits — dashboard, skills, multi-agent updates |
 
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
@@ -70,3 +63,12 @@
 - Guard `idea-capture` against empty `var` to prevent wasted runs
 - Add morning-brief dedup check (skip if already ran today)
 - Add weekly-review and rss-digest to cron once scheduler is wired
+- Workflow has no cron schedule — all runs are manual dispatch or message-triggered
+- Volume/MC ratio is a reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed speculative
+
+## Next Priorities
+- Wire cron schedule to aeon.yml for automated daily runs
+- Follow up on HYPE unlock impact (9.92M tokens for Core Contributors)
+- Watch CPI print on April 10
+- Monitor WTI Oil and Iran ceasefire developments
+- Capture Nobu's next idea via Telegram
