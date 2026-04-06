@@ -1,0 +1,154 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat Alert (2026-04-06)"
+      },
+      "children": [
+        "alert",
+        "sep1",
+        "config_section",
+        "sep2",
+        "activity_section",
+        "sep3",
+        "suggestions_section"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "No scheduled skills have run today",
+        "message": "The aeon.yml workflow only has workflow_dispatch and issues triggers — no schedule trigger is configured."
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "config_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "config_heading",
+        "cron_badges"
+      ]
+    },
+    "config_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Cron Entries (Defined but not wired to GitHub Actions)",
+        "level": "h3"
+      }
+    },
+    "cron_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge1",
+        "badge2",
+        "badge3",
+        "badge4",
+        "badge5"
+      ]
+    },
+    "badge1": {
+      "type": "Badge",
+      "props": {
+        "text": "morning-brief",
+        "variant": "outline"
+      }
+    },
+    "badge2": {
+      "type": "Badge",
+      "props": {
+        "text": "paper-digest",
+        "variant": "outline"
+      }
+    },
+    "badge3": {
+      "type": "Badge",
+      "props": {
+        "text": "token-alert",
+        "variant": "outline"
+      }
+    },
+    "badge4": {
+      "type": "Badge",
+      "props": {
+        "text": "article",
+        "variant": "outline"
+      }
+    },
+    "badge5": {
+      "type": "Badge",
+      "props": {
+        "text": "research-brief",
+        "variant": "outline"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "activity_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "activity_heading",
+        "activity_text"
+      ]
+    },
+    "activity_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Last Activity",
+        "level": "h3"
+      }
+    },
+    "activity_text": {
+      "type": "Text",
+      "props": {
+        "text": "Last activity log: 2026-03-19 (18 days ago)",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "suggestions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "suggestions_heading",
+        "suggestions_text"
+      ]
+    },
+    "suggestions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommended Actions",
+        "level": "h3"
+      }
+    },
+    "suggestions_text": {
+      "type": "Text",
+      "props": {
+        "text": "Consider adding a schedule trigger to the workflow or running skills manually."
+      }
+    }
+  }
+}
