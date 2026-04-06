@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: never*
+*Last consolidated: 2026-04-06*
 
 ## About Me
 - Name: Nobu
@@ -42,6 +42,10 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-04-06 | Morning Brief | BTC $69K, ETH $2.1K, HYPE token unlock 9.92M tokens ($354M), Gold $4,650/oz |
+| 2026-04-06 | DeFi Overview | TVL $94.5B, ETH dominates 57.5%, top yield Jito JitoSOL 5.5% APY |
+| 2026-04-06 | Polymarket | Iran ceasefire markets surging; US-Iran deadline extended; Hormuz tensions |
+| 2026-04-06 | Token Alert | TRU +135% (pump), RED +70% (unlock+DRILL), WTI Oil $111.81 🚨 (Hormuz) |
 
 ## Skills Built
 | Skill | Date | Notes |
@@ -50,8 +54,13 @@
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
+- aeon.yml has no `schedule` trigger — workflow is dispatch-only (via `workflow_dispatch` or `issues`), so no auto-cron runs
+
+## Topics
+- [Markets context](topics/markets.md) — geopolitical macro, token anomalies, WTI Oil/Hormuz, CPI
 
 ## Next Priorities
-- Run first morning brief
-- Monitor first token alert
-- Capture first idea via Telegram
+- Wire cron scheduler into aeon.yml to enable scheduled skill runs
+- Monitor HYPE price action post-unlock (9.92M tokens unlocked 2026-04-06)
+- Watch Iran-US situation — could affect Oil/markets (Hormuz tensions)
+- CPI due 2026-04-10 — monitor macro impact
