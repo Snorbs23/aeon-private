@@ -3,7 +3,7 @@ run-name: "${{ inputs.message && format('msg ({0}): {1}', inputs.source || 'user
 
 on:
   schedule:
-  - cron: '0 0 31 2 *'
+  - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       message:
