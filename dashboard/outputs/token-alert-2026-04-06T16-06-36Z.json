@@ -1,0 +1,376 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-06"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-core-prices",
+        "sep1",
+        "section-anomalies",
+        "sep3",
+        "section-tradfi"
+      ]
+    },
+    "section-core-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-core",
+        "btc-stat",
+        "eth-stat",
+        "sol-stat",
+        "hype-stat",
+        "gold-stat"
+      ]
+    },
+    "heading-core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "btc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$69,936",
+        "delta": "+3.91%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,165",
+        "delta": "+5.40%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$82.23",
+        "delta": "+3.16%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "hype-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$37.67",
+        "delta": "+5.89%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "gold-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,670/oz"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-anomalies",
+        "section-gainers",
+        "sep2",
+        "section-losers"
+      ]
+    },
+    "heading-anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "section-gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-gainers",
+        "stack-gainers"
+      ]
+    },
+    "heading-gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "GAINERS",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack-gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gainer-1",
+        "gainer-2",
+        "gainer-3",
+        "gainer-4",
+        "gainer-5",
+        "gainer-6",
+        "gainer-7",
+        "gainer-8",
+        "gainer-9"
+      ]
+    },
+    "gainer-1": {
+      "type": "Text",
+      "props": {
+        "text": "TRU (TrueFi): $0.0102 (+134.6%) — coordinated whale buying, no clear catalyst; vol $196M vs $18M mktcap"
+      },
+      "children": []
+    },
+    "gainer-2": {
+      "type": "Text",
+      "props": {
+        "text": "RED (RedStone): $0.174 (+70.1%) — token unlock day (40.85M / 4.1% supply) + DRILL program; vol $247M"
+      },
+      "children": []
+    },
+    "gainer-3": {
+      "type": "Text",
+      "props": {
+        "text": "TREE (Treehouse): $0.0765 (+34.8%) Vol: $100M"
+      },
+      "children": []
+    },
+    "gainer-4": {
+      "type": "Text",
+      "props": {
+        "text": "APR (aPriori): $0.231 (+34.9%) Vol: $22M"
+      },
+      "children": []
+    },
+    "gainer-5": {
+      "type": "Text",
+      "props": {
+        "text": "SUPER (SuperVerse): $0.124 (+30.6%) Vol: $125M"
+      },
+      "children": []
+    },
+    "gainer-6": {
+      "type": "Text",
+      "props": {
+        "text": "LAB: $0.289 (+31.2%) Vol: $22M"
+      },
+      "children": []
+    },
+    "gainer-7": {
+      "type": "Text",
+      "props": {
+        "text": "FLUID: $1.69 (+14.0%) Vol: $19M"
+      },
+      "children": []
+    },
+    "gainer-8": {
+      "type": "Text",
+      "props": {
+        "text": "ARIA: $0.632 (+12.1%) Vol: $30M"
+      },
+      "children": []
+    },
+    "gainer-9": {
+      "type": "Text",
+      "props": {
+        "text": "LIT (Lighter): $1.08 (+10.5%) Vol: $38M"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-losers",
+        "stack-losers"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "LOSERS",
+        "level": "h4"
+      },
+      "children": []
+    },
+    "stack-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "loser-1",
+        "loser-2",
+        "loser-3",
+        "loser-4",
+        "loser-5",
+        "loser-6",
+        "loser-7",
+        "loser-8"
+      ]
+    },
+    "loser-1": {
+      "type": "Text",
+      "props": {
+        "text": "BSB (Block Street): $0.185 (-35.4%) Vol: $46M"
+      },
+      "children": []
+    },
+    "loser-2": {
+      "type": "Text",
+      "props": {
+        "text": "PIPPIN: $0.033 (-28.5%) Vol: $25M"
+      },
+      "children": []
+    },
+    "loser-3": {
+      "type": "Text",
+      "props": {
+        "text": "ODIC: $0.000157 (-21.0%) Vol: $29M"
+      },
+      "children": []
+    },
+    "loser-4": {
+      "type": "Text",
+      "props": {
+        "text": "L3 (Layer3): $0.0172 (-20.8%) Vol: $18M"
+      },
+      "children": []
+    },
+    "loser-5": {
+      "type": "Text",
+      "props": {
+        "text": "SOLV: $0.00385 (-17.6%) Vol: $35M"
+      },
+      "children": []
+    },
+    "loser-6": {
+      "type": "Text",
+      "props": {
+        "text": "NOM: $0.00462 (-15.3%) Vol: $20M"
+      },
+      "children": []
+    },
+    "loser-7": {
+      "type": "Text",
+      "props": {
+        "text": "MMT (Momentum): $0.128 (-14.5%) Vol: $69M"
+      },
+      "children": []
+    },
+    "loser-8": {
+      "type": "Text",
+      "props": {
+        "text": "MASK: $0.445 (-12.3%) Vol: $20M"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section-tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-tradfi",
+        "gold-tradfi",
+        "oil-tradfi",
+        "yield-tradfi"
+      ]
+    },
+    "heading-tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "gold-tradfi": {
+      "type": "Text",
+      "props": {
+        "text": "Gold: $4,670/oz"
+      },
+      "children": []
+    },
+    "oil-tradfi": {
+      "type": "Text",
+      "props": {
+        "text": "Oil (WTI): $111.81/bbl 🚨 (+11.9% last week — Strait of Hormuz disruptions)"
+      },
+      "children": []
+    },
+    "yield-tradfi": {
+      "type": "Text",
+      "props": {
+        "text": "10Y Yield: ~4.31-4.36%"
+      },
+      "children": []
+    }
+  }
+}
