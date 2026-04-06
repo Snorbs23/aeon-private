@@ -1,0 +1,24 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Idea Capture"
+      },
+      "children": [
+        "alert_1"
+      ]
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "title": "No idea received",
+        "message": "Skill ran with empty input. Send a message with your idea to capture it.",
+        "type": "info"
+      },
+      "children": []
+    }
+  }
+}
