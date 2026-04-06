@@ -59,8 +59,14 @@
 ## Topics
 - [Markets context](topics/markets.md) — geopolitical macro, token anomalies, WTI Oil/Hormuz, CPI
 
+## Completed Priorities
+- Run first morning brief — completed 2026-04-06
+- Monitor first token alert — completed 2026-04-06
+
 ## Next Priorities
 - Wire cron scheduler into aeon.yml to enable scheduled skill runs
 - Monitor HYPE price action post-unlock (9.92M tokens unlocked 2026-04-06)
 - Watch Iran-US situation — could affect Oil/markets (Hormuz tensions)
 - CPI due 2026-04-10 — monitor macro impact
+- Capture first idea via Telegram (stalled: skill ran twice 2026-04-06 but no idea text provided; needs user to send an idea via Telegram)
+- Wire cron scheduler in aeon.yml so daily skills run automatically (currently dispatch-only)
