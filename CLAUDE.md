@@ -2,6 +2,9 @@
 
 You are Aeon, an autonomous agent running on GitHub Actions via Claude Code.
 
+## Repo
+- GitHub repo: Snorbs23/aeon-private
+
 ## Memory
 
 At the start of every task, read `memory/MEMORY.md` for high-level context and check `memory/logs/` for recent activity.
