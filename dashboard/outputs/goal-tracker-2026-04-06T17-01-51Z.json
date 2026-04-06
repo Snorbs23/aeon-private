@@ -1,0 +1,299 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-04-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_on_track",
+        "sep1",
+        "section_stalled",
+        "sep2",
+        "section_completed",
+        "sep3",
+        "section_blocked"
+      ]
+    },
+    "section_on_track": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_on_track",
+        "item_ot1",
+        "item_ot2",
+        "item_ot3"
+      ]
+    },
+    "heading_on_track": {
+      "type": "Heading",
+      "props": {
+        "text": "On Track",
+        "level": "h2"
+      }
+    },
+    "item_ot1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ot1",
+        "text_ot1"
+      ]
+    },
+    "badge_ot1": {
+      "type": "Badge",
+      "props": {
+        "text": "Stay on top of AI/crypto/markets",
+        "variant": "default"
+      }
+    },
+    "text_ot1": {
+      "type": "Text",
+      "props": {
+        "text": "morning briefs (x2), token alert, DeFi overview, and Polymarket digest all ran today. Gap noted (Mar 19 → Apr 6 = 18 days) but active now.",
+        "variant": "body"
+      }
+    },
+    "item_ot2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ot2",
+        "text_ot2"
+      ]
+    },
+    "badge_ot2": {
+      "type": "Badge",
+      "props": {
+        "text": "Build personal knowledge base",
+        "variant": "default"
+      }
+    },
+    "text_ot2": {
+      "type": "Text",
+      "props": {
+        "text": "AI agents article written today; changelog entry 2026-03-19. Memory structure growing.",
+        "variant": "body"
+      }
+    },
+    "item_ot3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ot3",
+        "text_ot3"
+      ]
+    },
+    "badge_ot3": {
+      "type": "Badge",
+      "props": {
+        "text": "Monitor DeFi & anomalies",
+        "variant": "default"
+      }
+    },
+    "text_ot3": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi TVL snapshot taken ($94.5B), token alert fired with 7 anomalies (TRU +135%, RED +70%). Oil at $111.81 flagged.",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_stalled": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_stalled",
+        "item_stalled1"
+      ]
+    },
+    "heading_stalled": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled",
+        "level": "h2"
+      }
+    },
+    "item_stalled1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_stalled1",
+        "text_stalled1"
+      ]
+    },
+    "badge_stalled1": {
+      "type": "Badge",
+      "props": {
+        "text": "Capture ideas and research",
+        "variant": "secondary"
+      }
+    },
+    "text_stalled1": {
+      "type": "Text",
+      "props": {
+        "text": "Idea-capture skill ran twice today but both times with no input. Last meaningful idea capture: never logged.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_completed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_completed",
+        "item_completed1",
+        "item_completed2"
+      ]
+    },
+    "heading_completed": {
+      "type": "Heading",
+      "props": {
+        "text": "Completed",
+        "level": "h2"
+      }
+    },
+    "item_completed1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_completed1",
+        "text_completed1"
+      ]
+    },
+    "badge_completed1": {
+      "type": "Badge",
+      "props": {
+        "text": "Run first morning brief",
+        "variant": "default"
+      }
+    },
+    "text_completed1": {
+      "type": "Text",
+      "props": {
+        "text": "completed 2026-04-06",
+        "variant": "muted"
+      }
+    },
+    "item_completed2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_completed2",
+        "text_completed2"
+      ]
+    },
+    "badge_completed2": {
+      "type": "Badge",
+      "props": {
+        "text": "Monitor first token alert",
+        "variant": "default"
+      }
+    },
+    "text_completed2": {
+      "type": "Text",
+      "props": {
+        "text": "completed 2026-04-06",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_blocked": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_blocked",
+        "item_blocked1"
+      ]
+    },
+    "heading_blocked": {
+      "type": "Heading",
+      "props": {
+        "text": "Blocked",
+        "level": "h2"
+      }
+    },
+    "item_blocked1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_blocked1",
+        "text_blocked1"
+      ]
+    },
+    "badge_blocked1": {
+      "type": "Badge",
+      "props": {
+        "text": "Capture first idea via Telegram",
+        "variant": "destructive"
+      }
+    },
+    "text_blocked1": {
+      "type": "Text",
+      "props": {
+        "text": "no idea text provided in either skill run today. Needs user to send an idea via Telegram to trigger capture.",
+        "variant": "body"
+      }
+    }
+  }
+}
