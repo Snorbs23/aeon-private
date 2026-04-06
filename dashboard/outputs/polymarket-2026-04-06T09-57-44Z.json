@@ -1,0 +1,228 @@
+{
+  "root": "card_polymarket",
+  "state": {},
+  "elements": {
+    "card_polymarket": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-06"
+      },
+      "children": [
+        "heading_top_volume",
+        "table_top_volume",
+        "separator_1",
+        "heading_movers",
+        "table_movers",
+        "separator_2",
+        "heading_context",
+        "text_context",
+        "separator_3",
+        "heading_notable",
+        "text_notable",
+        "separator_4",
+        "heading_liquidity",
+        "table_liquidity"
+      ]
+    },
+    "heading_top_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "table_top_volume": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "YES Odds",
+          "NO Odds",
+          "Volume (24h)"
+        ],
+        "rows": [
+          [
+            "US forces enter Iran by April 30?",
+            "99.7%",
+            "0.3%",
+            "$33.8m"
+          ],
+          [
+            "US x Iran ceasefire by April 7?",
+            "6.2%",
+            "93.8%",
+            "$3.3m"
+          ],
+          [
+            "Will Trump talk to Xi Jinping in March?",
+            "0.1%",
+            "99.9%",
+            "$2.95m"
+          ],
+          [
+            "US forces enter Iran by Dec 31?",
+            "99.8%",
+            "0.2%",
+            "$2.4m"
+          ],
+          [
+            "US x Iran ceasefire by April 15?",
+            "18.5%",
+            "81.5%",
+            "$2.2m"
+          ],
+          [
+            "Fed cut rates 50+ bps (April)?",
+            "0.35%",
+            "99.65%",
+            "$1.85m"
+          ],
+          [
+            "Australia win 2026 FIFA World Cup?",
+            "0.25%",
+            "99.75%",
+            "$1.6m"
+          ],
+          [
+            "US x Iran ceasefire by April 30?",
+            "28.5%",
+            "71.5%",
+            "$1.3m"
+          ],
+          [
+            "Trump out as President by April 30?",
+            "1.6%",
+            "98.4%",
+            "$1.15m"
+          ],
+          [
+            "Iranian regime fall by April 30?",
+            "4.0%",
+            "96.0%",
+            "$956k"
+          ]
+        ]
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_movers": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Movers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_movers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "Previous",
+          "Current",
+          "Change"
+        ],
+        "rows": [
+          [
+            "US x Iran ceasefire by April 15?",
+            "4.5%",
+            "18.5%",
+            "+14% 🔥"
+          ],
+          [
+            "US x Iran ceasefire by April 30?",
+            "17.5%",
+            "28.5%",
+            "+11%"
+          ],
+          [
+            "US x Iran ceasefire by April 7?",
+            "0.9%",
+            "6.2%",
+            "+5.4%"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "45-day ceasefire proposal received today via Pakistani/Egyptian/Turkish mediators + Witkoff/Araghchi back-channel. Trump extended April 8 deadline to Tuesday 8pm ET. Market odds rising but sources say deal within 48h is unlikely — Hormuz and HEU remain sticking points.",
+        "variant": "body"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "New & Notable",
+        "level": "h2"
+      }
+    },
+    "text_notable": {
+      "type": "Text",
+      "props": {
+        "text": "BTC/ETH/SOL/XRP Up-or-Down 5m & 15m series active — BTC 5m alone $32.5m 24h vol. These are Chainlink-settled price direction micro-markets, high-frequency speculation.",
+        "variant": "body"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_liquidity": {
+      "type": "Heading",
+      "props": {
+        "text": "Liquidity Leaders",
+        "level": "h2"
+      }
+    },
+    "table_liquidity": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "Liquidity"
+        ],
+        "rows": [
+          [
+            "Trump/Xi talk in March?",
+            "$4.57m (already resolved NO)"
+          ],
+          [
+            "US forces enter Iran by April 30?",
+            "$3.83m"
+          ],
+          [
+            "Fed cut 50+ bps April?",
+            "$2.69m"
+          ]
+        ]
+      }
+    }
+  }
+}
