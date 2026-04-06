@@ -1,0 +1,197 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-04-06"
+      },
+      "children": [
+        "main-stack"
+      ]
+    },
+    "main-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "on-track-section",
+        "sep1",
+        "stalled-section",
+        "sep2",
+        "upcoming-section",
+        "sep3",
+        "blocked-section"
+      ]
+    },
+    "on-track-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "on-track-heading",
+        "on-track-item1",
+        "on-track-item2",
+        "on-track-item3"
+      ]
+    },
+    "on-track-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "On Track",
+        "level": "h3"
+      }
+    },
+    "on-track-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Stay on top of AI/crypto/markets daily: Morning briefs (x2), token alerts (x2), DeFi overview, Polymarket digest all ran today",
+        "variant": "body"
+      }
+    },
+    "on-track-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Build personal knowledge base: AI agents article written, market-monitoring.md topic created, memory consolidated via reflect + memory-flush",
+        "variant": "body"
+      }
+    },
+    "on-track-item3": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor DeFi & anomalies: TRU +135%, RED +70%, WTI Oil $111.81 🚨 all flagged; TVL $94.5B tracked; Iran/Hormuz tensions logged",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stalled-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stalled-heading",
+        "stalled-item1",
+        "stalled-item2"
+      ]
+    },
+    "stalled-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled",
+        "level": "h3"
+      }
+    },
+    "stalled-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Capture ideas via Telegram: skill ran twice today with empty var — no ideas ever captured; last attempt 2026-04-06",
+        "variant": "body"
+      }
+    },
+    "stalled-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Wire cron scheduler: flagged in every log since 2026-04-06 but no PR opened; aeon.yml remains dispatch-only",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "upcoming-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "upcoming-heading",
+        "upcoming-item1",
+        "upcoming-item2",
+        "upcoming-item3"
+      ]
+    },
+    "upcoming-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Upcoming (watch)",
+        "level": "h3"
+      }
+    },
+    "upcoming-item1": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE unlock impact: 9.92M tokens released today — monitor price action in coming days",
+        "variant": "body"
+      }
+    },
+    "upcoming-item2": {
+      "type": "Text",
+      "props": {
+        "text": "CPI print: due 2026-04-10 — macro impact on BTC/ETH",
+        "variant": "body"
+      }
+    },
+    "upcoming-item3": {
+      "type": "Text",
+      "props": {
+        "text": "WTI Oil / Iran ceasefire: Hormuz tensions active; US-Iran deadline extended",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "blocked-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "blocked-heading",
+        "blocked-item1",
+        "blocked-item2"
+      ]
+    },
+    "blocked-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Blocked",
+        "level": "h3"
+      }
+    },
+    "blocked-item1": {
+      "type": "Text",
+      "props": {
+        "text": "Idea capture: needs Nobu to send an idea via Telegram",
+        "variant": "body"
+      }
+    },
+    "blocked-item2": {
+      "type": "Text",
+      "props": {
+        "text": "Cron scheduler: needs a PR to add `schedule` trigger to aeon.yml — no automated runs without it",
+        "variant": "body"
+      }
+    }
+  }
+}
