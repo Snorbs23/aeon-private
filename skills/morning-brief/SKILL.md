@@ -24,29 +24,27 @@ Steps:
 3. Check prices and include in brief:
    - BTC, SOL, ETH, HYPE, Gold — current price + 24h % change
 4. Format and send via `./notify`:
-   Morning Brief — ${today}
-   Priorities
-1. Priority one
-2. Priority two
-3. Priority three Yesterday
-
-- what happened
-- Pending
-- items needing attention
-
-Prices
-BTC: $X (+X%)
-SOL: $X (+X%)
-ETH: $X (+X%)
-HYPE: $X (+X%)
-Gold: $X (+X%)
-
-Headlines
-🤖 AI: headline
-🪙 Crypto: headline
-📈 Markets: headline
-💻 Tech: headline
-🏥 Health: headline
-Today's schedule
-skill at time
+   *Morning Brief — ${today}*
+   *Priorities*
+   1. priority one
+   2. priority two
+   3. priority three
+   *Yesterday*
+   - what happened
+   *Pending*
+   - items needing attention
+   *Prices*
+   - BTC: $X (+X%)
+   - SOL: $X (+X%)
+   - ETH: $X (+X%)
+   - HYPE: $X (+X%)
+   - Gold: $X (+X%)
+   *Headlines*
+   🤖 AI: headline
+   🪙 Crypto: headline
+   📈 Markets: headline
+   💻 Tech: headline
+   🏥 Health: headline
+   *Today's schedule*
+   - skill at time
 5. Log to memory/logs/${today}.md.
