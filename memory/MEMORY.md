@@ -47,10 +47,6 @@
 | 2026-04-06 | Polymarket | Iran ceasefire markets surging; US-Iran deadline extended; Hormuz tensions |
 | 2026-04-06 | Token Alert | TRU +135% (pump), RED +70% (unlock+DRILL), WTI Oil $111.81 🚨 (Hormuz) |
 
-## Skills Built
-| Skill | Date | Notes |
-|-------|------|-------|
-
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
@@ -70,3 +66,7 @@
 - CPI due 2026-04-10 — monitor macro impact
 - Capture first idea via Telegram (stalled: skill ran twice 2026-04-06 but no idea text provided; needs user to send an idea via Telegram)
 - Wire cron scheduler in aeon.yml so daily skills run automatically (currently dispatch-only)
+- Add `schedule` cron trigger to `aeon.yml` (open PR) — agent is not autonomous without it
+- Guard `idea-capture` against empty `var` to prevent wasted runs
+- Add morning-brief dedup check (skip if already ran today)
+- Add weekly-review and rss-digest to cron once scheduler is wired

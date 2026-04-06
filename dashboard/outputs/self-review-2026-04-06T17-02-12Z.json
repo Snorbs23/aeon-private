@@ -1,0 +1,154 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Self Review",
+        "description": "2026-04-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quality_section",
+        "sep1",
+        "reliability_section",
+        "sep2",
+        "actions_section",
+        "sep3",
+        "recommendations_section"
+      ]
+    },
+    "quality_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quality_badge",
+        "quality_text"
+      ]
+    },
+    "quality_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Quality"
+      }
+    },
+    "quality_text": {
+      "type": "Text",
+      "props": {
+        "text": "Articles and token alerts are substantive and well-sourced. Heartbeat ran 5x in one day (noisy); idea-capture ran twice with empty var (wasted).",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reliability_section": {
+      "type": "Alert",
+      "props": {
+        "title": "Reliability",
+        "message": "0/0 scheduled skills ran — no cron trigger exists in aeon.yml. Agent is fully dispatch-driven, not autonomous. 18-day gap between 2026-03-19 and 2026-04-06.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "actions_badge",
+        "actions_item1",
+        "actions_item2"
+      ]
+    },
+    "actions_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Actions Taken"
+      }
+    },
+    "actions_item1": {
+      "type": "Text",
+      "props": {
+        "text": "Trimmed MEMORY.md (removed stale entries, updated priorities)",
+        "variant": "body"
+      }
+    },
+    "actions_item2": {
+      "type": "Text",
+      "props": {
+        "text": "Saved full review to articles/self-review-2026-04-06.md",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendations_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recommendations_badge",
+        "rec1",
+        "rec2",
+        "rec3"
+      ]
+    },
+    "recommendations_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "Recommendations"
+      }
+    },
+    "rec1": {
+      "type": "Text",
+      "props": {
+        "text": "(1) Add schedule cron to aeon.yml [critical]",
+        "variant": "body"
+      }
+    },
+    "rec2": {
+      "type": "Text",
+      "props": {
+        "text": "(2) Guard idea-capture against empty var",
+        "variant": "body"
+      }
+    },
+    "rec3": {
+      "type": "Text",
+      "props": {
+        "text": "(3) Add morning-brief dedup check",
+        "variant": "body"
+      }
+    }
+  }
+}
