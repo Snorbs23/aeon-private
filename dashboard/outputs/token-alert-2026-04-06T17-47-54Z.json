@@ -1,0 +1,483 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-06 (Run 2)"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_core",
+        "sep1",
+        "section_anomalies",
+        "sep2",
+        "section_tradfi",
+        "sep3",
+        "section_notes"
+      ]
+    },
+    "section_core": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_core",
+        "stat_btc",
+        "stat_eth",
+        "stat_sol",
+        "stat_hype",
+        "stat_gold"
+      ]
+    },
+    "heading_core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h3"
+      }
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$69,461",
+        "delta": "+3.17%",
+        "trend": "up"
+      }
+    },
+    "text_btc_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $45.82B",
+        "variant": "caption"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,132.55",
+        "delta": "+3.52%",
+        "trend": "up"
+      }
+    },
+    "text_eth_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $17.67B",
+        "variant": "caption"
+      }
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$81.54",
+        "delta": "+2.29%",
+        "trend": "up"
+      }
+    },
+    "text_sol_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $3.08B",
+        "variant": "caption"
+      }
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$36.95",
+        "delta": "+3.81%",
+        "trend": "up"
+      }
+    },
+    "text_hype_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $184.09M",
+        "variant": "caption"
+      }
+    },
+    "stat_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,675/oz",
+        "trend": "neutral"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_anomalies",
+        "stack_anom_group1",
+        "stack_anom_group2",
+        "stack_anom_group3"
+      ]
+    },
+    "heading_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h3"
+      }
+    },
+    "stack_anom_group1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_red",
+        "text_red_detail",
+        "stat_tru",
+        "text_tru_detail",
+        "stat_super",
+        "text_super_detail",
+        "stat_brev",
+        "text_brev_detail",
+        "stat_river"
+      ]
+    },
+    "stat_red": {
+      "type": "Stat",
+      "props": {
+        "label": "RED",
+        "value": "$0.17",
+        "delta": "+66.2%",
+        "trend": "up"
+      }
+    },
+    "text_red_detail": {
+      "type": "Text",
+      "props": {
+        "text": "token unlock + DRILL program (cooling from +70% this morning), V/MC 4.4x",
+        "variant": "caption"
+      }
+    },
+    "stat_tru": {
+      "type": "Stat",
+      "props": {
+        "label": "TRU",
+        "value": "$0.0097",
+        "delta": "+56.5%",
+        "trend": "up"
+      }
+    },
+    "text_tru_detail": {
+      "type": "Text",
+      "props": {
+        "text": "whale pump (cooling from +134% this morning), V/MC 13.8x 🔥 very high",
+        "variant": "caption"
+      }
+    },
+    "stat_super": {
+      "type": "Stat",
+      "props": {
+        "label": "SUPER",
+        "value": "$0.122",
+        "delta": "+28.9%",
+        "trend": "up"
+      }
+    },
+    "text_super_detail": {
+      "type": "Text",
+      "props": {
+        "text": "elevated volume, V/MC 1.7x",
+        "variant": "caption"
+      }
+    },
+    "stat_brev": {
+      "type": "Stat",
+      "props": {
+        "label": "BREV",
+        "value": "$0.120",
+        "delta": "+13.4%",
+        "trend": "up"
+      }
+    },
+    "text_brev_detail": {
+      "type": "Text",
+      "props": {
+        "text": "speculative, V/MC 2.7x",
+        "variant": "caption"
+      }
+    },
+    "stat_river": {
+      "type": "Stat",
+      "props": {
+        "label": "RIVER",
+        "value": "$12.58",
+        "delta": "+12.8%",
+        "trend": "up"
+      }
+    },
+    "stack_anom_group2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_bel",
+        "text_bel_detail",
+        "stat_bsb",
+        "text_bsb_detail",
+        "stat_based",
+        "text_based_detail"
+      ]
+    },
+    "stat_bel": {
+      "type": "Stat",
+      "props": {
+        "label": "BEL",
+        "value": "$0.112",
+        "delta": "+17.1%",
+        "trend": "up"
+      }
+    },
+    "text_bel_detail": {
+      "type": "Text",
+      "props": {
+        "text": "V/MC 6.0x",
+        "variant": "caption"
+      }
+    },
+    "stat_bsb": {
+      "type": "Stat",
+      "props": {
+        "label": "BSB",
+        "value": "$0.201",
+        "delta": "-31.4%",
+        "trend": "down"
+      }
+    },
+    "text_bsb_detail": {
+      "type": "Text",
+      "props": {
+        "text": "sharp dump 🔻",
+        "variant": "caption"
+      }
+    },
+    "stat_based": {
+      "type": "Stat",
+      "props": {
+        "label": "BASED",
+        "value": "$0.056",
+        "delta": "-16.0%",
+        "trend": "down"
+      }
+    },
+    "text_based_detail": {
+      "type": "Text",
+      "props": {
+        "text": "🔻",
+        "variant": "caption"
+      }
+    },
+    "stack_anom_group3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_sto",
+        "text_sto_detail",
+        "stat_mezo",
+        "text_mezo_detail",
+        "stat_odic",
+        "text_odic_detail"
+      ]
+    },
+    "stat_sto": {
+      "type": "Stat",
+      "props": {
+        "label": "STO",
+        "value": "$0.149",
+        "delta": "-14.8%",
+        "trend": "down"
+      }
+    },
+    "text_sto_detail": {
+      "type": "Text",
+      "props": {
+        "text": "🔻",
+        "variant": "caption"
+      }
+    },
+    "stat_mezo": {
+      "type": "Stat",
+      "props": {
+        "label": "MEZO",
+        "value": "$0.042",
+        "delta": "-14.6%",
+        "trend": "down"
+      }
+    },
+    "text_mezo_detail": {
+      "type": "Text",
+      "props": {
+        "text": "🔻",
+        "variant": "caption"
+      }
+    },
+    "stat_odic": {
+      "type": "Stat",
+      "props": {
+        "label": "ODIC",
+        "value": "$0.0002",
+        "delta": "-24.7%",
+        "trend": "down"
+      }
+    },
+    "text_odic_detail": {
+      "type": "Text",
+      "props": {
+        "text": "🔻",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_tradfi",
+        "stack_tradfi_items"
+      ]
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      }
+    },
+    "stack_tradfi_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_gold_tradfi",
+        "text_gold_context",
+        "stat_wti",
+        "text_wti_context",
+        "stat_10y",
+        "text_10y_context"
+      ]
+    },
+    "stat_gold_tradfi": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,675/oz",
+        "trend": "neutral"
+      }
+    },
+    "text_gold_context": {
+      "type": "Text",
+      "props": {
+        "text": "surging toward $4,700 — safe haven + central bank buying",
+        "variant": "caption"
+      }
+    },
+    "stat_wti": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil (WTI)",
+        "value": "$111.81/bbl",
+        "trend": "up"
+      }
+    },
+    "text_wti_context": {
+      "type": "Text",
+      "props": {
+        "text": "🚨 Trump pledged more action vs Iran; Hormuz still disrupted",
+        "variant": "caption"
+      }
+    },
+    "stat_10y": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Yield",
+        "value": "~4.31%",
+        "trend": "neutral"
+      }
+    },
+    "text_10y_context": {
+      "type": "Text",
+      "props": {
+        "text": "volatile — oil-driven inflation fears, FOMC minutes due",
+        "variant": "caption"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_notes": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_notes",
+        "alert_cooling"
+      ]
+    },
+    "heading_notes": {
+      "type": "Heading",
+      "props": {
+        "text": "Notes",
+        "level": "h4"
+      }
+    },
+    "alert_cooling": {
+      "type": "Alert",
+      "props": {
+        "message": "TRU and RED cooling from morning highs but remain well above 10% threshold. TRU V/MC 13.8x is extreme — speculative pump activity ongoing.",
+        "type": "warning"
+      }
+    }
+  }
+}
