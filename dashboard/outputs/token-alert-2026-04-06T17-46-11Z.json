@@ -1,0 +1,370 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-06"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "stack_prices",
+        "sep1",
+        "heading_anomalies",
+        "stack_anomalies",
+        "sep2",
+        "heading_tradfi",
+        "stack_tradfi"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "stat_eth",
+        "stat_sol",
+        "stat_hype",
+        "stat_gold"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$69,463",
+        "delta": "+3.17%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,132.82",
+        "delta": "+3.54%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$81.57",
+        "delta": "+2.33%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$36.93",
+        "delta": "+3.88%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "~$4,674/oz"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves / high V/MC)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anomaly_tru",
+        "anomaly_red",
+        "anomaly_order",
+        "anomaly_odic",
+        "anomaly_quq"
+      ]
+    },
+    "anomaly_tru": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_tru_main",
+        "text_tru_desc"
+      ]
+    },
+    "text_tru_main": {
+      "type": "Text",
+      "props": {
+        "text": "TRU: $0.00974 (+65.6% 24h) — V/MC 13.74x",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_tru_desc": {
+      "type": "Text",
+      "props": {
+        "text": "whale pump persists (was +135% earlier today, cooling)",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "anomaly_red": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_red_main",
+        "text_red_desc"
+      ]
+    },
+    "text_red_main": {
+      "type": "Text",
+      "props": {
+        "text": "RED: $0.1687 (+66.3% 24h) — V/MC 4.37x",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_red_desc": {
+      "type": "Text",
+      "props": {
+        "text": "token unlock + DRILL program ongoing",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "anomaly_order": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_order_main",
+        "text_order_desc"
+      ]
+    },
+    "text_order_main": {
+      "type": "Text",
+      "props": {
+        "text": "ORDER: $0.0558 (+16.3% 24h) — V/MC 3.99x",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_order_desc": {
+      "type": "Text",
+      "props": {
+        "text": "speculative volume",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "anomaly_odic": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_odic_main",
+        "text_odic_desc"
+      ]
+    },
+    "text_odic_main": {
+      "type": "Text",
+      "props": {
+        "text": "ODIC: $0.000151 (-24.4% 24h)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_odic_desc": {
+      "type": "Text",
+      "props": {
+        "text": "micro-cap collapse",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "anomaly_quq": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_quq_main",
+        "text_quq_desc"
+      ]
+    },
+    "text_quq_main": {
+      "type": "Text",
+      "props": {
+        "text": "QUQ: V/MC 180x",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_quq_desc": {
+      "type": "Text",
+      "props": {
+        "text": "likely data artifact / micro-cap pump",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {},
+      "children": []
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tradfi_gold",
+        "tradfi_oil",
+        "tradfi_yield"
+      ]
+    },
+    "tradfi_gold": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_gold_main",
+        "text_gold_desc"
+      ]
+    },
+    "text_gold_main": {
+      "type": "Text",
+      "props": {
+        "text": "Gold: ~$4,674/oz",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_gold_desc": {
+      "type": "Text",
+      "props": {
+        "text": "safe haven demand, Iran tensions",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tradfi_oil": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_oil_main",
+        "text_oil_desc"
+      ]
+    },
+    "text_oil_main": {
+      "type": "Text",
+      "props": {
+        "text": "Oil (WTI): $111.81/bbl 🚨 (+11.9% last week)",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_oil_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz disruptions persist",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tradfi_yield": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_yield_main",
+        "text_yield_desc"
+      ]
+    },
+    "text_yield_main": {
+      "type": "Text",
+      "props": {
+        "text": "10Y Yield: ~4.31%",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "text_yield_desc": {
+      "type": "Text",
+      "props": {
+        "text": "volatile; inflation/Iran concerns",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
