@@ -1,0 +1,514 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_core",
+        "stack_core_prices",
+        "sep1",
+        "heading_anomalies",
+        "stack_anomalies",
+        "sep2",
+        "heading_tradfi",
+        "stack_tradfi"
+      ]
+    },
+    "heading_core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "stack_core_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row_btc",
+        "row_eth",
+        "row_sol",
+        "row_hype",
+        "row_gold_core"
+      ]
+    },
+    "row_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_btc",
+        "text_btc_vol"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$68,307",
+        "delta": "-2.53%",
+        "trend": "down"
+      }
+    },
+    "text_btc_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $44.3B",
+        "variant": "caption"
+      }
+    },
+    "row_eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_eth",
+        "text_eth_vol"
+      ]
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,083.82",
+        "delta": "-3.59%",
+        "trend": "down"
+      }
+    },
+    "text_eth_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $15.6B",
+        "variant": "caption"
+      }
+    },
+    "row_sol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_sol",
+        "text_sol_vol"
+      ]
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$78.97",
+        "delta": "-3.73%",
+        "trend": "down"
+      }
+    },
+    "text_sol_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $2.80B",
+        "variant": "caption"
+      }
+    },
+    "row_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_hype",
+        "text_hype_vol"
+      ]
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$36.26",
+        "delta": "-3.55%",
+        "trend": "down"
+      }
+    },
+    "text_hype_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $190M",
+        "variant": "caption"
+      }
+    },
+    "row_gold_core": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_gold_core"
+      ]
+    },
+    "stat_gold_core": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,654/oz",
+        "delta": "-0.4%",
+        "trend": "down"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h2"
+      }
+    },
+    "stack_anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anom_nom",
+        "anom_edge",
+        "anom_red",
+        "anom_gun",
+        "anom_solv",
+        "anom_tree",
+        "anom_sto",
+        "anom_aave"
+      ]
+    },
+    "anom_nom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_nom",
+        "text_nom_desc"
+      ]
+    },
+    "stat_nom": {
+      "type": "Stat",
+      "props": {
+        "label": "NOM",
+        "value": "$0.00569",
+        "delta": "+26.1%",
+        "trend": "up"
+      }
+    },
+    "text_nom_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • Micro-cap pump, V/MC 4.5x, no known catalyst",
+        "variant": "caption"
+      }
+    },
+    "anom_edge": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_edge",
+        "text_edge_desc"
+      ]
+    },
+    "stat_edge": {
+      "type": "Stat",
+      "props": {
+        "label": "EDGE",
+        "value": "$1.07",
+        "delta": "+18.8%",
+        "trend": "up"
+      }
+    },
+    "text_edge_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • edgeX, momentum continuation",
+        "variant": "caption"
+      }
+    },
+    "anom_red": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_red",
+        "text_red_desc"
+      ]
+    },
+    "stat_red": {
+      "type": "Stat",
+      "props": {
+        "label": "RED",
+        "value": "$0.2068",
+        "delta": "+18.2%",
+        "trend": "up"
+      }
+    },
+    "text_red_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • RedStone, V/MC 5.0x 🚨 Continued from yesterday's +66% unlock event",
+        "variant": "caption"
+      }
+    },
+    "anom_gun": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_gun",
+        "text_gun_desc"
+      ]
+    },
+    "stat_gun": {
+      "type": "Stat",
+      "props": {
+        "label": "GUN",
+        "value": "$0.0163",
+        "delta": "+17.3%",
+        "trend": "up"
+      }
+    },
+    "text_gun_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • Gunz, small-cap",
+        "variant": "caption"
+      }
+    },
+    "anom_solv": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_solv",
+        "text_solv_desc"
+      ]
+    },
+    "stat_solv": {
+      "type": "Stat",
+      "props": {
+        "label": "SOLV",
+        "value": "$0.00434",
+        "delta": "+13.6%",
+        "trend": "up"
+      }
+    },
+    "text_solv_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • Solv Protocol, V/MC 6.4x 🚨 Speculative",
+        "variant": "caption"
+      }
+    },
+    "anom_tree": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_tree",
+        "text_tree_desc"
+      ]
+    },
+    "stat_tree": {
+      "type": "Stat",
+      "props": {
+        "label": "TREE",
+        "value": "$0.0606",
+        "delta": "-14.5%",
+        "trend": "down"
+      }
+    },
+    "text_tree_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • Treehouse, confirmed pump-dump from yesterday's +36%",
+        "variant": "caption"
+      }
+    },
+    "anom_sto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_sto",
+        "text_sto_desc"
+      ]
+    },
+    "stat_sto": {
+      "type": "Stat",
+      "props": {
+        "label": "STO",
+        "value": "$0.1339",
+        "delta": "-11.6%",
+        "trend": "down"
+      }
+    },
+    "text_sto_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • StakeStone, 2nd day of losses",
+        "variant": "caption"
+      }
+    },
+    "anom_aave": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_aave",
+        "text_aave_desc"
+      ]
+    },
+    "stat_aave": {
+      "type": "Stat",
+      "props": {
+        "label": "AAVE",
+        "value": "$86.45",
+        "delta": "-10.2%",
+        "trend": "down"
+      }
+    },
+    "text_aave_desc": {
+      "type": "Text",
+      "props": {
+        "text": "24h • Aave, broad DeFi selloff, $1.3B cap",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      }
+    },
+    "stack_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "row_gold_tradfi",
+        "row_oil",
+        "row_yield"
+      ]
+    },
+    "row_gold_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_gold_tradfi"
+      ]
+    },
+    "stat_gold_tradfi": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,654/oz",
+        "delta": "-0.4%",
+        "trend": "down"
+      }
+    },
+    "row_oil": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_oil",
+        "text_oil_desc"
+      ]
+    },
+    "stat_oil": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil (WTI)",
+        "value": "$115.21/bbl",
+        "delta": "+3.0%",
+        "trend": "up"
+      }
+    },
+    "text_oil_desc": {
+      "type": "Text",
+      "props": {
+        "text": "🚨 Trump escalating vs Iran, Hormuz deadline extended",
+        "variant": "caption"
+      }
+    },
+    "row_yield": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "text_yield"
+      ]
+    },
+    "text_yield": {
+      "type": "Text",
+      "props": {
+        "text": "10Y Yield: ~4.33–4.36% (flat)",
+        "variant": "body"
+      }
+    }
+  }
+}

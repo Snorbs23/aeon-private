@@ -34,6 +34,20 @@
 - **BOB -20.3%**, **TREE -14.6%** — reversals from yesterday pumps
 
 ## Notable Anomalies (2026-04-06) — Prior Day
+- BTC: $68,307 (-2.53%, Vol $44.3B), ETH: $2,083.82 (-3.59%), SOL: $78.97 (-3.73%), HYPE: $36.26 (-3.55%)
+- Gold: ~$4,654/oz (-0.4%)
+- WTI Oil: $115.21/bbl 🚨 — Trump escalating vs Iran, Hormuz deadline extended (up from $111.81 yesterday)
+- 10Y Yield: ~4.33–4.36%
+
+## Notable Anomalies (2026-04-07)
+- **RED +18.2%** — V/MC 5.0x, continued from yesterday's +66% unlock event
+- **NOM +26.1%** — micro-cap pump, V/MC 4.5x, no catalyst
+- **SOLV +13.6%** — V/MC 6.4x, speculative
+- **TREE -14.5%** — confirmed pump-dump (was +36% yesterday, now reversing)
+- **AAVE -10.2%** — broad DeFi selloff, $1.3B cap
+- Broad market: BTC/ETH/SOL/HYPE all down 2.5–3.7% (risk-off day)
+
+## Prior Anomalies (2026-04-06)
 - **TRU +134–197%** — whale-driven pump, V/MC ratio 13x, no fundamental catalyst
 - **RED +70%** — token unlock day + DRILL program, V/MC 4.16x
 - **TREE +36%** — V/MC 8.5x, speculative
@@ -44,3 +58,8 @@
 - Polymarket: "US forces enter Iran by Apr 30" still at 99.65% YES; ceasefire Apr 7 now ~4.45%
 - CPI due April 10 — key macro event
 - Crypto selling off (-2-4%) amid macro risk-off sentiment
+- US/Iran tensions escalating: Trump threatened further action, Hormuz deadline extended; WTI surging
+- Iran ceasefire by Apr 7 at 8pm ET: 14% → 4.45% YES (deadline passed, Iran rejected)
+- Iran ceasefire by Apr 30: ~31.5% YES; US forces enter Iran by Apr 30: 99.65% YES
+- CPI due April 10 — key macro event
+- DEX volume surging: $6.09B 24h (+64% vs prior day) — macro volatility driving activity
