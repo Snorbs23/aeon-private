@@ -3,12 +3,14 @@
 ## Macro Events (as of 2026-04-06)
 
 ### WTI Oil — Strait of Hormuz Disruptions
-- WTI Oil at $111.81/bbl — significantly elevated
+- WTI Oil at ~$115/bbl (as of 2026-04-07) — elevated and rising
 - Driven by US-Iran tensions and Strait of Hormuz disruption risk
-- Trump extended Iran nuclear deadline; Hormuz closure & HEU remain sticking points
-- Polymarket "US forces enter Iran by April 30?" at 99.7% YES
-- Iran ceasefire proposal circulating (45-day); markets partially pricing it in
-- **Watch:** Any ceasefire news will likely crater Oil; escalation = further spike
+- Iran ceasefire deadline (Apr 7, 8pm ET) **PASSED — Iran rejected deal**
+- Trump extended original deadline; Iran sent 10-point counter-proposal (Hormuz safe passage, sanctions, reconstruction); Pakistan brokering
+- Polymarket "US forces enter Iran by April 30?" at 99.65% YES ($42.1M vol, +25% from yesterday)
+- "US x Iran ceasefire by April 7?" collapsed 14% → 4.45% (deadline failed)
+- "US x Iran ceasefire by April 30?" at 31.5% YES
+- **Watch:** CPI Apr 10 may shift rate outlook; Hormuz closure would spike Oil to $150+ (Deutsche Bank $200 worst-case)
 
 ### CPI — Due 2026-04-10
 - Next major macro catalyst
