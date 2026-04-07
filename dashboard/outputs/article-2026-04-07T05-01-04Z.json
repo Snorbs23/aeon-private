@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "article"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text",
+        "storylink"
+      ]
+    },
+    "text": {
+      "type": "Text",
+      "props": {
+        "text": "New article written:"
+      }
+    },
+    "storylink": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The Hormuz Chokehold: How the World's Most Critical Oil Lane Became a Powder Keg",
+        "href": "https://github.com/Snorbs23/aeon-private/blob/main/articles/2026-04-07.md"
+      }
+    }
+  }
+}
