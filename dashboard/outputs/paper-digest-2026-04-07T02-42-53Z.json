@@ -1,0 +1,286 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest — 2026-04-07"
+      },
+      "children": [
+        "stack"
+      ]
+    },
+    "stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "ai-section",
+        "sep1",
+        "crypto-section",
+        "sep2",
+        "markets-section",
+        "sep3",
+        "health-section",
+        "sep4",
+        "digest-link"
+      ]
+    },
+    "ai-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai-heading",
+        "paper1-stack",
+        "paper2-stack"
+      ]
+    },
+    "ai-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI & ML",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "paper1-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper1-link",
+        "paper1-desc"
+      ]
+    },
+    "paper1-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Comparing Human Oversight Strategies for Computer-Use Agents",
+        "href": "https://arxiv.org/abs/2604.04918",
+        "source": "arXiv"
+      },
+      "children": []
+    },
+    "paper1-desc": {
+      "type": "Text",
+      "props": {
+        "text": "48-person study examines how humans best supervise agentic AI; key governance challenge as CUAs proliferate.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "paper2-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper2-link",
+        "paper2-desc"
+      ]
+    },
+    "paper2-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Multi-Agent Inference with Large Models",
+        "href": "https://arxiv.org/abs/2604.04929",
+        "source": "arXiv"
+      },
+      "children": []
+    },
+    "paper2-desc": {
+      "type": "Text",
+      "props": {
+        "text": "larger model + shorter output beats smaller model + long output; proposes token-transfer framework for efficient LLM inference.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "crypto-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "crypto-heading",
+        "paper3-stack"
+      ]
+    },
+    "crypto-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto & Web3",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "paper3-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper3-link",
+        "paper3-desc"
+      ]
+    },
+    "paper3-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "RegGuard: Fairness Enforcement for Optimistic Rollups",
+        "href": "https://arxiv.org/abs/2604.04748",
+        "source": "arXiv"
+      },
+      "children": []
+    },
+    "paper3-desc": {
+      "type": "Text",
+      "props": {
+        "text": "first framework tackling DeFi compliance at the rollup layer (legitimacy + ordering fairness + cross-layer consistency).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "markets-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "markets-heading",
+        "paper4-stack"
+      ]
+    },
+    "markets-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Markets",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "paper4-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper4-link",
+        "paper4-desc"
+      ]
+    },
+    "paper4-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "SysTradeBench: LLM Trading Strategy Benchmark",
+        "href": "https://arxiv.org/abs/2604.04812",
+        "source": "arXiv"
+      },
+      "children": []
+    },
+    "paper4-desc": {
+      "type": "Text",
+      "props": {
+        "text": "LLMs hit 91.7% code validity on quant strategies but still need human oversight for live trading.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "health-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "health-heading",
+        "paper5-stack"
+      ]
+    },
+    "health-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Health & Longevity",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "paper5-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "paper5-link",
+        "paper5-desc"
+      ]
+    },
+    "paper5-link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Organ-Specific Proteomic Aging Clocks",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/41299092/",
+        "source": "PubMed (n=43,616)"
+      },
+      "children": []
+    },
+    "paper5-desc": {
+      "type": "Text",
+      "props": {
+        "text": "aging clocks for each major organ predict disease + mortality independently of clinical risk factors. Big step for personalized longevity medicine.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "digest-link": {
+      "type": "Link",
+      "props": {
+        "label": "Full digest",
+        "href": "articles/paper-digest-2026-04-07.md"
+      },
+      "children": []
+    }
+  }
+}
