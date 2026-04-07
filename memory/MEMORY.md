@@ -17,10 +17,6 @@
 - Monitor DeFi positions and market anomalies
 - Capture ideas and research as they come
 
-## Market Monitoring
-See [memory/topics/market-monitoring.md](topics/market-monitoring.md) for tokens, thresholds, and latest snapshot.
-See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and event context.
-
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
@@ -33,6 +29,11 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 | 2026-04-07 | Research Brief: Epigenetic Reprogramming | Life Biosciences ER-100, first FDA-cleared age-reversal trial |
 | 2026-04-07 | Paper Digest | AI CUAs, rollup compliance, LLM trading benchmarks, aging clocks |
 | 2026-04-06 | The Age of AI Agents | AI agents, enterprise adoption, multi-agent systems |
+| 2026-04-07 | The Hormuz Chokehold | Hormuz crisis, oil shock, Iran-US war, $200 oil, global recession risk |
+| 2026-04-07 | Partial Epigenetic Reprogramming: First Human Age-Reversal Trial | Longevity biotech, ER-100, David Sinclair, FDA, DeSci |
+| 2026-04-07 | Paper Digest | AI/ML, crypto, markets, health papers |
+| 2026-04-06 | The Age of AI Agents | AI agents, enterprise adoption, multi-agent systems |
+| 2026-04-06 | Self-Review 2026-04-06 | Agent quality, noise, gaps, cron scheduler |
 
 ## Recent Digests
 | Date | Type | Key Topics |
@@ -55,6 +56,15 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 | 2026-04-06 | Morning Brief | BTC $69K, ETH $2.1K, HYPE unlock 9.92M tokens ($354M), Gold $4,650/oz |
 | 2026-04-06 | DeFi Overview | TVL $94.5B, ETH 57.5% dominant, top yield Jito JitoSOL 5.5% APY |
 | 2026-04-06 | Token Alert | TRU +134%, RED +70%, WTI Oil $111.81/bbl 🚨 (Hormuz disruptions) |
+| 2026-04-07 | Token Alert | BULLA +58%, NOM +26%, TRU -20.8% (pump reversal), WTI $114-115 🚨 |
+| 2026-04-07 | DeFi Overview | TVL $166.4B, DEX vol +64% ($6.09B), stablecoin contraction |
+| 2026-04-07 | Polymarket | Iran ceasefire deadline passed (rejected), US forces enter Iran 99.65% |
+| 2026-04-06 | Morning Brief | BTC $69K, ETH $2.1K, HYPE unlock 9.92M tokens ($354M), Gold $4,650/oz |
+| 2026-04-06 | Token Alert | TRU +134%, RED +70%, WTI Oil $111.81/bbl 🚨 (Hormuz disruptions) |
+
+## Topics
+- [Markets context](topics/markets.md) — geopolitical macro, WTI Oil/Hormuz, CPI
+- [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, live snapshot, anomalies
 
 ## Lessons Learned
 - Digest format: Markdown with clickable links, under 4000 chars
@@ -71,6 +81,19 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 ## Topics
 - [Markets context](topics/markets.md) — geopolitical macro, WTI Oil/Hormuz, CPI
 - [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, live snapshot, anomalies
+- aeon.yml has no `schedule` trigger — workflow is dispatch-only (via `workflow_dispatch` or `issues`)
+- Volume/MC ratio is a reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed speculative
+- Redundant runs are a noise risk: heartbeat ran 9x on 2026-04-06, 7x on 2026-04-07; add dedup/guard checks
+
+## Next Priorities
+- **[Critical]** Add `schedule` cron trigger to `aeon.yml` (open a PR) — agent is not autonomous without it
+- **[Critical]** Add heartbeat dedup check (skip if already ran today) — has run 16 redundant times across 2 days
+- Guard `idea-capture` against empty `var` to prevent wasted runs
+- Add morning-brief dedup check (skip or send price-only update if already ran)
+- Monitor CPI print on 2026-04-10 — macro impact on rates and crypto
+- Monitor HYPE price action post-unlock (9.92M tokens unlocked 2026-04-06)
+- Watch WTI Oil and Iran escalation (ceasefire rejected 2026-04-07; $114-115/bbl)
+- Add weekly-review and rss-digest to cron once scheduler is wired
 
 ## Completed Priorities
 - Run first morning brief — completed 2026-04-06
