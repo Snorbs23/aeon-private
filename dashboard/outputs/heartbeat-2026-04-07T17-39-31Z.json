@@ -1,0 +1,64 @@
+{
+  "root": "card_heartbeat",
+  "state": {},
+  "elements": {
+    "card_heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_morning_brief",
+        "sep1",
+        "alert_token_alert",
+        "sep2",
+        "text_cron_note"
+      ]
+    },
+    "alert_morning_brief": {
+      "type": "Alert",
+      "props": {
+        "title": "morning-brief FAILED",
+        "message": "Failure at 2026-04-07 02:33 UTC (GH Actions conclusion: failure). No morning prices or headlines captured.",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_token_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "token-alert configuration issue",
+        "message": "Duplicate YAML keys in aeon.yml (defined at 2 AM, 9 AM, 4 PM). Only the 4 PM definition is active; 2 AM and 9 AM token-alert slots are silently skipped.",
+        "type": "warning"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_cron_note": {
+      "type": "Text",
+      "props": {
+        "text": "✓ Cron scheduler IS active (not dispatch-only as memory says)—all other scheduled skills ran correctly today.",
+        "variant": "body"
+      }
+    }
+  }
+}
