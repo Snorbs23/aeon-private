@@ -1,0 +1,431 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert",
+        "description": "2026-04-07"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "core_prices_section",
+        "sep1",
+        "anomalies_section",
+        "sep2",
+        "tradfi_section",
+        "sep3",
+        "context_section"
+      ]
+    },
+    "core_prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "core_heading",
+        "prices_grid"
+      ]
+    },
+    "core_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "prices_grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "btc_item",
+        "eth_item",
+        "sol_item",
+        "hype_item",
+        "gold_item"
+      ]
+    },
+    "btc_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "btc_vol"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$68,313",
+        "delta": "-2.47%",
+        "trend": "down"
+      }
+    },
+    "btc_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $44.5B",
+        "variant": "caption"
+      }
+    },
+    "eth_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth_stat",
+        "eth_vol"
+      ]
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,083",
+        "delta": "-3.62%",
+        "trend": "down"
+      }
+    },
+    "eth_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $15.7B",
+        "variant": "caption"
+      }
+    },
+    "sol_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "sol_stat",
+        "sol_vol"
+      ]
+    },
+    "sol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$78.96",
+        "delta": "-3.71%",
+        "trend": "down"
+      }
+    },
+    "sol_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $2.8B",
+        "variant": "caption"
+      }
+    },
+    "hype_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_stat",
+        "hype_vol"
+      ]
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$36.23",
+        "delta": "-3.66%",
+        "trend": "down"
+      }
+    },
+    "hype_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $190M",
+        "variant": "caption"
+      }
+    },
+    "gold_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gold_stat"
+      ]
+    },
+    "gold_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,685/oz",
+        "delta": "+0.3%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "anomalies_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anomalies_heading",
+        "gainers_section",
+        "losers_section"
+      ]
+    },
+    "anomalies_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h2"
+      }
+    },
+    "gainers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gainers_heading",
+        "bulla_item",
+        "unitas_item",
+        "xion_item",
+        "nom_item",
+        "red_item",
+        "cysic_item",
+        "edgex_item",
+        "superform_item",
+        "gun_item",
+        "solv_item",
+        "lorenzo_item"
+      ]
+    },
+    "gainers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Gainers",
+        "level": "h3"
+      }
+    },
+    "bulla_item": {
+      "type": "Text",
+      "props": {
+        "text": "BULLA: $0.015 (+58%) — V/MC 5.77x, micro-cap pump, no catalyst"
+      }
+    },
+    "unitas_item": {
+      "type": "Text",
+      "props": {
+        "text": "UNITAS: $0.264 (+42.7%)"
+      }
+    },
+    "xion_item": {
+      "type": "Text",
+      "props": {
+        "text": "XION: $0.128 (+29.1%)"
+      }
+    },
+    "nom_item": {
+      "type": "Text",
+      "props": {
+        "text": "NOM: $0.006 (+26.4%)"
+      }
+    },
+    "red_item": {
+      "type": "Text",
+      "props": {
+        "text": "RED: $0.21 (+18.3%) — continuing from yesterday; V/MC 4.98x"
+      }
+    },
+    "cysic_item": {
+      "type": "Text",
+      "props": {
+        "text": "CYSIC: $0.256 (+18.3%)"
+      }
+    },
+    "edgex_item": {
+      "type": "Text",
+      "props": {
+        "text": "EDGEX: $1.07 (+17.8%)"
+      }
+    },
+    "superform_item": {
+      "type": "Text",
+      "props": {
+        "text": "SUPERFORM: $0.079 (+17.4%)"
+      }
+    },
+    "gun_item": {
+      "type": "Text",
+      "props": {
+        "text": "GUN: $0.016 (+17.3%)"
+      }
+    },
+    "solv_item": {
+      "type": "Text",
+      "props": {
+        "text": "SOLV: $0.004 (+13.6%) — V/MC 6.46x suspicious"
+      }
+    },
+    "lorenzo_item": {
+      "type": "Text",
+      "props": {
+        "text": "LORENZO: $0.033 (+12.3%)"
+      }
+    },
+    "losers_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "losers_heading",
+        "tru_item",
+        "bob_item",
+        "tree_item",
+        "sto_item"
+      ]
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Losers",
+        "level": "h3"
+      }
+    },
+    "tru_item": {
+      "type": "Text",
+      "props": {
+        "text": "TRU: $0.008 (-20.8%) — pump reversal (was +134% yesterday)"
+      }
+    },
+    "bob_item": {
+      "type": "Text",
+      "props": {
+        "text": "BOB: $0.007 (-20.3%)"
+      }
+    },
+    "tree_item": {
+      "type": "Text",
+      "props": {
+        "text": "TREE: $0.061 (-14.6%) — reversal from yesterday's +36%"
+      }
+    },
+    "sto_item": {
+      "type": "Text",
+      "props": {
+        "text": "STO: $0.13 (-11.7%)"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "tradfi_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tradfi_heading",
+        "gold_tradfi",
+        "oil_tradfi",
+        "yield_tradfi"
+      ]
+    },
+    "tradfi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      }
+    },
+    "gold_tradfi": {
+      "type": "Text",
+      "props": {
+        "text": "Gold: ~$4,685/oz (+0.3%)"
+      }
+    },
+    "oil_tradfi": {
+      "type": "Alert",
+      "props": {
+        "title": "Oil (WTI)",
+        "message": "~$114-115/bbl 🚨 (+2.5% from $111.81; Iran rejected ceasefire today)",
+        "type": "warning"
+      }
+    },
+    "yield_tradfi": {
+      "type": "Text",
+      "props": {
+        "text": "10Y Yield: ~4.33%"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "context_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_heading",
+        "context_text"
+      ]
+    },
+    "context_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto down 2-4% (macro risk-off). Iran deadline 8pm ET — rejected. WTI elevated on Hormuz tensions. TRU/TREE reversals from yesterday pumps expected."
+      }
+    }
+  }
+}
