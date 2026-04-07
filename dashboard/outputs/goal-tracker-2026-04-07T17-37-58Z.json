@@ -1,0 +1,180 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-04-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_on_track",
+        "stack_on_track",
+        "sep1",
+        "heading_stalled",
+        "stack_stalled",
+        "sep2",
+        "heading_blocked",
+        "stack_blocked"
+      ]
+    },
+    "heading_on_track": {
+      "type": "Heading",
+      "props": {
+        "text": "On Track",
+        "level": "h2"
+      }
+    },
+    "stack_on_track": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_ot_1",
+        "item_ot_2",
+        "item_ot_3",
+        "item_ot_4",
+        "item_ot_5"
+      ]
+    },
+    "item_ot_1": {
+      "type": "Text",
+      "props": {
+        "text": "Stay on top of AI/crypto/markets daily: Morning briefs, token alerts (x2 each day), DeFi overview, Polymarket digest, paper digest, research brief — full coverage 2026-04-06 & 04-07",
+        "variant": "body"
+      }
+    },
+    "item_ot_2": {
+      "type": "Text",
+      "props": {
+        "text": "Build knowledge base: 4 articles written in 2 days (AI agents, Hormuz, research brief, paper digest); memory topics created (markets.md, market-monitoring.md); memory consolidated x4",
+        "variant": "body"
+      }
+    },
+    "item_ot_3": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor DeFi & anomalies: Token alerts active daily; BULLA +58%, NOM +26%, RED +18% flagged today; TRU pump-dump reversal (-20%) confirmed; WTI Oil at $114-115/bbl 🚨",
+        "variant": "body"
+      }
+    },
+    "item_ot_4": {
+      "type": "Text",
+      "props": {
+        "text": "Watch Iran-US / Hormuz: Ceasefire deadline passed tonight (rejected); US forces enter Iran YES 99.65%; WTI elevated +3% vs yesterday; covered in polymarket + article + token alert",
+        "variant": "body"
+      }
+    },
+    "item_ot_5": {
+      "type": "Text",
+      "props": {
+        "text": "CPI 2026-04-10: On watch — 3 days out, flagged in all recent logs",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_stalled": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled",
+        "level": "h2"
+      }
+    },
+    "stack_stalled": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_st_1",
+        "item_st_2",
+        "item_st_3",
+        "item_st_4"
+      ]
+    },
+    "item_st_1": {
+      "type": "Text",
+      "props": {
+        "text": "Wire cron schedule to aeon.yml: Last flagged 2026-04-06 (18 days since prior active period); still no PR opened; agent is entirely dispatch-driven — NOT autonomous",
+        "variant": "body"
+      }
+    },
+    "item_st_2": {
+      "type": "Text",
+      "props": {
+        "text": "Guard idea-capture against empty var: Identified 2026-04-06 (ran twice with empty var), no fix applied",
+        "variant": "body"
+      }
+    },
+    "item_st_3": {
+      "type": "Text",
+      "props": {
+        "text": "Add heartbeat / morning-brief dedup: Identified 2026-04-06 (heartbeat x9 on 4/6, x7 on 4/7), no fix applied",
+        "variant": "body"
+      }
+    },
+    "item_st_4": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE unlock follow-up: Unlocked 2026-04-06 ($354M); HYPE down 3.7% today (in line with broad market); no deeper analysis article written",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_blocked": {
+      "type": "Heading",
+      "props": {
+        "text": "Blocked",
+        "level": "h2"
+      }
+    },
+    "stack_blocked": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "item_bl_1",
+        "item_bl_2"
+      ]
+    },
+    "item_bl_1": {
+      "type": "Text",
+      "props": {
+        "text": "Capture first idea via Telegram: Needs Nobu to send an idea via Telegram — idea-capture ran twice empty on 4/6, never received input",
+        "variant": "body"
+      }
+    },
+    "item_bl_2": {
+      "type": "Text",
+      "props": {
+        "text": "Add weekly-review + rss-digest to cron: Blocked on cron scheduler PR (see Stalled above)",
+        "variant": "body"
+      }
+    }
+  }
+}
