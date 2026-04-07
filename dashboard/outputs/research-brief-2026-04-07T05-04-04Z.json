@@ -1,0 +1,145 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Research Brief (2026-04-07): The First Human Age-Reversal Trial"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_intro",
+        "text_preclinical",
+        "separator_1",
+        "heading_results",
+        "grid_stats",
+        "separator_2",
+        "heading_connections",
+        "text_desci",
+        "text_ai",
+        "text_sinclair",
+        "stat_funding",
+        "separator_3",
+        "link_fullbrief"
+      ]
+    },
+    "text_intro": {
+      "type": "Text",
+      "props": {
+        "text": "Life Biosciences received FDA clearance in Jan 2026 for ER-100 — the world's first human trial of partial epigenetic reprogramming. Using OSK Yamanaka factors (minus c-MYC) delivered via AAV into the eye, the Phase 1 trial targets glaucoma and NAION with a secondary goal of demonstrating cellular age reversal.",
+        "variant": "body"
+      }
+    },
+    "text_preclinical": {
+      "type": "Text",
+      "props": {
+        "text": "Preclinical results showed up to 75% reversal of retinal aging and 109% lifespan extension in aged mice.",
+        "variant": "lead"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_results": {
+      "type": "Heading",
+      "props": {
+        "text": "Preclinical Results",
+        "level": "h3"
+      }
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_retinal",
+        "stat_lifespan"
+      ]
+    },
+    "stat_retinal": {
+      "type": "Stat",
+      "props": {
+        "label": "Retinal Aging Reversal",
+        "value": "75%"
+      }
+    },
+    "stat_lifespan": {
+      "type": "Stat",
+      "props": {
+        "label": "Lifespan Extension (aged mice)",
+        "value": "109%"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_connections": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Connections",
+        "level": "h3"
+      }
+    },
+    "text_desci": {
+      "type": "Text",
+      "props": {
+        "text": "DeSci/VitaDAO tokens could surge on positive trial results",
+        "variant": "body"
+      }
+    },
+    "text_ai": {
+      "type": "Text",
+      "props": {
+        "text": "AI aging clocks (NewLimit uses ML to design epigenetic edits)",
+        "variant": "body"
+      }
+    },
+    "text_sinclair": {
+      "type": "Text",
+      "props": {
+        "text": "Sinclair chemical cocktail paper suggests small-molecule de-aging drugs within 3-5 years",
+        "variant": "body"
+      }
+    },
+    "stat_funding": {
+      "type": "Stat",
+      "props": {
+        "label": "Longevity biotech Q1 2026 funding",
+        "value": "$3.74B",
+        "delta": "+56% YoY",
+        "trend": "up"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "link_fullbrief": {
+      "type": "Link",
+      "props": {
+        "label": "Full brief: articles/research-brief-2026-04-07.md",
+        "href": "articles/research-brief-2026-04-07.md"
+      }
+    }
+  }
+}
