@@ -1,0 +1,161 @@
+{
+  "root": "card-reflect",
+  "state": {},
+  "elements": {
+    "card-reflect": {
+      "type": "Card",
+      "props": {
+        "title": "Reflect",
+        "description": "Memory consolidation — 2026-04-07"
+      },
+      "children": [
+        "heading-main",
+        "separator-1",
+        "stack-actions",
+        "separator-2",
+        "alert-noise"
+      ]
+    },
+    "heading-main": {
+      "type": "Heading",
+      "props": {
+        "text": "Memory Consolidated",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "stack-actions": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text-pruned",
+        "text-updated-digests",
+        "text-digest-items",
+        "text-refreshed",
+        "text-market-items"
+      ]
+    },
+    "text-pruned": {
+      "type": "Text",
+      "props": {
+        "text": "Pruned duplicate sections in MEMORY.md",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-updated-digests": {
+      "type": "Text",
+      "props": {
+        "text": "Updated 2026-04-07 digests:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-digest-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-token-alert",
+        "badge-defi",
+        "badge-polymarket",
+        "badge-articles"
+      ]
+    },
+    "badge-token-alert": {
+      "type": "Badge",
+      "props": {
+        "text": "token alert",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-defi": {
+      "type": "Badge",
+      "props": {
+        "text": "DeFi",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-polymarket": {
+      "type": "Badge",
+      "props": {
+        "text": "Polymarket",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-articles": {
+      "type": "Badge",
+      "props": {
+        "text": "3 articles",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "text-refreshed": {
+      "type": "Text",
+      "props": {
+        "text": "Refreshed market-monitoring and markets topic files:",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-market-items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-iran",
+        "badge-wti"
+      ]
+    },
+    "badge-iran": {
+      "type": "Badge",
+      "props": {
+        "text": "Iran ceasefire rejection",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "badge-wti": {
+      "type": "Badge",
+      "props": {
+        "text": "WTI $115/bbl",
+        "variant": "outline"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert-noise": {
+      "type": "Alert",
+      "props": {
+        "title": "Noise Issue Detected",
+        "message": "Heartbeat ran 7-9x/day — dedup guards needed",
+        "type": "warning"
+      },
+      "children": []
+    }
+  }
+}
