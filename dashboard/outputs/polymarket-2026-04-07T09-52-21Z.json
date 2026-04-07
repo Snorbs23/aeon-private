@@ -1,0 +1,753 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-07"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_top_volume",
+        "stack_markets",
+        "sep1",
+        "heading_movers",
+        "stack_movers",
+        "sep2",
+        "heading_notable",
+        "stack_notable",
+        "sep3",
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "heading_top_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "stack_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market1_stack",
+        "market2_stack",
+        "market3_stack",
+        "market4_stack",
+        "market5_stack",
+        "market6_stack",
+        "market7_stack",
+        "market8_stack",
+        "market9_stack"
+      ]
+    },
+    "market1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market1_title",
+        "market1_odds_stack",
+        "market1_vol",
+        "market1_badge"
+      ]
+    },
+    "market1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US forces enter Iran by April 30?",
+        "level": "h3"
+      }
+    },
+    "market1_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market1_yes",
+        "market1_no"
+      ]
+    },
+    "market1_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "99.65%"
+      }
+    },
+    "market1_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "0.35%"
+      }
+    },
+    "market1_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$42.1M vol",
+        "variant": "body"
+      }
+    },
+    "market1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔥 Hot",
+        "variant": "default"
+      }
+    },
+    "market2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market2_title",
+        "market2_odds_stack",
+        "market2_vol",
+        "market2_badge"
+      ]
+    },
+    "market2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran ceasefire by April 7?",
+        "level": "h3"
+      }
+    },
+    "market2_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market2_yes",
+        "market2_no"
+      ]
+    },
+    "market2_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "4.45%"
+      }
+    },
+    "market2_no": {
+      "type": "Stat",
+      "props": {
+        "label": "NO",
+        "value": "95.55%"
+      }
+    },
+    "market2_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$4.1M vol",
+        "variant": "body"
+      }
+    },
+    "market2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "⏰ Deadline TODAY (Tue 8pm ET)",
+        "variant": "destructive"
+      }
+    },
+    "market3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market3_title",
+        "market3_odds_stack",
+        "market3_vol"
+      ]
+    },
+    "market3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Beto O'Rourke wins 2028 Dem nomination?",
+        "level": "h3"
+      }
+    },
+    "market3_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market3_yes"
+      ]
+    },
+    "market3_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "0.65%"
+      }
+    },
+    "market3_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$2.1M vol",
+        "variant": "body"
+      }
+    },
+    "market4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market4_title",
+        "market4_odds_stack",
+        "market4_vol"
+      ]
+    },
+    "market4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran ceasefire by April 15?",
+        "level": "h3"
+      }
+    },
+    "market4_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market4_yes"
+      ]
+    },
+    "market4_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "19.5%"
+      }
+    },
+    "market4_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$1.7M vol",
+        "variant": "body"
+      }
+    },
+    "market5_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market5_title",
+        "market5_odds_stack",
+        "market5_vol"
+      ]
+    },
+    "market5_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US forces enter Iran by Dec 31?",
+        "level": "h3"
+      }
+    },
+    "market5_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market5_yes"
+      ]
+    },
+    "market5_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "99.75%"
+      }
+    },
+    "market5_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$1.66M vol",
+        "variant": "body"
+      }
+    },
+    "market6_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market6_title",
+        "market6_odds_stack",
+        "market6_vol"
+      ]
+    },
+    "market6_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Phil Murphy wins 2028 Dem nomination?",
+        "level": "h3"
+      }
+    },
+    "market6_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market6_yes"
+      ]
+    },
+    "market6_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "0.65%"
+      }
+    },
+    "market6_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$1.53M vol",
+        "variant": "body"
+      }
+    },
+    "market7_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market7_title",
+        "market7_odds_stack",
+        "market7_vol"
+      ]
+    },
+    "market7_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Jasmine Crockett wins 2028 Dem nomination?",
+        "level": "h3"
+      }
+    },
+    "market7_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market7_yes"
+      ]
+    },
+    "market7_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "0.55%"
+      }
+    },
+    "market7_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$1.36M vol",
+        "variant": "body"
+      }
+    },
+    "market8_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market8_title",
+        "market8_odds_stack",
+        "market8_vol"
+      ]
+    },
+    "market8_title": {
+      "type": "Heading",
+      "props": {
+        "text": "CS: MIBR vs EYEBALLERS",
+        "level": "h3"
+      }
+    },
+    "market8_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market8_mibr"
+      ]
+    },
+    "market8_mibr": {
+      "type": "Stat",
+      "props": {
+        "label": "MIBR",
+        "value": "99.95%"
+      }
+    },
+    "market8_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$1.29M vol",
+        "variant": "body"
+      }
+    },
+    "market9_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market9_title",
+        "market9_odds_stack",
+        "market9_vol"
+      ]
+    },
+    "market9_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran ceasefire by April 30?",
+        "level": "h3"
+      }
+    },
+    "market9_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "market9_yes"
+      ]
+    },
+    "market9_yes": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "31.5%"
+      }
+    },
+    "market9_vol": {
+      "type": "Text",
+      "props": {
+        "text": "$1.21M vol",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_movers": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Movers (vs Apr 6)",
+        "level": "h2"
+      }
+    },
+    "stack_movers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mover1_stack",
+        "mover2_stack",
+        "mover3_stack",
+        "mover4_stack"
+      ]
+    },
+    "mover1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mover1_title",
+        "mover1_change",
+        "mover1_reason",
+        "mover1_badge"
+      ]
+    },
+    "mover1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran ceasefire by April 7?",
+        "level": "h3"
+      }
+    },
+    "mover1_change": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "4.45%",
+        "delta": "-9.5%",
+        "trend": "down"
+      }
+    },
+    "mover1_reason": {
+      "type": "Text",
+      "props": {
+        "text": "deadline expires tonight; Iran rejected 45-day ceasefire",
+        "variant": "muted"
+      }
+    },
+    "mover1_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↓ Down",
+        "variant": "destructive"
+      }
+    },
+    "mover2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mover2_title",
+        "mover2_change",
+        "mover2_reason",
+        "mover2_badge"
+      ]
+    },
+    "mover2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran ceasefire by April 30?",
+        "level": "h3"
+      }
+    },
+    "mover2_change": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "31.5%",
+        "delta": "+3%",
+        "trend": "up"
+      }
+    },
+    "mover2_reason": {
+      "type": "Text",
+      "props": {
+        "text": "Pakistan-brokered 45-day plan still in play",
+        "variant": "muted"
+      }
+    },
+    "mover2_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Up",
+        "variant": "secondary"
+      }
+    },
+    "mover3_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mover3_title",
+        "mover3_change",
+        "mover3_badge"
+      ]
+    },
+    "mover3_title": {
+      "type": "Heading",
+      "props": {
+        "text": "US x Iran ceasefire by April 15?",
+        "level": "h3"
+      }
+    },
+    "mover3_change": {
+      "type": "Stat",
+      "props": {
+        "label": "YES",
+        "value": "19.5%",
+        "delta": "+1%",
+        "trend": "up"
+      }
+    },
+    "mover3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "↑ Up",
+        "variant": "secondary"
+      }
+    },
+    "mover4_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "mover4_title",
+        "mover4_info",
+        "mover4_badge"
+      ]
+    },
+    "mover4_title": {
+      "type": "Heading",
+      "props": {
+        "text": "Volume surge: Iran Apr 30 market",
+        "level": "h3"
+      }
+    },
+    "mover4_info": {
+      "type": "Text",
+      "props": {
+        "text": "$33.8M → $42.1M (+25%)",
+        "variant": "body"
+      }
+    },
+    "mover4_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "🔥 Increased activity",
+        "variant": "default"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "New & Notable",
+        "level": "h2"
+      }
+    },
+    "stack_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "notable1_stack",
+        "notable2_stack"
+      ]
+    },
+    "notable1_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable1_title",
+        "notable1_details"
+      ]
+    },
+    "notable1_title": {
+      "type": "Heading",
+      "props": {
+        "text": "BTC/ETH/SOL 5-min micro-markets",
+        "level": "h3"
+      }
+    },
+    "notable1_details": {
+      "type": "Text",
+      "props": {
+        "text": "$33.2M / $3.8M / $1.6M vol (24h) — 50/50 odds on next 5min move",
+        "variant": "body"
+      }
+    },
+    "notable2_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "notable2_title",
+        "notable2_details"
+      ]
+    },
+    "notable2_title": {
+      "type": "Heading",
+      "props": {
+        "text": "2028 Dem nomination arb plays",
+        "level": "h3"
+      }
+    },
+    "notable2_details": {
+      "type": "Text",
+      "props": {
+        "text": "Beto, Murphy, Crockett, Obama all <1% YES but $1-2M vol each — Newsom leads at ~24% on broader market",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "Iran rejected US 45-day ceasefire proposal; sent 10-point counter-plan (safe Hormuz passage, sanctions lifted, reconstruction). Trump deadline: Tue Apr 7, 8pm ET. Markets say ceasefire by Apr 7 is dead (4.5% YES), Apr 15 is a longshot (19.5%), Apr 30 increasingly priced in (31.5%).",
+        "variant": "body"
+      }
+    }
+  }
+}
