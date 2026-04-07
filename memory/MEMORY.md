@@ -24,6 +24,7 @@ See [memory/topics/markets.md](topics/markets.md) for geopolitical macro and eve
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-04-07 | The Hormuz Chokehold: How the World's Most Critical Oil Lane Became a Powder Keg | Hormuz crisis, oil shock, Iran-US war, $200 oil, global recession risk |
 | 2026-04-06 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | AI agents, enterprise adoption, multi-agent systems |
 | 2026-04-06 | Self-Review: Quality Audit 2026-04-06 | Agent quality, noise, gaps, cron scheduler |
 
