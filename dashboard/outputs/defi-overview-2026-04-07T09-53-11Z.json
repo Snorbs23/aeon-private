@@ -1,0 +1,472 @@
+{
+  "root": "card-defi",
+  "state": {},
+  "elements": {
+    "card-defi": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Overview — 2026-04-07"
+      },
+      "children": [
+        "total-tvl",
+        "sep1",
+        "chains-heading",
+        "chains-table",
+        "sep2",
+        "protocols-heading",
+        "protocols-table",
+        "sep3",
+        "movers-heading",
+        "movers-stack",
+        "sep4",
+        "dex-volume-heading",
+        "dex-volume-stat",
+        "dex-top-heading",
+        "dex-top-text",
+        "sep5",
+        "stables-heading",
+        "stables-stat",
+        "stables-breakdown",
+        "sep6",
+        "yields-heading",
+        "yields-stack",
+        "sep7",
+        "signal-heading",
+        "signal-alert"
+      ]
+    },
+    "total-tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Chain TVL",
+        "value": "$166.4B"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chains-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top 5 Chains by TVL",
+        "level": "h3"
+      }
+    },
+    "chains-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL",
+          "Change (24h)"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$52.69B",
+            "↓ -3.1% (was $54.35B)"
+          ],
+          [
+            "Solana",
+            "$5.50B",
+            "≈ flat (was $5.55B)"
+          ],
+          [
+            "BSC",
+            "$5.36B",
+            "≈ flat"
+          ],
+          [
+            "Tron",
+            "$4.83B",
+            "—"
+          ],
+          [
+            "Bitcoin",
+            "$4.67B",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "protocols-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top DeFi Protocols (excl. CEX)",
+        "level": "h3"
+      }
+    },
+    "protocols-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "TVL",
+          "24h Change"
+        ],
+        "rows": [
+          [
+            "Aave V3",
+            "$24.0B",
+            "-1.26%"
+          ],
+          [
+            "Lido",
+            "$19.9B",
+            "-0.21%"
+          ],
+          [
+            "SSV Network",
+            "$15.7B",
+            "-0.44%"
+          ],
+          [
+            "EigenCloud",
+            "$8.6B",
+            "-1.32%"
+          ],
+          [
+            "WBTC",
+            "$8.1B",
+            "-0.18%"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "movers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Movers (24h)",
+        "level": "h3"
+      }
+    },
+    "movers-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "mover1",
+        "mover2",
+        "mover3"
+      ]
+    },
+    "mover1": {
+      "type": "Badge",
+      "props": {
+        "text": "EigenCloud: ↓ -1.32%",
+        "variant": "destructive"
+      }
+    },
+    "mover2": {
+      "type": "Badge",
+      "props": {
+        "text": "Aave V3: ↓ -1.26%",
+        "variant": "destructive"
+      }
+    },
+    "mover3": {
+      "type": "Text",
+      "props": {
+        "text": "No major 5%+ chain/protocol moves — broad mild decline",
+        "variant": "muted"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dex-volume-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Volume (24h)",
+        "level": "h3"
+      }
+    },
+    "dex-volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total DEX Volume",
+        "value": "$6.09B",
+        "delta": "+64%",
+        "trend": "up"
+      }
+    },
+    "dex-top-heading": {
+      "type": "Text",
+      "props": {
+        "text": "Top Exchanges:",
+        "variant": "lead"
+      }
+    },
+    "dex-top-text": {
+      "type": "Text",
+      "props": {
+        "text": "Orca $235.5M | Curve $223.1M | Raydium $118.6M | PancakeSwap $73.9M"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stables-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoins",
+        "level": "h3"
+      }
+    },
+    "stables-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Stablecoin Market Cap",
+        "value": "$262.5B",
+        "delta": "-$13.1B",
+        "trend": "down"
+      }
+    },
+    "stables-breakdown": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stable1",
+        "stable2",
+        "stable3",
+        "stable4"
+      ]
+    },
+    "stable1": {
+      "type": "Text",
+      "props": {
+        "text": "USDT: $184.1B"
+      }
+    },
+    "stable2": {
+      "type": "Text",
+      "props": {
+        "text": "USDC: $77.8B"
+      }
+    },
+    "stable3": {
+      "type": "Text",
+      "props": {
+        "text": "USDS: $8.4B"
+      }
+    },
+    "stable4": {
+      "type": "Text",
+      "props": {
+        "text": "USDe: $5.9B"
+      }
+    },
+    "sep6": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yields-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Yields (>$10M TVL)",
+        "level": "h3"
+      }
+    },
+    "yields-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yield1",
+        "yield2",
+        "yield3",
+        "yield4"
+      ]
+    },
+    "yield1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield1-text",
+        "yield1-apy",
+        "yield1-tvl",
+        "yield1-warning"
+      ]
+    },
+    "yield1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Uniswap V3 USDC-WETH (ETH)"
+      }
+    },
+    "yield1-apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "33.87%"
+      }
+    },
+    "yield1-tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $100.8M"
+      }
+    },
+    "yield1-warning": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️ IL risk",
+        "variant": "destructive"
+      }
+    },
+    "yield2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield2-text",
+        "yield2-apy",
+        "yield2-tvl",
+        "yield2-warning"
+      ]
+    },
+    "yield2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Uniswap V3 WETH-USDT (ETH)"
+      }
+    },
+    "yield2-apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "33.84%"
+      }
+    },
+    "yield2-tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $70.5M"
+      }
+    },
+    "yield2-warning": {
+      "type": "Badge",
+      "props": {
+        "text": "⚠️ IL risk",
+        "variant": "destructive"
+      }
+    },
+    "yield3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield3-text",
+        "yield3-apy",
+        "yield3-tvl"
+      ]
+    },
+    "yield3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Sky Lending sUSDS (ETH)"
+      }
+    },
+    "yield3-apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "3.75%"
+      }
+    },
+    "yield3-tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $6.28B (stablecoin)"
+      }
+    },
+    "yield4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield4-text",
+        "yield4-apy",
+        "yield4-tvl"
+      ]
+    },
+    "yield4-text": {
+      "type": "Text",
+      "props": {
+        "text": "Lido stETH (ETH)"
+      }
+    },
+    "yield4-apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "2.38%"
+      }
+    },
+    "yield4-tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $19.66B (ETH staking benchmark)"
+      }
+    },
+    "sep7": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "signal-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Signal",
+        "level": "h3"
+      }
+    },
+    "signal-alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "DEX volume surged +64% to $6.09B — likely driven by macro volatility (Hormuz/Iran). ETH chain TVL dipped -3.1%; stablecoin market cap contracted $13.1B — possible rotation or redemptions amid geopolitical uncertainty."
+      }
+    }
+  }
+}
