@@ -236,8 +236,7 @@ jobs:
           fi
           CLAUDE_OUTPUT=$(echo "$PROMPT" | claude -p - \
           --model "$MODEL" --allowedTools "$ALLOWED" \
-          --output-format json 2>&1) || true
-          echo "RAW OUTPUT: $CLAUDE_OUTPUT"
+          --output-format json)"
 
           # Extract and print the text result so logs still show skill output
           echo "$CLAUDE_OUTPUT" | jq -r '.result // empty'
