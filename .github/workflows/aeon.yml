@@ -65,10 +65,10 @@ on:
         type: choice
         default: '(config default)'
         options:
-          - '(config default)'
-          - claude-opus-4-6
-          - claude-sonnet-4-6
-          - claude-haiku-4-5-20251001
+        - '(config default)'
+        - claude-opus-4-20250514
+        - claude-sonnet-4-20250514
+        - claude-haiku-4-5-20251001
       var:
         description: 'Variable (e.g. AI, bitcoin, owner/repo)'
         required: false
@@ -187,7 +187,7 @@ jobs:
           elif [ -n "$SKILL_MODEL" ]; then
             MODEL="$SKILL_MODEL"
           else
-            MODEL="${CONFIG_MODEL:-claude-opus-4-6}"
+            MODEL="${CONFIG_MODEL:-claude-sonnet-4-20250514}"
           fi
           echo "Using model: $MODEL"
           # Generate notify script in workspace (Claude calls: ./notify "message")
