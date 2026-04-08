@@ -233,7 +233,6 @@ jobs:
           Use this variable (override the default in the skill file):
           var=$VAR"
           fi
-          export ANTHROPIC_API_KEY=$(echo "$ANTHROPIC_API_KEY_B64" | base64 --decode)
           CLAUDE_OUTPUT=$(echo "$PROMPT" | claude -p - \
           --model "$MODEL" --allowedTools "$ALLOWED" \
           --output-format json)
