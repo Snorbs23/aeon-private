@@ -18,12 +18,12 @@
 ## TradFi to Monitor
 - Gold, Oil (WTI), 10Y Bond Yield
 
-## Market Snapshot (2026-04-07)
-- BTC: $68,313 (-2.47%), ETH: $2,083 (-3.62%), SOL: $78.96 (-3.71%), HYPE: $36.23 (-3.66%)
-- Gold: ~$4,685/oz (+0.3%)
-- WTI Oil: ~$115/bbl 🚨 (Iran rejected ceasefire today; up from $111.81 two days ago)
-- 10Y Yield: ~4.33%
-- Broad crypto market: risk-off selloff (-2-4%)
+## Market Snapshot (2026-04-08)
+- BTC: $71,547 (+4.12%), ETH: $2,243 (+6.84%), SOL: ~$82 (+4%), HYPE: ~$38 (+5%)
+- Gold: $4,657/oz (-0.6%)
+- WTI Oil: $97/bbl 📉 (crashed -14% on Iran ceasefire news from $115 peak)
+- 10Y Yield: ~4.25% (down on reduced geopolitical risk)
+- Broad crypto market: strong rally on reduced geopolitical risk
 
 ## Notable Anomalies (2026-04-07)
 - **BULLA +58%** — V/MC 5.77x, micro-cap pump, no catalyst
