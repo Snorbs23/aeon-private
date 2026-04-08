@@ -1,0 +1,351 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-04-08"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_on_track",
+        "stack_on_track",
+        "sep1",
+        "heading_stalled",
+        "stack_stalled",
+        "sep2",
+        "heading_blocked",
+        "stack_blocked"
+      ]
+    },
+    "heading_on_track": {
+      "type": "Heading",
+      "props": {
+        "text": "On Track",
+        "level": "h2"
+      }
+    },
+    "stack_on_track": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_ot1",
+        "item_ot2",
+        "item_ot3",
+        "item_ot4",
+        "item_ot5",
+        "item_ot6"
+      ]
+    },
+    "item_ot1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ot1_title",
+        "text_ot1_detail"
+      ]
+    },
+    "text_ot1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Stay on top of AI, crypto, and markets daily",
+        "variant": "lead"
+      }
+    },
+    "text_ot1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Morning briefs (04-06, 04-08), daily token alerts, DeFi overviews, Polymarket digests active"
+      }
+    },
+    "item_ot2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ot2_title",
+        "text_ot2_detail"
+      ]
+    },
+    "text_ot2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Build knowledge base",
+        "variant": "lead"
+      }
+    },
+    "text_ot2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "4 articles written in 3 days (AI Agents, Hormuz crisis, epigenetic reprogramming, paper digest)"
+      }
+    },
+    "item_ot3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ot3_title",
+        "text_ot3_detail"
+      ]
+    },
+    "text_ot3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor DeFi and anomalies",
+        "variant": "lead"
+      }
+    },
+    "text_ot3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "TRU pump/reversal detected (+134% to -20.8%), BULLA +58%, NOM +26%, RED +70% flagged"
+      }
+    },
+    "item_ot4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ot4_title",
+        "text_ot4_detail"
+      ]
+    },
+    "text_ot4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor HYPE unlock",
+        "variant": "lead"
+      }
+    },
+    "text_ot4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "9.92M tokens unlocked 04-06, price tracking active"
+      }
+    },
+    "item_ot5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ot5_title",
+        "text_ot5_detail"
+      ]
+    },
+    "text_ot5_title": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor Iran/WTI Oil",
+        "variant": "lead"
+      }
+    },
+    "text_ot5_detail": {
+      "type": "Text",
+      "props": {
+        "text": "Ceasefire rejected 04-07, WTI at 115/bbl, active tracking"
+      }
+    },
+    "item_ot6": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_ot6_title",
+        "text_ot6_detail"
+      ]
+    },
+    "text_ot6_title": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor CPI 04-10",
+        "variant": "lead"
+      }
+    },
+    "text_ot6_detail": {
+      "type": "Text",
+      "props": {
+        "text": "On watch list (2 days out)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_stalled": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled",
+        "level": "h2"
+      }
+    },
+    "stack_stalled": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_critical",
+        "item_st2",
+        "item_st3",
+        "item_st4"
+      ]
+    },
+    "alert_critical": {
+      "type": "Alert",
+      "props": {
+        "title": "Add cron scheduler to aeon.yml",
+        "message": "flagged repeatedly since 04-06, no PR opened yet — CRITICAL",
+        "type": "error"
+      }
+    },
+    "item_st2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_st2_title",
+        "text_st2_detail"
+      ]
+    },
+    "text_st2_title": {
+      "type": "Text",
+      "props": {
+        "text": "Add heartbeat dedup",
+        "variant": "lead"
+      }
+    },
+    "text_st2_detail": {
+      "type": "Text",
+      "props": {
+        "text": "16+ redundant runs across 2 days, no fix applied"
+      }
+    },
+    "item_st3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_st3_title",
+        "text_st3_detail"
+      ]
+    },
+    "text_st3_title": {
+      "type": "Text",
+      "props": {
+        "text": "Guard idea-capture empty var",
+        "variant": "lead"
+      }
+    },
+    "text_st3_detail": {
+      "type": "Text",
+      "props": {
+        "text": "still triggering wasted runs"
+      }
+    },
+    "item_st4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_st4_title",
+        "text_st4_detail"
+      ]
+    },
+    "text_st4_title": {
+      "type": "Text",
+      "props": {
+        "text": "Morning-brief dedup",
+        "variant": "lead"
+      }
+    },
+    "text_st4_detail": {
+      "type": "Text",
+      "props": {
+        "text": "not implemented"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_blocked": {
+      "type": "Heading",
+      "props": {
+        "text": "Blocked",
+        "level": "h2"
+      }
+    },
+    "stack_blocked": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_bl1"
+      ]
+    },
+    "item_bl1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_bl1_title",
+        "text_bl1_detail"
+      ]
+    },
+    "text_bl1_title": {
+      "type": "Text",
+      "props": {
+        "text": "Capture ideas via Telegram",
+        "variant": "lead"
+      }
+    },
+    "text_bl1_detail": {
+      "type": "Text",
+      "props": {
+        "text": "needs user to send first idea, no messages received yet"
+      }
+    }
+  }
+}
