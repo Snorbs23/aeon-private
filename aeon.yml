@@ -6,7 +6,6 @@ skills:
   # --- 2 AM UTC (9 AM Bangkok) ---
   morning-brief: { enabled: true, schedule: "0 2 * * *" }
   paper-digest: { enabled: true, schedule: "0 2 * * *" }
-  token-alert: { enabled: true, schedule: "0 2 * * *" }
   # --- 4 AM UTC (11 AM Bangkok) ---
   article: { enabled: true, schedule: "0 4 * * *" }
   research-brief: { enabled: true, schedule: "0 4 * * *" }
@@ -17,8 +16,6 @@ skills:
   polymarket: { enabled: true, schedule: "0 9 * * *" }
   # --- 12 PM UTC (7 PM Bangkok) ---
   idea-capture: { enabled: true, schedule: "0 12 * * *" }
-  # --- 4 PM UTC (11 PM Bangkok) ---
-  token-alert: { enabled: true, schedule: "0 16 * * *" }
   # --- 5 PM UTC (12 AM Bangkok) ---
   memory-flush: { enabled: true, schedule: "0 17 * * *" }
   reflect: { enabled: true, schedule: "0 17 * * *" }
