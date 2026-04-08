@@ -1,0 +1,217 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Self Review"
+      },
+      "children": [
+        "mainStack"
+      ]
+    },
+    "mainStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dateText",
+        "sep1",
+        "qualitySection",
+        "sep2",
+        "reliabilitySection",
+        "sep3",
+        "actionsSection",
+        "sep4",
+        "recommendationsSection"
+      ]
+    },
+    "dateText": {
+      "type": "Text",
+      "props": {
+        "text": "2026-04-08",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "qualitySection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "qualityHeading",
+        "qualityStat",
+        "qualityNote"
+      ]
+    },
+    "qualityHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quality",
+        "level": "h3"
+      }
+    },
+    "qualityStat": {
+      "type": "Stat",
+      "props": {
+        "value": "4/5 ⭐"
+      }
+    },
+    "qualityNote": {
+      "type": "Text",
+      "props": {
+        "text": "Articles excellent, buried in noise",
+        "variant": "muted"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reliabilitySection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reliabilityHeading",
+        "reliabilityStat",
+        "efficiencyProgress"
+      ]
+    },
+    "reliabilityHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reliability",
+        "level": "h3"
+      }
+    },
+    "reliabilityStat": {
+      "type": "Stat",
+      "props": {
+        "value": "7/25",
+        "label": "Skills Meaningful"
+      }
+    },
+    "efficiencyProgress": {
+      "type": "Progress",
+      "props": {
+        "value": 28,
+        "max": 100,
+        "label": "Efficiency"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actionsSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "actionsHeading",
+        "action1",
+        "action2"
+      ]
+    },
+    "actionsHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Actions Taken",
+        "level": "h3"
+      }
+    },
+    "action1": {
+      "type": "Text",
+      "props": {
+        "text": "• Cleaned MEMORY.md duplicates"
+      }
+    },
+    "action2": {
+      "type": "Text",
+      "props": {
+        "text": "• Documented 25 heartbeat redundancy"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendationsSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "recsHeading",
+        "rec1Stack",
+        "rec2",
+        "rec3"
+      ]
+    },
+    "recsHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendations",
+        "level": "h3"
+      }
+    },
+    "rec1Stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "criticalBadge",
+        "rec1Text"
+      ]
+    },
+    "criticalBadge": {
+      "type": "Badge",
+      "props": {
+        "text": "CRITICAL",
+        "variant": "destructive"
+      }
+    },
+    "rec1Text": {
+      "type": "Text",
+      "props": {
+        "text": "Add GitHub cron scheduler"
+      }
+    },
+    "rec2": {
+      "type": "Text",
+      "props": {
+        "text": "• Heartbeat dedup logic"
+      }
+    },
+    "rec3": {
+      "type": "Text",
+      "props": {
+        "text": "• Idea-capture guard checks"
+      }
+    }
+  }
+}
