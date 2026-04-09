@@ -1,0 +1,397 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Overview — 2026-04-09"
+      },
+      "children": [
+        "stat_tvl",
+        "sep1",
+        "heading_chains",
+        "table_chains",
+        "sep2",
+        "heading_protocols",
+        "table_protocols",
+        "sep3",
+        "heading_yields",
+        "grid_yields",
+        "sep4",
+        "heading_stablecoins",
+        "stat_stables",
+        "grid_stablecoins",
+        "sep5",
+        "note"
+      ]
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL (All Chains)",
+        "value": "$94.9B"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_chains": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Chains",
+        "level": "h3"
+      }
+    },
+    "table_chains": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL",
+          "Dominance"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$54.0B",
+            "57.0%"
+          ],
+          [
+            "Solana",
+            "$5.7B",
+            "6.0%"
+          ],
+          [
+            "BSC",
+            "$5.4B",
+            "5.7%"
+          ],
+          [
+            "Tron",
+            "$4.9B",
+            "5.2%"
+          ],
+          [
+            "Bitcoin",
+            "$4.8B",
+            "5.1%"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_protocols": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Protocols",
+        "level": "h3"
+      }
+    },
+    "table_protocols": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "TVL"
+        ],
+        "rows": [
+          [
+            "Binance CEX",
+            "$149.0B"
+          ],
+          [
+            "Aave V3",
+            "$24.5B"
+          ],
+          [
+            "Lido",
+            "$20.4B"
+          ],
+          [
+            "Bitfinex",
+            "$17.8B"
+          ],
+          [
+            "SSV Network",
+            "$16.1B"
+          ]
+        ]
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_yields": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Yields (>$10M TVL)",
+        "level": "h3"
+      }
+    },
+    "grid_yields": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "yield_lido",
+        "yield_sky",
+        "yield_binance",
+        "yield_etherfi"
+      ]
+    },
+    "yield_lido": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield_lido_name",
+        "yield_lido_apy",
+        "yield_lido_tvl"
+      ]
+    },
+    "yield_lido_name": {
+      "type": "Text",
+      "props": {
+        "text": "Lido STETH",
+        "variant": "lead"
+      }
+    },
+    "yield_lido_apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "2.0%"
+      }
+    },
+    "yield_lido_tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $20.5B",
+        "variant": "caption"
+      }
+    },
+    "yield_sky": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield_sky_name",
+        "yield_sky_apy",
+        "yield_sky_tvl"
+      ]
+    },
+    "yield_sky_name": {
+      "type": "Text",
+      "props": {
+        "text": "Sky Dollar SUSDS",
+        "variant": "lead"
+      }
+    },
+    "yield_sky_apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "4.0%"
+      }
+    },
+    "yield_sky_tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $6.5B",
+        "variant": "caption"
+      }
+    },
+    "yield_binance": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield_binance_name",
+        "yield_binance_apy",
+        "yield_binance_tvl"
+      ]
+    },
+    "yield_binance_name": {
+      "type": "Text",
+      "props": {
+        "text": "Binance WBETH",
+        "variant": "lead"
+      }
+    },
+    "yield_binance_apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "3.0%"
+      }
+    },
+    "yield_binance_tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $7.6B",
+        "variant": "caption"
+      }
+    },
+    "yield_etherfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yield_etherfi_name",
+        "yield_etherfi_apy",
+        "yield_etherfi_tvl"
+      ]
+    },
+    "yield_etherfi_name": {
+      "type": "Text",
+      "props": {
+        "text": "Ether.fi WEETH",
+        "variant": "lead"
+      }
+    },
+    "yield_etherfi_apy": {
+      "type": "Stat",
+      "props": {
+        "label": "APY",
+        "value": "3.0%"
+      }
+    },
+    "yield_etherfi_tvl": {
+      "type": "Text",
+      "props": {
+        "text": "TVL: $5.8B",
+        "variant": "caption"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_stablecoins": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoins",
+        "level": "h3"
+      }
+    },
+    "stat_stables": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Stablecoin TVL",
+        "value": "$315.8B"
+      }
+    },
+    "grid_stablecoins": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "md"
+      },
+      "children": [
+        "stable_usdt",
+        "stable_usdc",
+        "stable_sky"
+      ]
+    },
+    "stable_usdt": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stable_usdt_name",
+        "stable_usdt_value"
+      ]
+    },
+    "stable_usdt_name": {
+      "type": "Text",
+      "props": {
+        "text": "USDT",
+        "variant": "lead"
+      }
+    },
+    "stable_usdt_value": {
+      "type": "Stat",
+      "props": {
+        "value": "$184B"
+      }
+    },
+    "stable_usdc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stable_usdc_name",
+        "stable_usdc_value"
+      ]
+    },
+    "stable_usdc_name": {
+      "type": "Text",
+      "props": {
+        "text": "USDC",
+        "variant": "lead"
+      }
+    },
+    "stable_usdc_value": {
+      "type": "Stat",
+      "props": {
+        "value": "$78B"
+      }
+    },
+    "stable_sky": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stable_sky_name",
+        "stable_sky_value"
+      ]
+    },
+    "stable_sky_name": {
+      "type": "Text",
+      "props": {
+        "text": "Sky Dollar",
+        "variant": "lead"
+      }
+    },
+    "stable_sky_value": {
+      "type": "Stat",
+      "props": {
+        "value": "$8.7B"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "note": {
+      "type": "Alert",
+      "props": {
+        "title": "Summary",
+        "message": "Ethereum maintains 57% chain dominance. Yield opportunities remain modest at 2-4% APY range for major protocols.",
+        "type": "info"
+      }
+    }
+  }
+}
