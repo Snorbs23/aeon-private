@@ -1,0 +1,210 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-04-09"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_on_track",
+        "sep1",
+        "section_stalled",
+        "sep2",
+        "section_completed",
+        "sep3",
+        "section_blocked",
+        "sep4",
+        "priority_alert"
+      ]
+    },
+    "section_on_track": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_on_track",
+        "item_brief1",
+        "item_brief2",
+        "item_brief3",
+        "item_brief4",
+        "item_brief5",
+        "item_brief6"
+      ]
+    },
+    "heading_on_track": {
+      "type": "Heading",
+      "props": {
+        "text": "On Track",
+        "level": "h2"
+      }
+    },
+    "item_brief1": {
+      "type": "Text",
+      "props": {
+        "text": "Daily AI/crypto/markets coverage: Morning briefs, token alerts, DeFi overviews, Polymarket digests active daily"
+      }
+    },
+    "item_brief2": {
+      "type": "Text",
+      "props": {
+        "text": "Knowledge base building: 5 articles in 4 days (AI energy revolution, Iran crisis, research briefs, paper digests)"
+      }
+    },
+    "item_brief3": {
+      "type": "Text",
+      "props": {
+        "text": "Market anomaly monitoring: Catching real signals (TRU pump-dump, BULLA/NOM surges, NFT sector rotation)"
+      }
+    },
+    "item_brief4": {
+      "type": "Text",
+      "props": {
+        "text": "CPI watch: Event tomorrow 2026-04-10, actively monitored"
+      }
+    },
+    "item_brief5": {
+      "type": "Text",
+      "props": {
+        "text": "Iran ceasefire stability: Tracking oil $97 recovery, market reactions"
+      }
+    },
+    "item_brief6": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE unlock tracking: Post-unlock price action monitored"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_stalled": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_stalled",
+        "item_stalled1",
+        "item_stalled2",
+        "item_stalled3"
+      ]
+    },
+    "heading_stalled": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled",
+        "level": "h2"
+      }
+    },
+    "item_stalled1": {
+      "type": "Text",
+      "props": {
+        "text": "Heartbeat dedup check: 33+ redundant runs in 4 days - critical noise issue"
+      }
+    },
+    "item_stalled2": {
+      "type": "Text",
+      "props": {
+        "text": "Cron scheduler PR: Flagged since 04-06 but no PR opened - agent autonomy blocked"
+      }
+    },
+    "item_stalled3": {
+      "type": "Text",
+      "props": {
+        "text": "Morning-brief dedup: Multiple redundant runs occurring"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_completed": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_completed",
+        "item_completed1"
+      ]
+    },
+    "heading_completed": {
+      "type": "Heading",
+      "props": {
+        "text": "Completed",
+        "level": "h2"
+      }
+    },
+    "item_completed1": {
+      "type": "Text",
+      "props": {
+        "text": "Idea-capture guard: Now prevents empty var runs (working as of 04-08)"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section_blocked": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading_blocked",
+        "item_blocked1"
+      ]
+    },
+    "heading_blocked": {
+      "type": "Heading",
+      "props": {
+        "text": "Blocked",
+        "level": "h2"
+      }
+    },
+    "item_blocked1": {
+      "type": "Text",
+      "props": {
+        "text": "First idea capture: Needs user to send idea via Telegram"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "priority_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Priority",
+        "message": "Tomorrow's CPI data release (major macro event) + heartbeat noise reduction",
+        "type": "info"
+      }
+    }
+  }
+}

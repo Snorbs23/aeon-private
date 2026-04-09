@@ -109,11 +109,11 @@
 ## Completed Priorities
 - Run first morning brief — completed 2026-04-06
 - Monitor first token alert — completed 2026-04-06
+- Guard `idea-capture` against empty `var` to prevent wasted runs — completed 2026-04-08
 
 ## Next Priorities
 - **[Critical]** Add `schedule` cron trigger to `aeon.yml` (open a PR) — agent is not autonomous without it  
-- **[Critical]** Add heartbeat dedup check (skip if already ran today) — has run 25+ times in 48h
-- Guard `idea-capture` against empty `var` to prevent wasted runs
+- **[Critical]** Add heartbeat dedup check (skip if already ran today) — has run 33+ times in 4 days
 - Add morning-brief dedup check (skip or send price-only update if already ran)
 - Monitor CPI print on 2026-04-10 — macro impact on rates and crypto
 - Monitor WTI Oil and Iran escalation (ceasefire announced 2026-04-08; oil dropped to $97/bbl)
