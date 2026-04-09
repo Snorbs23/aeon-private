@@ -1,0 +1,90 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat",
+        "description": "System monitoring and redundancy status"
+      },
+      "children": [
+        "alert",
+        "sep1",
+        "stats_stack",
+        "sep2",
+        "event_stack"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Heartbeat Redundancy Escalated",
+        "message": "Critical surge in redundancy runs detected",
+        "type": "error"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stats_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "stat_4day",
+        "stat_yesterday"
+      ]
+    },
+    "stat_4day": {
+      "type": "Stat",
+      "props": {
+        "label": "Runs in 4 days",
+        "value": "33+"
+      }
+    },
+    "stat_yesterday": {
+      "type": "Stat",
+      "props": {
+        "label": "Yesterday",
+        "value": "8"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "event_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "event_heading",
+        "event_text"
+      ]
+    },
+    "event_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Upcoming Macro Event",
+        "level": "h4"
+      }
+    },
+    "event_text": {
+      "type": "Text",
+      "props": {
+        "text": "CPI data due TOMORROW 2026-04-10 — key macro event",
+        "variant": "lead"
+      }
+    }
+  }
+}
