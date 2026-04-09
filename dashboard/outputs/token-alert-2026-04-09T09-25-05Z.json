@@ -1,0 +1,562 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-09"
+      },
+      "children": [
+        "content_stack"
+      ]
+    },
+    "content_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "core_prices_section",
+        "separator1",
+        "anomalies_section",
+        "separator2",
+        "tradfi_section"
+      ]
+    },
+    "core_prices_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "core_prices_heading",
+        "core_prices_list"
+      ]
+    },
+    "core_prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔹 Core Prices",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "core_prices_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_item",
+        "sol_item",
+        "eth_item",
+        "hype_item",
+        "gold_core_item"
+      ]
+    },
+    "btc_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "btc_stat",
+        "btc_volume"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$71,303",
+        "delta": "-0.71%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "btc_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $37.91B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sol_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "sol_stat",
+        "sol_volume"
+      ]
+    },
+    "sol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$82.42",
+        "delta": "-2.80%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sol_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $3.22B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "eth_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "eth_stat",
+        "eth_volume"
+      ]
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,184",
+        "delta": "-3.22%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "eth_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $16.74B",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "hype_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "hype_stat",
+        "hype_volume"
+      ]
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$39.14",
+        "delta": "-0.99%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "hype_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $341M",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "gold_core_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "gold_core_stat"
+      ]
+    },
+    "gold_core_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,777/oz"
+      },
+      "children": []
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "anomalies_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anomalies_heading",
+        "anomalies_list"
+      ]
+    },
+    "anomalies_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "anomalies_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "enj_item",
+        "blur_item",
+        "tnsr_item",
+        "sto_item",
+        "fartcoin_item",
+        "red_item",
+        "xpl_item"
+      ]
+    },
+    "enj_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "enj_stat",
+        "enj_desc"
+      ]
+    },
+    "enj_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ENJ",
+        "value": "$0.0307",
+        "delta": "+50.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "enj_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NFT gaming surge",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "blur_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "blur_stat",
+        "blur_desc"
+      ]
+    },
+    "blur_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BLUR",
+        "value": "$0.0236",
+        "delta": "+27.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "blur_desc": {
+      "type": "Text",
+      "props": {
+        "text": "NFT marketplace momentum",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "tnsr_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "tnsr_stat",
+        "tnsr_desc"
+      ]
+    },
+    "tnsr_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TNSR",
+        "value": "$0.0485",
+        "delta": "+31.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "tnsr_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Solana NFT tooling",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "sto_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "sto_stat",
+        "sto_desc"
+      ]
+    },
+    "sto_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "STO",
+        "value": "$0.1447",
+        "delta": "+10.1%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sto_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Staking protocol",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "fartcoin_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "fartcoin_stat",
+        "fartcoin_desc"
+      ]
+    },
+    "fartcoin_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "FARTCOIN",
+        "value": "$0.1759",
+        "delta": "-14.0%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "fartcoin_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Meme correction",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "red_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "red_stat",
+        "red_desc"
+      ]
+    },
+    "red_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "RED",
+        "value": "$0.1677",
+        "delta": "-16.6%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "red_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Continued selloff from unlock",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "xpl_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "xpl_stat",
+        "xpl_desc"
+      ]
+    },
+    "xpl_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "XPL",
+        "value": "$0.1193",
+        "delta": "-10.0%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "xpl_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Plasma decline",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "tradfi_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tradfi_heading",
+        "tradfi_list"
+      ]
+    },
+    "tradfi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "tradfi_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "gold_item",
+        "oil_item",
+        "yield_item"
+      ]
+    },
+    "gold_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "gold_stat",
+        "gold_desc"
+      ]
+    },
+    "gold_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,777/oz"
+      },
+      "children": []
+    },
+    "gold_desc": {
+      "type": "Text",
+      "props": {
+        "text": "near 2-week high",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "oil_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "oil_stat",
+        "oil_desc"
+      ]
+    },
+    "oil_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil",
+        "value": "$97.21/bbl",
+        "delta": "+3.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "oil_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Ceasefire doubts, Hormuz tensions",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "yield_item": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "yield_stat",
+        "yield_desc"
+      ]
+    },
+    "yield_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Yield",
+        "value": "4.34%"
+      },
+      "children": []
+    },
+    "yield_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Inflation fears persist",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
