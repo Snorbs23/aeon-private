@@ -1,0 +1,22 @@
+{
+  "root": "card_article",
+  "state": {},
+  "elements": {
+    "card_article": {
+      "type": "Card",
+      "props": {
+        "title": "article"
+      },
+      "children": [
+        "story_ai_energy"
+      ]
+    },
+    "story_ai_energy": {
+      "type": "StoryLink",
+      "props": {
+        "title": "The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x",
+        "href": "https://github.com/Snorbs23/aeon-private/blob/main/articles/2026-04-09.md"
+      }
+    }
+  }
+}
