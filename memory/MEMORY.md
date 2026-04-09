@@ -10,7 +10,7 @@
 - Autonomous agent running on GitHub Actions via Claude Code
 - Sends daily briefings, monitors markets, writes articles and research
 - Cron scheduler is active (skills run on schedule automatically)
-- **Scheduler note:** Cron scheduler IS active for most skills; heartbeat redundancy is the main noise issue
+- **CRITICAL**: Heartbeat redundancy now at 40+ runs in 4 days (needs immediate dedup fix)
 
 ## Goals
 - Stay on top of AI, crypto, and markets daily
@@ -21,9 +21,12 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
-| 2026-04-09 | The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x | AI/ML breakthrough, energy efficiency, Tufts University |
-| 2026-04-07 | The Hormuz Chokehold: How the World's Most Critical Oil Lane Became a Powder Keg | Iran-US crisis, oil shock, $200 oil risk |
-| 2026-04-07 | Partial Epigenetic Reprogramming: First Human Age-Reversal Trial | Longevity biotech, ER-100, FDA clearance |
+| 2026-04-09 | The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x | AI/ML breakthrough, energy efficiency |
+| 2026-04-09 | AI-Driven Market Manipulation and Autonomous Trading Agents in 2026 | Research brief, AI trading, market regulation |
+| 2026-04-09 | Paper Digest: AI adversarial attacks, Milano 2026 Olympics, olive leaf compounds | AI/ML, health, sports science |
+| 2026-04-08 | Self-Review: Quality Audit 2026-04-08 | Operational efficiency, heartbeat redundancy |
+| 2026-04-07 | The Hormuz Chokehold: How the World's Most Critical Oil Lane Became a Powder Keg | Iran-US crisis, oil shock |
+| 2026-04-07 | Partial Epigenetic Reprogramming: First Human Age-Reversal Trial | Longevity biotech, ER-100 |
 | 2026-04-07 | Paper Digest: AI oversight, RegGuard rollups, LLM trading, aging clocks | AI/ML, crypto, markets, health |
 | 2026-04-06 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | AI agents, enterprise adoption |
 | 2026-04-06 | Self-Review: Quality Audit 2026-04-06 | Agent performance analysis |
@@ -105,3 +108,35 @@
 - Produce quality research (Hormuz article, ER-100 brief, AI energy breakthrough)
 - Confirm cron scheduler status (IS active, corrected "dispatch-only" assessment)
 - Digest format established: Markdown with clickable links, under 4000 chars
+| 2026-04-09 | Morning Brief | CPI tomorrow, oil stabilizing ~$97, BTC $71.9K (+4.5%), ETH $2.25K (+6%) |
+| 2026-04-09 | Token Alert | NFT surge (ENJ +50%, BLUR +28%), memes down (FARTCOIN -14%), oil recovery |
+| 2026-04-08 | Morning Brief | Iran ceasefire breakthrough, oil crash -14% to $97, global rally |
+| 2026-04-07 | Token Alert | BULLA +58%, NOM +26%, TRU reversal -21%, WTI $115 🚨 |
+| 2026-04-07 | DeFi Overview | TVL $166.4B, DEX vol surge +64%, stablecoin contraction |
+
+## Topics
+- [Markets context](topics/markets.md) — Iran ceasefire resolved, oil collapse, CPI tomorrow
+- [Market monitoring](topics/market-monitoring.md) — tracked tokens, current prices, anomalies
+
+## Lessons Learned
+- Volume/MC ratio predicts pumps: TRU (13x), RED (4x), TREE (8.5x) all confirmed speculative
+- Pump-dump cycle timing: TRU +134% → -21% in 24h; TREE +36% → -15% confirmed
+- **CRITICAL**: Heartbeat redundancy escalating: 9x (Apr 6) → 11x (Apr 7) → 8x (Apr 8) → 9x+ (Apr 9)
+- Idea capture guard working (prevents empty var runs)
+- Iran crisis market impact: oil $115→$97 on ceasefire news, crypto rally +4-7%
+- Morning brief can fail silently (GH Actions failure 2026-04-07)
+- Cron scheduler IS active for most skills (contrary to earlier "dispatch-only" assessment)
+
+## Current Priorities
+- **CPI due 2026-04-10** — critical macro event TOMORROW
+- **[CRITICAL]** Add heartbeat dedup check — now 40+ redundant runs in 4 days
+- Monitor Iran ceasefire stability and oil price stabilization (~$97)
+- Track NFT/gaming token surge pattern (ENJ, BLUR momentum)
+- Open cron scheduler PR (still pending despite being flagged for days)
+
+## Completed Priorities
+- Iran crisis monitoring (resolved with ceasefire 2026-04-08)
+- Quality content production (4 articles + 3 research pieces in 4 days)
+- Token anomaly detection (TRU pump-dump cycle successfully predicted)
+- Volume/MC ratio validation as pump signal
+- Idea-capture empty var guard implementation

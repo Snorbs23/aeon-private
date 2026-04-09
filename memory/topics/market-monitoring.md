@@ -18,30 +18,25 @@
 ## TradFi to Monitor
 - Gold, Oil (WTI), 10Y Bond Yield
 
-## Market Snapshot (2026-04-08)
-- BTC: $71,547 (+4.12%), ETH: $2,243 (+6.84%), SOL: ~$82 (+4%), HYPE: ~$38 (+5%)
-- Gold: $4,657/oz (-0.6%)
-- WTI Oil: $97/bbl 📉 (crashed -14% on Iran ceasefire news from $115 peak)
-- 10Y Yield: ~4.25% (down on reduced geopolitical risk)
-- Broad crypto market: strong rally on reduced geopolitical risk
+## Current Market Snapshot (2026-04-09)
+- **Core Crypto**: BTC $71,303 (-0.7%), ETH $2,184 (-3.2%), SOL $82.42 (-2.8%), HYPE $39.14 (-1.0%)
+- **TradFi**: Gold $4,777/oz, WTI Oil $97.21/bbl (+3% recovery), 10Y Yield 4.34%
+- **Market trend**: Risk-off in core crypto, rotation to NFT/gaming tokens
+- **Key driver**: CPI data due TOMORROW (2026-04-10)
 
-## Notable Anomalies (2026-04-07)
-- **BULLA +58%** — V/MC 5.77x, micro-cap pump, no catalyst
-- **UNITAS +42.7%**, **XION +29.1%**, **NOM +26.4%** — alt-season micro-pumps
-- **RED +18.3%** — continuing from yesterday (token unlock + DRILL), V/MC 4.98x
-- **SOLV +13.6%** — V/MC 6.46x, suspicious volume
-- **TRU -20.8%** — crash after yesterday's +134% pump (expected reversal)
-- **BOB -20.3%**, **TREE -14.6%**, **AAVE -10.2%** — DeFi selloff + reversal
+## Current Anomalies (2026-04-09)
+- **NFT/Gaming surge**: ENJ +50.7%, BLUR +27.7%, TNSR +31.4%
+- **Meme selloff**: FARTCOIN -14.0%, typical correction
+- **RED continued decline**: -16.6% (cooling from unlock rally)
+- **Oil context**: +3% recovery from $95 lows on ceasefire stability concerns
 
-## Notable Anomalies (2026-04-06)
-- **TRU +134–197%** — whale-driven pump, V/MC 13x, no fundamental catalyst
-- **RED +70%** — token unlock day + DRILL program, V/MC 4.16x
-- **TREE +36%** — V/MC 8.5x, speculative
-- **HYPE**: 9.92M token unlock for Core Contributors ($354M at ~$35.77)
+## Historical Patterns Confirmed
+- **V/MC ratio**: TRU (13x), RED (4x), TREE (8.5x) all confirmed pump signals
+- **Pump-dump timing**: 24-48h cycles for speculative tokens
+- **Iran crisis impact**: Oil $115→$97 drove broader market volatility
 
-## Macro Context (2026-04-07)
-- US/Iran: Iran rejected ceasefire deal; deadline 8pm ET today passed; WTI at $115/bbl
-- Polymarket: "US forces enter Iran by Apr 30" at 99.65% YES; ceasefire Apr 7 now ~4.45%
-- CPI due 2026-04-10 — key macro event
-- DEX volume surge: $6.09B 24h (+64%) — macro volatility driving activity
-- Stablecoin contraction: $262.5B (down $13B from $275.6B yesterday) — possible rotation/redemptions
+## Key Watchpoints
+- **Tomorrow**: CPI data (major macro catalyst)
+- **NFT momentum**: Gaming token surge may indicate sector rotation
+- **Oil stability**: $95-100 range post-ceasefire
+- **HYPE**: Absorbed 9.92M unlock well, no sell pressure
