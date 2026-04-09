@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-04-08*
+*Last consolidated: 2026-04-09*
 
 ## About Me
 - Name: Nobu
@@ -27,57 +27,38 @@
 | 2026-04-07 | Paper Digest: AI oversight, RegGuard rollups, LLM trading, aging clocks | AI/ML, crypto, markets, health |
 | 2026-04-06 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | AI agents, enterprise adoption |
 | 2026-04-06 | Self-Review: Quality Audit 2026-04-06 | Agent performance analysis |
-| 2026-04-08 | Self-Review: Quality Audit 2026-04-08 | Operational efficiency, 25 heartbeat redundancy, missing cron scheduler |
-| 2026-04-07 | The Hormuz Chokehold: How the World's Most Critical Oil Lane Became a Powder Keg | Hormuz crisis, oil shock, Iran-US war, $200 oil, global recession risk |
-| 2026-04-07 | Research Brief: Partial Epigenetic Reprogramming (Life Biosciences ER-100, first FDA-cleared age-reversal trial) | Longevity, biohacking, DeSci tokens, AI aging clocks |
-| 2026-04-07 | Paper Digest: AI oversight of CUAs, RegGuard rollups, SysTradeBench LLM trading, organ proteomic aging clocks | AI/ML, Crypto, Markets, Longevity |
-| 2026-04-06 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | AI agents, enterprise adoption, multi-agent systems |
-| 2026-04-06 | Self-Review: Quality Audit 2026-04-06 | Agent quality, noise, gaps, cron scheduler |
+| 2026-04-09 | Research Brief: AI-Driven Market Manipulation and Autonomous Trading Agents in 2026 | AI/markets convergence, LLM trading |
+| 2026-04-09 | Paper Digest: AI autonomy, female olympians, olive anti-cancer compounds | AI/ML, health research |
+| 2026-04-08 | Self-Review: Quality Audit 2026-04-08 | Operational efficiency, 33+ heartbeat redundancy, cron confirmed active |
 
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
-| 2026-04-08 | Morning Brief | Iran ceasefire, oil crash to $97 (-14%), BTC $71K (+4%), ETH $2.2K (+7%) |
+| 2026-04-09 | Morning Brief | CPI tomorrow, Iran ceasefire fragile, BTC $71.9K (+4.5%), ETH $2.3K (+6%) |
+| 2026-04-09 | Token Alert | NFT sector surge: ENJ +50.7%, BLUR +27.7%, TNSR +31.4%; memes down |
+| 2026-04-09 | DeFi Overview | TVL $94.9B, Ethereum 57% dominance, DEX volume stable |
+| 2026-04-09 | Polymarket | Iran ceasefire $51.6M volume, sports betting surge (Congo $1.5M) |
+| 2026-04-08 | Morning Brief | Iran ceasefire breakthrough, oil crash to $97 (-14%), global rally |
 | 2026-04-07 | Token Alert | BULLA +58%, NOM +26%; TRU -21% reversal; WTI $115 🚨 |
-| 2026-04-07 | DeFi Overview | TVL $166.4B, DEX vol +64% ($6.09B), stablecoin contraction |
-| 2026-04-07 | Polymarket | Iran ceasefire rejected; US forces enter Iran 99.65% |
-| 2026-04-06 | Token Alert | TRU +134%, RED +70%, WTI Oil $111.81/bbl 🚨 |
 
 ## Topics
-- [Markets context](topics/markets.md) — geopolitical macro, oil shock, Iran crisis
-- [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, anomalies
-| 2026-04-06 | Morning Brief | BTC $69K, ETH $2.1K, HYPE token unlock 9.92M tokens ($354M), Gold $4,650/oz |
-| 2026-04-06 | DeFi Overview | TVL $94.5B, ETH dominates 57.5%, top yield Jito JitoSOL 5.5% APY |
-| 2026-04-06 | Polymarket | Iran ceasefire markets surging; US-Iran deadline extended; Hormuz tensions |
-| 2026-04-06 | Token Alert | TRU +135% (pump), RED +70% (unlock+DRILL), WTI Oil $111.81 🚨 (Hormuz) |
-| 2026-04-07 | Polymarket | Iran ceasefire Apr 7 deadline failed (4.45% YES); US forces enter Iran Apr 30 at 99.65% |
-| 2026-04-07 | DeFi Overview | TVL $166.4B all-chain; DEX vol $6.09B (+64% macro volatility spike); stablecoins -$13.1B |
-| 2026-04-07 | Token Alert | Broad risk-off selloff -2-4%; BULLA +58%, NOM +26%; TRU -20.8% (pump reversal confirmed); WTI $115/bbl |
-| 2026-03-19 | Changelog | aaronjmars/aeon: 51 commits — dashboard, skills, multi-agent updates |
-
-| 2026-04-08 | Morning Brief | 🔥 Iran-US ceasefire agreement announced; oil -14% to $97; global rally +3-5%; BTC $71.5K, ETH $2.2K |
-| 2026-04-07 | Token Alert | BULLA +58%, NOM +26%, RED +18% (continued); TRU -21% reversal; WTI $115 🚨 |
-| 2026-04-07 | DeFi Overview | TVL $166.4B, DEX vol $6.09B (+64%), stablecoins down $13B (redemptions) |
-| 2026-04-07 | Polymarket | Iran ceasefire Apr 7 → 4.45% (rejected); "enter Iran by Apr 30" 99.65% YES |
-| 2026-04-06 | Morning Brief | BTC $69K, ETH $2.1K, HYPE unlock 9.92M tokens ($354M), Gold $4,650/oz |
-| 2026-04-06 | DeFi Overview | TVL $94.5B, ETH 57.5% dominant, top yield Jito JitoSOL 5.5% APY |
-
-## Topics
-- [Markets context](topics/markets.md) — geopolitical macro, token anomalies, WTI Oil/Hormuz, CPI
-- [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, live snapshot, anomalies
+- [Markets context](topics/markets.md) — geopolitical macro, oil recovery, Iran ceasefire stability, CPI tomorrow
+- [Market monitoring](topics/market-monitoring.md) — tracked tokens, NFT surge patterns, volume/MC ratios
 
 ## Lessons Learned
 - Volume/MC ratio is reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed
 - Pump-dump timing confirmed: TRU +134% → -21% in 1 day; TREE +36% → -15%
-- Heartbeat redundancy is major noise: 27 runs in 3 days (needs dedup)
-- Idea capture guard now works (prevents empty var runs)
-- Iran crisis shifts markets: oil $115→$97 on ceasefire news
+- Heartbeat redundancy CRITICAL: 33+ runs in 4 days (9+ on 2026-04-09 alone)
+- Iran ceasefire breakthrough 2026-04-08: oil crashed $115→$97 (-14%), global rally
+- NFT sector surge patterns: ENJ +50.7%, BLUR +27.7%, TNSR +31.4% (2026-04-09)
+- Idea capture guard works (prevents empty var runs)
+- Cron scheduler IS active (corrected previous "dispatch-only" assessment)
 
 ## Current Priorities
-- **CPI due 2026-04-10** — key macro event in 2 days
-- Monitor oil price collapse impact ($97 from $115 peak)
-- Track Iran ceasefire stability and market reactions
-- Add heartbeat dedup check (critical noise reduction)
+- **CPI due 2026-04-10** — key macro event TOMORROW
+- Track Iran ceasefire stability (announced 2026-04-08, oil recovering from $97)
+- **CRITICAL**: Implement heartbeat dedup (33+ redundant runs in 4 days)
+- Monitor NFT sector momentum (ENJ +50.7%, BLUR +27.7% surge detected)
 - Monitor HYPE post-unlock price action
 - Capture first idea via Telegram
 
@@ -119,3 +100,8 @@
 - Monitor WTI Oil and Iran escalation (ceasefire announced 2026-04-08; oil dropped to $97/bbl)
 - Add weekly-review and rss-digest to cron once scheduler is wired
 - Capture first idea via Telegram (needs Nobu to send an idea via Telegram)
+- Run first morning brief, token alerts, market monitoring (2026-04-06)
+- Guard idea-capture against empty vars (working as of 2026-04-09)
+- Produce quality research (Hormuz article, ER-100 brief, AI energy breakthrough)
+- Confirm cron scheduler status (IS active, corrected "dispatch-only" assessment)
+- Digest format established: Markdown with clickable links, under 4000 chars
