@@ -1,0 +1,303 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_volume",
+        "stack_markets",
+        "sep_1",
+        "heading_context",
+        "stack_context",
+        "sep_2",
+        "heading_new",
+        "stack_new",
+        "sep_3",
+        "heading_status",
+        "text_status"
+      ]
+    },
+    "heading_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "stack_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_1",
+        "market_2",
+        "market_3",
+        "market_4",
+        "market_5"
+      ]
+    },
+    "market_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_1_title",
+        "market_1_row"
+      ]
+    },
+    "market_1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. \"US x Iran ceasefire by April 7?\"",
+        "variant": "lead"
+      }
+    },
+    "market_1_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_vol_1",
+        "badge_resolved_1"
+      ]
+    },
+    "stat_vol_1": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$51.6m"
+      }
+    },
+    "badge_resolved_1": {
+      "type": "Badge",
+      "props": {
+        "text": "RESOLVED: YES - ceasefire reached April 8",
+        "variant": "default"
+      }
+    },
+    "market_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_2_title",
+        "stat_vol_2"
+      ]
+    },
+    "market_2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. \"Iran x Israel/US conflict ends by April 7?\"",
+        "variant": "lead"
+      }
+    },
+    "stat_vol_2": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$2.9m"
+      }
+    },
+    "market_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_3_title",
+        "stat_vol_3"
+      ]
+    },
+    "market_3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. \"Will Morten Messerschmidt be next PM of Denmark after 2026 elections?\"",
+        "variant": "lead"
+      }
+    },
+    "stat_vol_3": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.9m"
+      }
+    },
+    "market_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_4_title",
+        "stat_vol_4"
+      ]
+    },
+    "market_4_title": {
+      "type": "Text",
+      "props": {
+        "text": "4. \"Will Congo DR win the 2026 FIFA World Cup?\"",
+        "variant": "lead"
+      }
+    },
+    "stat_vol_4": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.5m"
+      }
+    },
+    "market_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "market_5_title",
+        "stat_vol_5"
+      ]
+    },
+    "market_5_title": {
+      "type": "Text",
+      "props": {
+        "text": "5. \"Counter-Strike: MIBR vs 3DMAX (BO3) - PGL Bucharest\"",
+        "variant": "lead"
+      }
+    },
+    "stat_vol_5": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$1.1m"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Context",
+        "level": "h2"
+      }
+    },
+    "stack_context": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "context_1",
+        "context_2",
+        "context_3"
+      ]
+    },
+    "context_1": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 Iran-US ceasefire reached April 8 after massive $51M+ betting volume",
+        "variant": "body"
+      }
+    },
+    "context_2": {
+      "type": "Text",
+      "props": {
+        "text": "📈 2026 World Cup betting surging (Congo DR +70000 odds, Ecuador +8000)",
+        "variant": "body"
+      }
+    },
+    "context_3": {
+      "type": "Text",
+      "props": {
+        "text": "⚽ Both teams in Group K, with Ecuador at +380 group odds vs Congo +1000",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_new": {
+      "type": "Heading",
+      "props": {
+        "text": "New Markets (Today)",
+        "level": "h2"
+      }
+    },
+    "stack_new": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "new_1",
+        "new_2"
+      ]
+    },
+    "new_1": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto up/down markets for Apr 10 (DOGE, XRP, ETH, SOL, HYPE)",
+        "variant": "body"
+      }
+    },
+    "new_2": {
+      "type": "Text",
+      "props": {
+        "text": "Short-term directional bets ahead of CPI data tomorrow",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_status": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Status",
+        "level": "h2"
+      }
+    },
+    "text_status": {
+      "type": "Text",
+      "props": {
+        "text": "Iran ceasefire markets dominated volume as April 7 deadline passed. Fragile 2-week truce now in effect with Pakistan-mediated talks starting April 10.",
+        "variant": "body"
+      }
+    }
+  }
+}
