@@ -11,6 +11,8 @@
 - Sends daily briefings, monitors markets, writes articles and research
 - Cron scheduler is active (skills run on schedule automatically)
 - **CRITICAL**: Heartbeat redundancy now at 40+ runs in 4 days (needs immediate dedup fix)
+- **CRITICAL:** Workflow is dispatch-only - NO cron scheduler configured
+- **Heartbeat redundancy:** 50+ runs in 4 days, needs deduplication
 
 ## Goals
 - Stay on top of AI, crypto, and markets daily
@@ -33,6 +35,16 @@
 | 2026-04-09 | Research Brief: AI-Driven Market Manipulation and Autonomous Trading Agents in 2026 | AI/markets convergence, LLM trading |
 | 2026-04-09 | Paper Digest: AI autonomy, female olympians, olive anti-cancer compounds | AI/ML, health research |
 | 2026-04-08 | Self-Review: Quality Audit 2026-04-08 | Operational efficiency, 33+ heartbeat redundancy, cron confirmed active |
+| 2026-04-09 | Self-Review: Quality and Reliability Audit 2026-04-09 | Critical infrastructure gap, 75% inefficiency, missing cron scheduler |
+| 2026-04-09 | The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x | AI/ML breakthrough, energy efficiency, Tufts University |
+| 2026-04-09 | Research Brief: AI-Driven Market Manipulation and Autonomous Trading Agents | AI trading, market manipulation, regulatory frameworks |
+| 2026-04-09 | Paper Digest: Claudini attacks, Olympic performance, olive cancer compounds | AI/ML, health, crypto, markets research |
+| 2026-04-08 | Self-Review: Quality Audit 2026-04-08 | Operational efficiency, heartbeat redundancy |
+| 2026-04-07 | The Hormuz Chokehold: How the World's Most Critical Oil Lane Became a Powder Keg | Iran-US crisis, oil shock, $200 oil risk |
+| 2026-04-07 | Research Brief: Partial Epigenetic Reprogramming | Longevity biotech, ER-100, FDA clearance |
+| 2026-04-07 | Paper Digest: AI oversight, RegGuard rollups, LLM trading, aging clocks | AI/ML, crypto, markets, health |
+| 2026-04-06 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | AI agents, enterprise adoption |
+| 2026-04-06 | Self-Review: Quality Audit 2026-04-06 | Agent performance analysis |
 
 ## Recent Digests
 | Date | Type | Key Topics |
@@ -47,6 +59,8 @@
 ## Topics
 - [Markets context](topics/markets.md) — geopolitical macro, oil recovery, Iran ceasefire stability, CPI tomorrow
 - [Market monitoring](topics/market-monitoring.md) — tracked tokens, NFT surge patterns, volume/MC ratios
+- [Markets context](topics/markets.md) — geopolitical macro, oil shock, Iran crisis
+- [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, anomalies
 
 ## Lessons Learned
 - Volume/MC ratio is reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed
@@ -65,19 +79,12 @@
 - Monitor HYPE post-unlock price action
 - Capture first idea via Telegram
 
-## Completed Priorities
+## Completed Priorities  
 - Run first morning brief, token alerts, market monitoring
 - Guard idea-capture against empty vars
-- Produce quality research (Hormuz article, ER-100 brief)
+- Produce quality research (Hormuz article, ER-100 brief, AI energy revolution)
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
-- Volume/MC ratio is a reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed speculative
-- Pump-dump cycle timing confirmed: TRU +134% on Apr 6 → -20.8% on Apr 7 (V/MC ratio predicts reversal too)
-- Redundant runs are a major noise risk: heartbeat ran 25x in 48h (Apr 6-8); reflect/goal-tracker/self-review each ran 2x — add dedup/guard checks
-- Redundant runs escalating: heartbeat ran 9x (Apr 6), 11x (Apr 7), 5x+ (Apr 8) — 25+ wasted runs in 3 days
-- Morning brief can fail silently: GH Actions showed failure 2026-04-07 02:33 UTC but no error logged
-- YAML duplicate keys issue: token-alert defined 3x in aeon.yml but only last entry (4 PM) active; 2 AM/9 AM silently skipped
-- Cron scheduler IS active (contrary to earlier "dispatch-only" assessment) — most skills run on schedule
 
 
 ## Next Priorities
@@ -140,3 +147,8 @@
 - Token anomaly detection (TRU pump-dump cycle successfully predicted)
 - Volume/MC ratio validation as pump signal
 - Idea-capture empty var guard implementation
+- **[URGENT]** Add cron scheduler to `.github/workflows/aeon.yml` — no scheduled skills running
+- **[CRITICAL]** Add heartbeat dedup check — 50+ redundant runs in 4 days 
+- **[HIGH]** Fix YAML duplicate token-alert keys (only 4 PM slot active)
+- Monitor CPI data release 2026-04-10 — major macro event tomorrow
+- Monitor Iran ceasefire stability and oil price recovery ($97 from $115)
