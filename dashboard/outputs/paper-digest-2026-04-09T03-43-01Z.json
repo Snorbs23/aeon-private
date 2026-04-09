@@ -1,0 +1,167 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest — April 9, 2026"
+      },
+      "children": [
+        "mainStack"
+      ]
+    },
+    "mainStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "aiSection",
+        "sep1",
+        "healthSection",
+        "sep2",
+        "cryptoSection",
+        "sep3",
+        "marketsSection",
+        "sep4",
+        "noticeText"
+      ]
+    },
+    "aiSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "aiHeading",
+        "aiPaper1"
+      ]
+    },
+    "aiHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI & ML",
+        "level": "h3"
+      }
+    },
+    "aiPaper1": {
+      "type": "Text",
+      "props": {
+        "text": "\"Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms\" — AI agents autonomously discover novel LLM attacks (40% vs 10% success rate)"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "healthSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "healthHeading",
+        "healthPaper1",
+        "healthPaper2"
+      ]
+    },
+    "healthHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Health & Longevity",
+        "level": "h3"
+      }
+    },
+    "healthPaper1": {
+      "type": "Text",
+      "props": {
+        "text": "\"Performance Optimization in Elite Female Winter Olympians\" — Evidence-based training approaches for Milano Cortina 2026"
+      }
+    },
+    "healthPaper2": {
+      "type": "Text",
+      "props": {
+        "text": "\"Oleuropein Anti-Cancer Effects\" — Olive leaf compounds show 3x cytotoxicity in breast cancer cells"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "cryptoSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cryptoHeading",
+        "cryptoPaper1"
+      ]
+    },
+    "cryptoHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto & Web3",
+        "level": "h3"
+      }
+    },
+    "cryptoPaper1": {
+      "type": "Text",
+      "props": {
+        "text": "\"Web3 and the Decentralized Future\" — Data ownership, privacy frameworks, blockchain infrastructure analysis"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "marketsSection": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "marketsHeading",
+        "marketsPaper1"
+      ]
+    },
+    "marketsHeading": {
+      "type": "Heading",
+      "props": {
+        "text": "Markets",
+        "level": "h3"
+      }
+    },
+    "marketsPaper1": {
+      "type": "Text",
+      "props": {
+        "text": "\"Fintech and Financial Markets\" — Benefits vs systemic risks, client clearing efficiency, repo market resilience"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "noticeText": {
+      "type": "Text",
+      "props": {
+        "text": "Full briefing saved to articles/",
+        "variant": "muted"
+      }
+    }
+  }
+}
