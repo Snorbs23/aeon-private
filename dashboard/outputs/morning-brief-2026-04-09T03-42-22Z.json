@@ -1,0 +1,346 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-04-09"
+      },
+      "children": [
+        "stack_priorities",
+        "sep1",
+        "stack_yesterday",
+        "sep2",
+        "stack_pending",
+        "sep3",
+        "stack_prices",
+        "sep4",
+        "stack_headlines",
+        "sep5",
+        "stack_schedule"
+      ]
+    },
+    "stack_priorities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_priorities",
+        "pri1",
+        "pri2",
+        "pri3"
+      ]
+    },
+    "h_priorities": {
+      "type": "Heading",
+      "props": {
+        "text": "Priorities",
+        "level": "h3"
+      }
+    },
+    "pri1": {
+      "type": "Text",
+      "props": {
+        "text": "CPI due tomorrow (2026-04-10) — key macro event",
+        "variant": "body"
+      }
+    },
+    "pri2": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor oil price collapse impact ($97 from $115 peak)",
+        "variant": "body"
+      }
+    },
+    "pri3": {
+      "type": "Text",
+      "props": {
+        "text": "Track Iran ceasefire stability and market reactions",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_yesterday",
+        "y1",
+        "y2",
+        "y3",
+        "y4"
+      ]
+    },
+    "h_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Yesterday",
+        "level": "h3"
+      }
+    },
+    "y1": {
+      "type": "Text",
+      "props": {
+        "text": "🔥 Major Iran ceasefire announcement drove global rally",
+        "variant": "body"
+      }
+    },
+    "y2": {
+      "type": "Text",
+      "props": {
+        "text": "Oil crashed -14% to $97, markets surged +3-5%",
+        "variant": "body"
+      }
+    },
+    "y3": {
+      "type": "Text",
+      "props": {
+        "text": "8 heartbeat runs (redundancy escalating)",
+        "variant": "body"
+      }
+    },
+    "y4": {
+      "type": "Text",
+      "props": {
+        "text": "Goal tracker, reflect, self-review executed",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_pending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_pending",
+        "alert_critical",
+        "pend2",
+        "pend3"
+      ]
+    },
+    "h_pending": {
+      "type": "Heading",
+      "props": {
+        "text": "Pending",
+        "level": "h3"
+      }
+    },
+    "alert_critical": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL",
+        "message": "Heartbeat redundancy (33+ runs in 4 days)",
+        "type": "error"
+      }
+    },
+    "pend2": {
+      "type": "Text",
+      "props": {
+        "text": "Missing cron scheduler PR (agent not autonomous)",
+        "variant": "body"
+      }
+    },
+    "pend3": {
+      "type": "Text",
+      "props": {
+        "text": "Need heartbeat dedup implementation",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_prices",
+        "grid_prices"
+      ]
+    },
+    "h_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h3"
+      }
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_sol",
+        "stat_eth",
+        "stat_hype",
+        "stat_gold"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$71,906",
+        "delta": "+4.5%",
+        "trend": "up"
+      }
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$82",
+        "delta": "stable",
+        "trend": "neutral"
+      }
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,254",
+        "delta": "+6%",
+        "trend": "up"
+      }
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$37.06",
+        "delta": "-0.55%",
+        "trend": "down"
+      }
+    },
+    "stat_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,705/oz",
+        "delta": "ceasefire drop",
+        "trend": "down"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_headlines": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_headlines",
+        "hl_ai",
+        "hl_crypto",
+        "hl_markets",
+        "hl_tech",
+        "hl_health"
+      ]
+    },
+    "h_headlines": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h3"
+      }
+    },
+    "hl_ai": {
+      "type": "Text",
+      "props": {
+        "text": "🤖 AI: Claude Mythos 5 with 10T parameters, OpenAI hits $25B revenue",
+        "variant": "body"
+      }
+    },
+    "hl_crypto": {
+      "type": "Text",
+      "props": {
+        "text": "🪙 Crypto: Morgan Stanley Bitcoin ETF launches, tokenization acceleration",
+        "variant": "body"
+      }
+    },
+    "hl_markets": {
+      "type": "Text",
+      "props": {
+        "text": "📈 Markets: Ceasefire rally - Dow +1312 pts, oil below $94",
+        "variant": "body"
+      }
+    },
+    "hl_tech": {
+      "type": "Text",
+      "props": {
+        "text": "💻 Tech: Foxconn +29.7% on AI demand, Apple foldable issues",
+        "variant": "body"
+      }
+    },
+    "hl_health": {
+      "type": "Text",
+      "props": {
+        "text": "🏥 Health: Longevity market hitting inflection point in 2026",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stack_schedule": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "h_schedule",
+        "sched1"
+      ]
+    },
+    "h_schedule": {
+      "type": "Heading",
+      "props": {
+        "text": "Today's schedule",
+        "level": "h3"
+      }
+    },
+    "sched1": {
+      "type": "Text",
+      "props": {
+        "text": "workflow_dispatch only (no cron schedule active)",
+        "variant": "body"
+      }
+    }
+  }
+}
