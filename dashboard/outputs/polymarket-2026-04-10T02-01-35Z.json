@@ -1,0 +1,380 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-10"
+      },
+      "children": [
+        "heading_volume",
+        "stack_markets",
+        "separator_1",
+        "alert_iran",
+        "separator_2",
+        "heading_new_markets",
+        "stack_new_markets",
+        "separator_3",
+        "heading_sports",
+        "text_sports",
+        "separator_4",
+        "heading_danish",
+        "market_danish"
+      ]
+    },
+    "heading_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market_1",
+        "market_2",
+        "market_3",
+        "market_4",
+        "market_5"
+      ]
+    },
+    "market_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_m1_title",
+        "stat_m1_vol",
+        "text_m1_note"
+      ]
+    },
+    "text_m1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. \"US x Iran ceasefire by April 7?\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_m1_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$54.4M",
+        "label": "24h Vol"
+      },
+      "children": []
+    },
+    "text_m1_note": {
+      "type": "Text",
+      "props": {
+        "text": "resolved market, post-resolution trading",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "market_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_m2_title",
+        "stat_m2_vol"
+      ]
+    },
+    "text_m2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. \"Celtics vs. Knicks\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_m2_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$4.1M",
+        "label": "24h Vol"
+      },
+      "children": []
+    },
+    "market_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_m3_title",
+        "stat_m3_vol"
+      ]
+    },
+    "text_m3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. \"Maple Leafs vs. Islanders\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_m3_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$3.0M",
+        "label": "24h Vol"
+      },
+      "children": []
+    },
+    "market_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_m4_title",
+        "stat_m4_vol"
+      ]
+    },
+    "text_m4_title": {
+      "type": "Text",
+      "props": {
+        "text": "4. \"76ers vs. Rockets\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_m4_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$2.4M",
+        "label": "24h Vol"
+      },
+      "children": []
+    },
+    "market_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_m5_title",
+        "stat_m5_vol"
+      ]
+    },
+    "text_m5_title": {
+      "type": "Text",
+      "props": {
+        "text": "5. \"Heat vs. Raptors\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_m5_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$2.1M",
+        "label": "24h Vol"
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_iran": {
+      "type": "Alert",
+      "props": {
+        "title": "Context Alert 🚨",
+        "message": "Iran ceasefire talks BEGIN TODAY in Islamabad, Pakistan. Despite April 7 market resolution, massive trading continues as fragile 2-week truce faces critical negotiations. VP Vance leading US delegation.",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_new_markets": {
+      "type": "Heading",
+      "props": {
+        "text": "New Markets Today",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_new_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stack_crypto_badges",
+        "text_new_markets_desc"
+      ]
+    },
+    "stack_crypto_badges": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_btc",
+        "badge_eth",
+        "badge_sol",
+        "badge_xrp",
+        "badge_doge",
+        "badge_hyper"
+      ]
+    },
+    "badge_btc": {
+      "type": "Badge",
+      "props": {
+        "text": "Bitcoin",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_eth": {
+      "type": "Badge",
+      "props": {
+        "text": "Ethereum",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_sol": {
+      "type": "Badge",
+      "props": {
+        "text": "Solana",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_xrp": {
+      "type": "Badge",
+      "props": {
+        "text": "XRP",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_doge": {
+      "type": "Badge",
+      "props": {
+        "text": "Dogecoin",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "badge_hyper": {
+      "type": "Badge",
+      "props": {
+        "text": "Hyperliquid",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text_new_markets_desc": {
+      "type": "Text",
+      "props": {
+        "text": "Fresh crypto up/down betting markets launched. 5-minute windows around 9:50-9:55PM ET. Likely CPI-related speculation.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_sports": {
+      "type": "Heading",
+      "props": {
+        "text": "Sports Dominance",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_sports": {
+      "type": "Text",
+      "props": {
+        "text": "NBA/NHL playoff betting driving volume. Multiple $1-4M markets across games.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_danish": {
+      "type": "Heading",
+      "props": {
+        "text": "Danish Politics",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "market_danish": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_danish_title",
+        "stat_danish_vol",
+        "text_danish_note"
+      ]
+    },
+    "text_danish_title": {
+      "type": "Text",
+      "props": {
+        "text": "\"Will Morten Messerschmidt be next Danish PM?\"",
+        "variant": "lead"
+      },
+      "children": []
+    },
+    "stat_danish_vol": {
+      "type": "Stat",
+      "props": {
+        "value": "$1.9M",
+        "label": "Vol"
+      },
+      "children": []
+    },
+    "text_danish_note": {
+      "type": "Text",
+      "props": {
+        "text": "political uncertainty",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}
