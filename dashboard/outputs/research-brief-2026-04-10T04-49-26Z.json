@@ -1,0 +1,238 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Research Brief: The Great Inflation Reversal of 2026"
+      },
+      "children": [
+        "alert",
+        "intro",
+        "sep1",
+        "key_data_section",
+        "sep2",
+        "crypto_section",
+        "sep3",
+        "fed_section",
+        "sep4",
+        "footer"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "🔴 Pivotal Macro Moment",
+        "message": "Today's CPI release could mark significant market implications"
+      }
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "Economists project 3.3% inflation (vs 2.4% Feb), the highest since May 2024, driven by Iran war energy disruption.",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "key_data_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "key_data_heading",
+        "oil_stack",
+        "gas_stat",
+        "cpi_stat",
+        "trajectory_text"
+      ]
+    },
+    "key_data_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "KEY DATA",
+        "level": "h3"
+      }
+    },
+    "oil_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "oil_stat",
+        "oil_price"
+      ]
+    },
+    "oil_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil above pre-war levels",
+        "value": "43%",
+        "trend": "up"
+      }
+    },
+    "oil_price": {
+      "type": "Text",
+      "props": {
+        "text": "$96.41/barrel",
+        "variant": "caption"
+      }
+    },
+    "gas_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gas prices nationally",
+        "value": "$4+/gallon",
+        "trend": "up"
+      }
+    },
+    "cpi_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "CPI projection",
+        "value": "3.3%",
+        "delta": "+0.9 vs Feb (2.4%)",
+        "trend": "up"
+      }
+    },
+    "trajectory_text": {
+      "type": "Text",
+      "props": {
+        "text": "Expected trajectory: over 4% inflation by April"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "crypto_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "crypto_heading",
+        "btc_text",
+        "hedge_text",
+        "etf_stat"
+      ]
+    },
+    "crypto_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "CRYPTO IMPACT",
+        "level": "h3"
+      }
+    },
+    "btc_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC positioned for binary move: $74K breakout OR $67K pullback"
+      }
+    },
+    "hedge_text": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional view: Bitcoin/ETH as fiat currency hedges"
+      }
+    },
+    "etf_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Spot Bitcoin ETFs watching Fed policy",
+        "value": "$115B+"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "fed_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fed_heading",
+        "rate_cuts_text",
+        "rate_increases_text",
+        "april_change"
+      ]
+    },
+    "fed_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FED IMPLICATIONS",
+        "level": "h3"
+      }
+    },
+    "rate_cuts_text": {
+      "type": "Text",
+      "props": {
+        "text": "Rate cuts unlikely in 2026 (was expected)"
+      }
+    },
+    "rate_increases_text": {
+      "type": "Text",
+      "props": {
+        "text": "Considering increases instead of cuts"
+      }
+    },
+    "april_change": {
+      "type": "Progress",
+      "props": {
+        "value": 5.2,
+        "max": 100,
+        "label": "Probability of April rate change"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "footer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "ceasefire_text",
+        "analysis_link"
+      ]
+    },
+    "ceasefire_text": {
+      "type": "Text",
+      "props": {
+        "text": "Iran ceasefire fragile - talks continuing in Islamabad today.",
+        "variant": "muted"
+      }
+    },
+    "analysis_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full analysis",
+        "href": "articles/research-brief-2026-04-10.md",
+        "source": "research-brief"
+      }
+    }
+  }
+}
