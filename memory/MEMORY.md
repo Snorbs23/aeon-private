@@ -23,6 +23,7 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-04-10 | The Great Inflation Reversal of 2026 - CPI Data and Iran War Market Disruption | Research brief, inflation, macro |
 | 2026-04-09 | The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x | AI/ML breakthrough, energy efficiency |
 | 2026-04-09 | AI-Driven Market Manipulation and Autonomous Trading Agents in 2026 | Research brief, AI trading, market regulation |
 | 2026-04-09 | Paper Digest: AI adversarial attacks, Milano 2026 Olympics, olive leaf compounds | AI/ML, health, sports science |
@@ -49,6 +50,8 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-04-10 | Polymarket | Iran ceasefire $54.4M volume despite resolution, VP Vance talks Pakistan TODAY |
+| 2026-04-10 | Research Brief | CPI inflation reversal, Iran war market disruption, crypto binary move |
 | 2026-04-09 | Morning Brief | CPI tomorrow, Iran ceasefire fragile, BTC $71.9K (+4.5%), ETH $2.3K (+6%) |
 | 2026-04-09 | Token Alert | NFT sector surge: ENJ +50.7%, BLUR +27.7%, TNSR +31.4%; memes down |
 | 2026-04-09 | DeFi Overview | TVL $94.9B, Ethereum 57% dominance, DEX volume stable |
@@ -72,9 +75,9 @@
 - Cron scheduler IS active (corrected previous "dispatch-only" assessment)
 
 ## Current Priorities
-- **CPI due 2026-04-10** — key macro event TOMORROW
-- Track Iran ceasefire stability (announced 2026-04-08, oil recovering from $97)
-- **CRITICAL**: Implement heartbeat dedup (33+ redundant runs in 4 days)
+- **CPI releasing 2026-04-10** — key macro event TODAY
+- **CRITICAL**: Iran ceasefire talks TODAY in Pakistan (VP Vance leading, fragile truce)
+- **CRITICAL**: Implement heartbeat dedup (50+ redundant runs in 4 days)
 - Monitor NFT sector momentum (ENJ +50.7%, BLUR +27.7% surge detected)
 - Monitor HYPE post-unlock price action
 - Capture first idea via Telegram
