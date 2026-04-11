@@ -1,0 +1,541 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-04-11"
+      },
+      "children": [
+        "section_priorities",
+        "sep_1",
+        "section_yesterday",
+        "sep_2",
+        "section_pending",
+        "sep_3",
+        "section_prices",
+        "sep_4",
+        "section_headlines",
+        "sep_5",
+        "section_schedule"
+      ]
+    },
+    "section_priorities": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_priorities",
+        "stack_priorities_items"
+      ]
+    },
+    "heading_priorities": {
+      "type": "Heading",
+      "props": {
+        "text": "Priorities",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_priorities_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "priority_1",
+        "priority_2",
+        "priority_3"
+      ]
+    },
+    "priority_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Monitor Iran ceasefire stability (fragile truce, VP Vance talks in Pakistan)"
+      },
+      "children": []
+    },
+    "priority_2": {
+      "type": "Text",
+      "props": {
+        "text": "2. Implement heartbeat dedup (50+ redundant runs in 4 days)"
+      },
+      "children": []
+    },
+    "priority_3": {
+      "type": "Text",
+      "props": {
+        "text": "3. Track post-CPI market reactions and crypto binary moves"
+      },
+      "children": []
+    },
+    "section_yesterday": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_yesterday",
+        "stack_yesterday_items"
+      ]
+    },
+    "heading_yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_yesterday_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "yesterday_1",
+        "yesterday_2",
+        "yesterday_3"
+      ]
+    },
+    "yesterday_1": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket analysis: Iran ceasefire market $54.4M volume despite resolution"
+      },
+      "children": []
+    },
+    "yesterday_2": {
+      "type": "Text",
+      "props": {
+        "text": "Research brief: CPI inflation reversal and Iran war market disruption"
+      },
+      "children": []
+    },
+    "yesterday_3": {
+      "type": "Text",
+      "props": {
+        "text": "Memory flush and heartbeat monitoring"
+      },
+      "children": []
+    },
+    "section_pending": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_pending",
+        "stack_pending_items"
+      ]
+    },
+    "heading_pending": {
+      "type": "Heading",
+      "props": {
+        "text": "Pending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_pending_items": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "pending_1",
+        "pending_2"
+      ]
+    },
+    "pending_1": {
+      "type": "Text",
+      "props": {
+        "text": "Heartbeat redundancy fix still critical"
+      },
+      "children": []
+    },
+    "pending_2": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor oil price stability around $97 post-ceasefire"
+      },
+      "children": []
+    },
+    "section_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "grid_prices"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "grid_prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_btc",
+        "stat_sol",
+        "stat_eth",
+        "stat_hype",
+        "stat_gold"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$72,348",
+        "delta": "+1.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$79.76"
+      },
+      "children": []
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,106"
+      },
+      "children": []
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$36.34"
+      },
+      "children": []
+    },
+    "stat_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,749",
+        "delta": "-0.3%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "section_headlines": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_headlines",
+        "stack_headlines_categories"
+      ]
+    },
+    "heading_headlines": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_headlines_categories": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "category_ai",
+        "category_crypto",
+        "category_markets",
+        "category_tech",
+        "category_health"
+      ]
+    },
+    "category_ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_ai",
+        "text_ai_1",
+        "text_ai_2"
+      ]
+    },
+    "badge_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "🤖 AI"
+      },
+      "children": []
+    },
+    "text_ai_1": {
+      "type": "Text",
+      "props": {
+        "text": "Yann LeCun's AMI Labs raises $1.03B seed round"
+      },
+      "children": []
+    },
+    "text_ai_2": {
+      "type": "Text",
+      "props": {
+        "text": "Microsoft invests $10B in Japan AI infrastructure"
+      },
+      "children": []
+    },
+    "category_crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_crypto",
+        "text_crypto_1",
+        "text_crypto_2",
+        "text_crypto_3"
+      ]
+    },
+    "badge_crypto": {
+      "type": "Badge",
+      "props": {
+        "text": "🪙 Crypto"
+      },
+      "children": []
+    },
+    "text_crypto_1": {
+      "type": "Text",
+      "props": {
+        "text": "Hong Kong becomes Web3 epicenter"
+      },
+      "children": []
+    },
+    "text_crypto_2": {
+      "type": "Text",
+      "props": {
+        "text": "Toss develops L1 blockchain"
+      },
+      "children": []
+    },
+    "text_crypto_3": {
+      "type": "Text",
+      "props": {
+        "text": "Institutional adoption accelerates"
+      },
+      "children": []
+    },
+    "category_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_markets",
+        "text_markets_1",
+        "text_markets_2",
+        "text_markets_3"
+      ]
+    },
+    "badge_markets": {
+      "type": "Badge",
+      "props": {
+        "text": "📈 Markets"
+      },
+      "children": []
+    },
+    "text_markets_1": {
+      "type": "Text",
+      "props": {
+        "text": "S&P 500 +3.6% weekly"
+      },
+      "children": []
+    },
+    "text_markets_2": {
+      "type": "Text",
+      "props": {
+        "text": "TSMC +35% Q1 revenue"
+      },
+      "children": []
+    },
+    "text_markets_3": {
+      "type": "Text",
+      "props": {
+        "text": "Fragile Iran ceasefire supporting recovery"
+      },
+      "children": []
+    },
+    "category_tech": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_tech",
+        "text_tech_1",
+        "text_tech_2",
+        "text_tech_3"
+      ]
+    },
+    "badge_tech": {
+      "type": "Badge",
+      "props": {
+        "text": "💻 Tech"
+      },
+      "children": []
+    },
+    "text_tech_1": {
+      "type": "Text",
+      "props": {
+        "text": "OpenAI valued at $852B, $2B monthly revenue"
+      },
+      "children": []
+    },
+    "text_tech_2": {
+      "type": "Text",
+      "props": {
+        "text": "78K tech layoffs YTD"
+      },
+      "children": []
+    },
+    "text_tech_3": {
+      "type": "Text",
+      "props": {
+        "text": "Quantum threats to encryption"
+      },
+      "children": []
+    },
+    "category_health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_health",
+        "text_health_1",
+        "text_health_2",
+        "text_health_3"
+      ]
+    },
+    "badge_health": {
+      "type": "Badge",
+      "props": {
+        "text": "🏥 Health"
+      },
+      "children": []
+    },
+    "text_health_1": {
+      "type": "Text",
+      "props": {
+        "text": "Biohacking industry hits $30B"
+      },
+      "children": []
+    },
+    "text_health_2": {
+      "type": "Text",
+      "props": {
+        "text": "LA conference draws 2K attendees"
+      },
+      "children": []
+    },
+    "text_health_3": {
+      "type": "Text",
+      "props": {
+        "text": "Shift toward holistic health systems"
+      },
+      "children": []
+    },
+    "section_schedule": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_schedule",
+        "text_schedule"
+      ]
+    },
+    "heading_schedule": {
+      "type": "Heading",
+      "props": {
+        "text": "Today's schedule",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "text_schedule": {
+      "type": "Text",
+      "props": {
+        "text": "No scheduled skills (dispatch-only workflow)"
+      },
+      "children": []
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "sep_5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    }
+  }
+}
