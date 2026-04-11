@@ -1,0 +1,164 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket Evening Update"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "section_cpi",
+        "sep1",
+        "section_top_markets",
+        "sep2",
+        "section_geopolitical",
+        "sep3",
+        "section_new_crypto"
+      ]
+    },
+    "section_cpi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_cpi",
+        "alert_cpi"
+      ]
+    },
+    "heading_cpi": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Impact",
+        "level": "h2"
+      }
+    },
+    "alert_cpi": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Fed rate markets surge after 3.3% CPI release"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_top_markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_top",
+        "stat_thunder",
+        "stat_fed_cut"
+      ]
+    },
+    "heading_top": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Markets",
+        "level": "h2"
+      }
+    },
+    "stat_thunder": {
+      "type": "Stat",
+      "props": {
+        "label": "Thunder vs Nuggets",
+        "value": "3.7M",
+        "delta": "Volume"
+      }
+    },
+    "stat_fed_cut": {
+      "type": "Stat",
+      "props": {
+        "label": "Fed 50+ bps Cut Market",
+        "value": "0.5%",
+        "delta": "3.4M Volume"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_geopolitical": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_geo",
+        "stat_iran",
+        "stat_russia"
+      ]
+    },
+    "heading_geo": {
+      "type": "Heading",
+      "props": {
+        "text": "Geopolitical Markets",
+        "level": "h2"
+      }
+    },
+    "stat_iran": {
+      "type": "Stat",
+      "props": {
+        "label": "Iran Ceasefire",
+        "value": "<1M",
+        "delta": "Collapsed from 54M",
+        "trend": "down"
+      }
+    },
+    "stat_russia": {
+      "type": "Stat",
+      "props": {
+        "label": "Russia Ukraine Ceasefire",
+        "value": "1.5M",
+        "delta": "Volume"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "section_new_crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_crypto",
+        "alert_crypto"
+      ]
+    },
+    "heading_crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "New Markets",
+        "level": "h2"
+      }
+    },
+    "alert_crypto": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Crypto scalping markets created for Bitcoin, ETH, and Solana tonight"
+      }
+    }
+  }
+}
