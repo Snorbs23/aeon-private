@@ -1,0 +1,187 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-11"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_core",
+        "table_core_prices",
+        "separator_1",
+        "heading_anomalies",
+        "alert_iotex",
+        "alert_flamingo",
+        "separator_2",
+        "heading_gainers",
+        "table_gainers",
+        "separator_3",
+        "heading_tradfi",
+        "table_tradfi"
+      ]
+    },
+    "heading_core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "table_core_prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h Change",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "$73,084",
+            "+1.2%",
+            "$37.2B"
+          ],
+          [
+            "SOL",
+            "$84.90",
+            "+1.8%",
+            "$2.95B"
+          ],
+          [
+            "ETH",
+            "$2,251",
+            "+2.5%",
+            "$15.6B"
+          ],
+          [
+            "HYPE",
+            "$41.93",
+            "+3.2%",
+            "$304M"
+          ],
+          [
+            "Gold",
+            "$4,758",
+            "+0.3%",
+            ""
+          ]
+        ]
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h2"
+      }
+    },
+    "alert_iotex": {
+      "type": "Alert",
+      "props": {
+        "title": "IoTeX",
+        "message": "+264.81% — massive price spike 🔥",
+        "type": "warning"
+      }
+    },
+    "alert_flamingo": {
+      "type": "Alert",
+      "props": {
+        "title": "Flamingo",
+        "message": "+112.98% — major pump detected",
+        "type": "warning"
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h2"
+      }
+    },
+    "table_gainers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "24h Gain"
+        ],
+        "rows": [
+          [
+            "IoTeX",
+            "+264.81%"
+          ],
+          [
+            "Flamingo",
+            "+112.98%"
+          ]
+        ]
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      }
+    },
+    "table_tradfi": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Gold",
+            "$4,758",
+            "+0.3%"
+          ],
+          [
+            "Oil (WTI)",
+            "$99.16",
+            "+1.1%"
+          ],
+          [
+            "10Y Yield",
+            "4.31%",
+            "stable"
+          ]
+        ]
+      }
+    }
+  }
+}
