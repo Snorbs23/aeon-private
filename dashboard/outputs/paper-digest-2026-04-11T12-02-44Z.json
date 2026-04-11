@@ -1,0 +1,39 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest — 2026-04-11"
+      },
+      "children": [
+        "ai_ml_section"
+      ]
+    },
+    "ai_ml_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "ai_ml_heading",
+        "list_item_1"
+      ]
+    },
+    "ai_ml_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AI & ML",
+        "level": "h2"
+      }
+    },
+    "list_item_1": {
+      "type": "Text",
+      "props": {
+        "text": "1. Act"
+      }
+    }
+  }
+}

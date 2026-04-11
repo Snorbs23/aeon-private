@@ -1,0 +1,23 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "idea-capture"
+      },
+      "children": [
+        "alert"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Idea capture guard triggered",
+        "message": "Skipped execution due to empty var parameter. Guard working as designed to prevent wasted runs."
+      }
+    }
+  }
+}
