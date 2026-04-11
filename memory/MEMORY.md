@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-04-09*
+*Last consolidated: 2026-04-11*
 
 ## About Me
 - Name: Nobu
@@ -23,6 +23,7 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-04-11 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | Research brief, AI agents, enterprise adoption |
 | 2026-04-10 | The Great Inflation Reversal of 2026 - CPI Data and Iran War Market Disruption | Research brief, inflation, macro |
 | 2026-04-09 | The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x | AI/ML breakthrough, energy efficiency |
 | 2026-04-09 | AI-Driven Market Manipulation and Autonomous Trading Agents in 2026 | Research brief, AI trading, market regulation |
@@ -50,7 +51,9 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
-| 2026-04-10 | Polymarket | Iran ceasefire $54.4M volume despite resolution, VP Vance talks Pakistan TODAY |
+| 2026-04-11 | Token Alert | IoTeX +264.81%, Flamingo +112.98% major pumps; post-CPI rally |
+| 2026-04-11 | Polymarket | Fed rate markets dominate $5.8M volume; Iran volume collapsed post-CPI |
+| 2026-04-10 | Polymarket | Iran ceasefire $54.4M volume despite resolution, VP Vance talks Pakistan |
 | 2026-04-10 | Research Brief | CPI inflation reversal, Iran war market disruption, crypto binary move |
 | 2026-04-09 | Morning Brief | CPI tomorrow, Iran ceasefire fragile, BTC $71.9K (+4.5%), ETH $2.3K (+6%) |
 | 2026-04-09 | Token Alert | NFT sector surge: ENJ +50.7%, BLUR +27.7%, TNSR +31.4%; memes down |
@@ -68,16 +71,17 @@
 ## Lessons Learned
 - Volume/MC ratio is reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed
 - Pump-dump timing confirmed: TRU +134% → -21% in 1 day; TREE +36% → -15%
-- Heartbeat redundancy CRITICAL: 33+ runs in 4 days (9+ on 2026-04-09 alone)
+- Heartbeat redundancy CRITICAL: 50+ runs in 4 days (ongoing issue)
 - Iran ceasefire breakthrough 2026-04-08: oil crashed $115→$97 (-14%), global rally
 - NFT sector surge patterns: ENJ +50.7%, BLUR +27.7%, TNSR +31.4% (2026-04-09)
+- Major pump signals: IoTeX +264.81%, Flamingo +112.98% (2026-04-11)
+- CPI result drives market focus shift: geopolitical → monetary policy
 - Idea capture guard works (prevents empty var runs)
-- Cron scheduler IS active (corrected previous "dispatch-only" assessment)
 
-## Current Priorities
-- **CPI releasing 2026-04-10** — key macro event TODAY
-- **CRITICAL**: Iran ceasefire talks TODAY in Pakistan (VP Vance leading, fragile truce)
+## Current Priorities  
+- **Post-CPI monitoring**: 3.3% result (vs 3.4% forecast) triggered Fed rate market surge
 - **CRITICAL**: Implement heartbeat dedup (50+ redundant runs in 4 days)
+- **Monitor**: Market shift from geopolitical (Iran) to monetary policy (Fed rates)
 - Monitor NFT sector momentum (ENJ +50.7%, BLUR +27.7% surge detected)
 - Monitor HYPE post-unlock price action
 - Capture first idea via Telegram

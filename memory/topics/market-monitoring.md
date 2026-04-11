@@ -18,17 +18,16 @@
 ## TradFi to Monitor
 - Gold, Oil (WTI), 10Y Bond Yield
 
-## Current Market Snapshot (2026-04-09)
-- **Core Crypto**: BTC $71,303 (-0.7%), ETH $2,184 (-3.2%), SOL $82.42 (-2.8%), HYPE $39.14 (-1.0%)
-- **TradFi**: Gold $4,777/oz, WTI Oil $97.21/bbl (+3% recovery), 10Y Yield 4.34%
-- **Market trend**: Risk-off in core crypto, rotation to NFT/gaming tokens
-- **Key driver**: CPI data due TOMORROW (2026-04-10)
+## Current Market Snapshot (2026-04-11)
+- **Core Crypto**: BTC $73,084 (+1.2%), ETH $2,251 (+2.5%), SOL $84.90 (+1.8%), HYPE $41.93 (+3.2%)
+- **TradFi**: Gold $4,758 (+0.3%), WTI Oil $99.16 (+1.1%), 10Y Yield 4.31%
+- **Market trend**: Post-CPI rally, continued strength across crypto
+- **Key driver**: CPI result 3.3% (vs 3.4% forecast) supportive for risk assets
 
-## Current Anomalies (2026-04-09)
-- **NFT/Gaming surge**: ENJ +50.7%, BLUR +27.7%, TNSR +31.4%
-- **Meme selloff**: FARTCOIN -14.0%, typical correction
-- **RED continued decline**: -16.6% (cooling from unlock rally)
-- **Oil context**: +3% recovery from $95 lows on ceasefire stability concerns
+## Current Anomalies (2026-04-11)
+- **Major pumps**: IoTeX +264.81% (massive spike), Flamingo +112.98% (significant pump)
+- **Previous NFT surge**: ENJ +50.7%, BLUR +27.7%, TNSR +31.4% (Apr 9)
+- **Market context**: Small altcoin volume spikes amid post-CPI optimism
 
 ## Historical Patterns Confirmed
 - **V/MC ratio**: TRU (13x), RED (4x), TREE (8.5x) all confirmed pump signals

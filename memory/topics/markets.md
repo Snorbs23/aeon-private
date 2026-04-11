@@ -4,20 +4,20 @@
 
 ### WTI Oil — Iran Crisis RESOLVED (FRAGILE)
 - **✅ RESOLVED:** US-Iran 2-week ceasefire announced 2026-04-08
-- **CRITICAL TODAY:** Ceasefire talks in Islamabad, Pakistan with VP Vance leading US delegation
+- **UPDATE:** Ceasefire talks with VP Vance completed in Pakistan (2026-04-10)
 - WTI Oil crashed 14% to $97/bbl on ceasefire news (from $115 peak)
 - Oil recovering to ~$97-100 range, markets showing some stability concerns
 - Global markets rallied: crypto +4-7%, Asian stocks +3-5%
 - **Status:** Fragile 2-week truce, critical negotiations underway TODAY
 - **Risk:** Any breakdown could spike oil back toward $115+, Polymarket shows $54.4M volume on ceasefire durability
 
-### CPI — 2026-04-10 (TODAY)
-- **CRITICAL:** CPI data releases TODAY (major macro catalyst)
-- Bloomberg Economics projects March CPI at 3.4% YoY (up from 2.4% in February)  
-- Oil shock impact may be limited due to ceasefire timing
-- Monitor for impact on rates and crypto risk appetite
+### CPI — RELEASED 2026-04-10
+- **RESULT:** March CPI came in at 3.3% YoY (vs 3.4% forecast, 2.4% previous)
+- **Market reaction:** Fed rate markets now dominate Polymarket volume ($5.8M+ total)
+- **Fed probabilities:** 97.9% no change, 1% for 25bp cut, 0.5% for 50bp+ cut
+- **Crypto impact:** Modest rally as inflation moderated vs expectations
+- **Key shift:** Market focus moved from geopolitical (Iran) to monetary policy (Fed rates)
 - **Context:** Research brief completed on inflation reversal and Iran war market disruption
-- **Expectation:** Lower oil prices may help moderate inflation prints going forward
 
 ## Recent Token Patterns (Apr 6-9)
 

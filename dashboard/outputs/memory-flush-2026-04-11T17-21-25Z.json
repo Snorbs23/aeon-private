@@ -1,0 +1,79 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "memory-flush",
+        "description": "Memory flush completed"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "promoted_heading",
+        "items_stack",
+        "summary_text"
+      ]
+    },
+    "promoted_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Items Promoted to Memory Topics",
+        "level": "h3"
+      }
+    },
+    "items_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_cpi",
+        "badge_ai",
+        "badge_tokens",
+        "badge_market"
+      ]
+    },
+    "badge_cpi": {
+      "type": "Badge",
+      "props": {
+        "text": "CPI result: 3.3%"
+      }
+    },
+    "badge_ai": {
+      "type": "Badge",
+      "props": {
+        "text": "AI agents research brief"
+      }
+    },
+    "badge_tokens": {
+      "type": "Badge",
+      "props": {
+        "text": "Major token anomalies: IoTeX +264.81%"
+      }
+    },
+    "badge_market": {
+      "type": "Badge",
+      "props": {
+        "text": "Market shift from geopolitical to Fed rate focus"
+      }
+    },
+    "summary_text": {
+      "type": "Text",
+      "props": {
+        "text": "Updated topics files and consolidated 2026-04-11 activities",
+        "variant": "muted"
+      }
+    }
+  }
+}
