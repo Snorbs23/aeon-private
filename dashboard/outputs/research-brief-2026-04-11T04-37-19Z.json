@@ -1,0 +1,236 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Research Brief: AI Agent Revolution"
+      },
+      "children": [
+        "intro",
+        "sep1",
+        "funding_section",
+        "sep2",
+        "adoption_section",
+        "sep3",
+        "breakthroughs_section",
+        "sep4",
+        "questions_section",
+        "sep5",
+        "file_link"
+      ]
+    },
+    "intro": {
+      "type": "Text",
+      "props": {
+        "text": "2026 marks the shift from agent pilots to production deployment. Key highlights:",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "funding_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "funding_heading",
+        "ami_stat",
+        "openai_round",
+        "openai_valuation",
+        "openai_revenue"
+      ]
+    },
+    "funding_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Massive Funding",
+        "level": "h3"
+      }
+    },
+    "ami_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "AMI Labs (Yann LeCun) – Seed for world models",
+        "value": "$1.03B"
+      }
+    },
+    "openai_round": {
+      "type": "Stat",
+      "props": {
+        "label": "OpenAI – Funding round",
+        "value": "$122B"
+      }
+    },
+    "openai_valuation": {
+      "type": "Stat",
+      "props": {
+        "label": "OpenAI – Valuation",
+        "value": "$852B"
+      }
+    },
+    "openai_revenue": {
+      "type": "Stat",
+      "props": {
+        "label": "OpenAI – Monthly revenue",
+        "value": "$2B"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "adoption_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "adoption_heading",
+        "adoption_apps",
+        "adoption_orgs",
+        "adoption_security"
+      ]
+    },
+    "adoption_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Enterprise Adoption",
+        "level": "h3"
+      }
+    },
+    "adoption_apps": {
+      "type": "Stat",
+      "props": {
+        "label": "Enterprise apps embedding agents by year-end",
+        "value": "40%"
+      }
+    },
+    "adoption_orgs": {
+      "type": "Stat",
+      "props": {
+        "label": "Organizations using agents in software development",
+        "value": "90%"
+      }
+    },
+    "adoption_security": {
+      "type": "Stat",
+      "props": {
+        "label": "Security ops manual effort reduction",
+        "value": "80–90%"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "breakthroughs_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "breakthroughs_heading",
+        "breakthrough1",
+        "breakthrough2",
+        "breakthrough3"
+      ]
+    },
+    "breakthroughs_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Breakthroughs",
+        "level": "h3"
+      }
+    },
+    "breakthrough1": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-agent orchestration & self-evolving systems"
+      }
+    },
+    "breakthrough2": {
+      "type": "Text",
+      "props": {
+        "text": "Physical AI: Atlas robot testing at Hyundai, Figure AI $1B raise"
+      }
+    },
+    "breakthrough3": {
+      "type": "Stat",
+      "props": {
+        "label": "Agent market: 2026 → 2034 (38× growth)",
+        "value": "$5.2B → $200B"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "questions_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "questions_heading",
+        "question_stack"
+      ]
+    },
+    "questions_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Questions",
+        "level": "h3"
+      }
+    },
+    "question_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "q1",
+        "q2",
+        "q3"
+      ]
+    },
+    "q1": {
+      "type": "Text",
+      "props": {
+        "text": "Reliability at scale"
+      }
+    },
+    "q2": {
+      "type": "Text",
+      "props": {
+        "text": "Governance frameworks"
+      }
+    },
+    "q3": {
+      "type": "Text",
+      "props": {
+        "text": "Labor market impact"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "file_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full research brief saved to articles/research-brief-2026-04-11.md",
+        "href": "articles/research-brief-2026-04-11.md"
+      }
+    }
+  }
+}
