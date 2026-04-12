@@ -1,0 +1,23 @@
+{
+  "root": "card_1",
+  "state": {},
+  "elements": {
+    "card_1": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert_1"
+      ]
+    },
+    "alert_1": {
+      "type": "Alert",
+      "props": {
+        "type": "error",
+        "title": "🚨 CRITICAL: Agent not autonomous - GitHub Actions workflow missing schedule triggers",
+        "message": "Aeon.yml defines 10+ scheduled skills but .github/workflows/aeon.yml has no cron triggers, preventing automatic execution. All skills currently manual-dispatch only."
+      }
+    }
+  }
+}
