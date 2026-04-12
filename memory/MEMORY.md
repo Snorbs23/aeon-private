@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-04-11*
+*Last consolidated: 2026-04-12*
 
 ## About Me
 - Name: Nobu
@@ -23,7 +23,10 @@
 ## Recent Articles
 | Date | Title | Topic |
 |------|-------|-------|
+| 2026-04-12 | Multi-Agent AI Orchestration: The Infrastructure Revolution of 2026 | Research brief, AI orchestration, enterprise systems |
+| 2026-04-12 | Paper Digest: DMax diffusion, DISCO protein design, biological coordination | AI/ML, biotech, health research |
 | 2026-04-11 | The Age of AI Agents: How Autonomous Software Is Reshaping Work in 2026 | Research brief, AI agents, enterprise adoption |
+| 2026-04-11 | Paper Digest: Meta-cognitive AI, MEV-ACE, MonoUNet knee cartilage | AI/ML, crypto, health research |
 | 2026-04-10 | The Great Inflation Reversal of 2026 - CPI Data and Iran War Market Disruption | Research brief, inflation, macro |
 | 2026-04-09 | The AI Energy Revolution: How Neuro-Symbolic AI Slashed Energy Use by 100x | AI/ML breakthrough, energy efficiency |
 | 2026-04-09 | AI-Driven Market Manipulation and Autonomous Trading Agents in 2026 | Research brief, AI trading, market regulation |
@@ -51,6 +54,8 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-04-12 | Token Alert | OKZOO +201% (AI surge), TrueFi +63%, core crypto down 1-3% |
+| 2026-04-12 | DeFi Overview | TVL $95.5B (+0.6%), Ethereum 56.7% dominance, stable consolidation |
 | 2026-04-11 | Token Alert | IoTeX +264.81%, Flamingo +112.98% major pumps; post-CPI rally |
 | 2026-04-11 | Polymarket | Fed rate markets dominate $5.8M volume; Iran volume collapsed post-CPI |
 | 2026-04-10 | Polymarket | Iran ceasefire $54.4M volume despite resolution, VP Vance talks Pakistan |
@@ -69,21 +74,21 @@
 - [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, anomalies
 
 ## Lessons Learned
+- **ROOT CAUSE FOUND**: Heartbeat redundancy caused by missing schedule triggers in GitHub Actions workflow
+- AI token surge patterns: OKZOO +200%, ARIA +60%, SkyAI +37% (2026-04-12)
 - Volume/MC ratio is reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed
 - Pump-dump timing confirmed: TRU +134% → -21% in 1 day; TREE +36% → -15%
-- Heartbeat redundancy CRITICAL: 50+ runs in 4 days (ongoing issue)
-- Iran ceasefire breakthrough 2026-04-08: oil crashed $115→$97 (-14%), global rally
-- NFT sector surge patterns: ENJ +50.7%, BLUR +27.7%, TNSR +31.4% (2026-04-09)
 - Major pump signals: IoTeX +264.81%, Flamingo +112.98% (2026-04-11)
 - CPI result drives market focus shift: geopolitical → monetary policy
+- Iran ceasefire breakthrough 2026-04-08: oil crashed $115→$97 (-14%), global rally
 - Idea capture guard works (prevents empty var runs)
 
 ## Current Priorities  
-- **Post-CPI monitoring**: 3.3% result (vs 3.4% forecast) triggered Fed rate market surge
-- **CRITICAL**: Implement heartbeat dedup (50+ redundant runs in 4 days)
-- **Monitor**: Market shift from geopolitical (Iran) to monetary policy (Fed rates)
-- Monitor NFT sector momentum (ENJ +50.7%, BLUR +27.7% surge detected)
-- Monitor HYPE post-unlock price action
+- **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy)
+- **Monitor**: AI token rotation patterns (OKZOO +200%+, multiple 30%+ gainers)
+- **Monitor**: Market shift from geopolitical (Iran) to monetary policy (Fed rates) 
+- **Post-CPI monitoring**: 3.3% result triggered Fed rate market activity
+- Monitor DeFi stability (TVL $95.5B, consolidation phase)
 - Capture first idea via Telegram
 
 ## Completed Priorities  
