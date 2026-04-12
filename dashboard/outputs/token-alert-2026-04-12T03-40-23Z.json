@@ -1,0 +1,575 @@
+{
+  "root": "main_card",
+  "state": {},
+  "elements": {
+    "main_card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-12"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section_core",
+        "sep1",
+        "section_anomalies",
+        "sep2",
+        "section_gainers",
+        "sep3",
+        "section_losers",
+        "sep4",
+        "section_tradfi",
+        "sep5",
+        "section_key"
+      ]
+    },
+    "section_core": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_core",
+        "btc_row",
+        "sol_row",
+        "eth_row",
+        "hype_row",
+        "gold_row"
+      ]
+    },
+    "h_core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h3"
+      }
+    },
+    "btc_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stat",
+        "btc_vol"
+      ]
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$71,685",
+        "delta": "-1.77%",
+        "trend": "down"
+      }
+    },
+    "btc_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $26.8B",
+        "variant": "muted"
+      }
+    },
+    "sol_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "sol_stat",
+        "sol_vol"
+      ]
+    },
+    "sol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$82.47",
+        "delta": "-2.78%",
+        "trend": "down"
+      }
+    },
+    "sol_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $2.8B",
+        "variant": "muted"
+      }
+    },
+    "eth_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "eth_stat",
+        "eth_vol"
+      ]
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,218",
+        "delta": "-1.23%",
+        "trend": "down"
+      }
+    },
+    "eth_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $15.0B",
+        "variant": "muted"
+      }
+    },
+    "hype_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "hype_stat",
+        "hype_vol"
+      ]
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$41.07",
+        "delta": "-1.76%",
+        "trend": "down"
+      }
+    },
+    "hype_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $238M",
+        "variant": "muted"
+      }
+    },
+    "gold_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "gold_stat"
+      ]
+    },
+    "gold_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,748",
+        "delta": "-0.37%",
+        "trend": "down"
+      }
+    },
+    "sep1": {
+      "type": "Separator"
+    },
+    "section_anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_anomalies",
+        "okzoo_anom",
+        "skyai_anom",
+        "truefi_anom",
+        "enjin_anom",
+        "dusk_anom",
+        "tradoor_anom",
+        "nomina_anom",
+        "falcon_anom"
+      ]
+    },
+    "h_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h3"
+      }
+    },
+    "okzoo_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "okzoo_anom_stat",
+        "okzoo_anom_note"
+      ]
+    },
+    "okzoo_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "OKZOO",
+        "value": "+201.47%",
+        "trend": "up"
+      }
+    },
+    "okzoo_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "massive pump + volume spike (175% vol/MC ratio)",
+        "variant": "caption"
+      }
+    },
+    "skyai_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "skyai_anom_stat",
+        "skyai_anom_note"
+      ]
+    },
+    "skyai_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SkyAI",
+        "value": "+56.91%",
+        "trend": "up"
+      }
+    },
+    "skyai_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "AI token surge",
+        "variant": "caption"
+      }
+    },
+    "truefi_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "truefi_anom_stat",
+        "truefi_anom_note"
+      ]
+    },
+    "truefi_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "TrueFi",
+        "value": "+47.28%",
+        "trend": "up"
+      }
+    },
+    "truefi_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi recovery",
+        "variant": "caption"
+      }
+    },
+    "enjin_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "enjin_anom_stat",
+        "enjin_anom_note"
+      ]
+    },
+    "enjin_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Enjin",
+        "value": "+14.74%",
+        "trend": "up"
+      }
+    },
+    "enjin_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "NFT/gaming momentum",
+        "variant": "caption"
+      }
+    },
+    "dusk_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dusk_anom_stat",
+        "dusk_anom_note"
+      ]
+    },
+    "dusk_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Dusk",
+        "value": "+15.21%",
+        "trend": "up"
+      }
+    },
+    "dusk_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "privacy coin pump",
+        "variant": "caption"
+      }
+    },
+    "tradoor_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tradoor_anom_stat",
+        "tradoor_anom_note"
+      ]
+    },
+    "tradoor_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Tradoor",
+        "value": "-23.14%",
+        "trend": "down"
+      }
+    },
+    "tradoor_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "sharp selloff",
+        "variant": "caption"
+      }
+    },
+    "nomina_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "nomina_anom_stat",
+        "nomina_anom_note"
+      ]
+    },
+    "nomina_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Nomina",
+        "value": "-15.46%",
+        "trend": "down"
+      }
+    },
+    "nomina_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "continued decline",
+        "variant": "caption"
+      }
+    },
+    "falcon_anom": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "falcon_anom_stat",
+        "falcon_anom_note"
+      ]
+    },
+    "falcon_anom_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Falcon Finance",
+        "value": "-13.95%",
+        "trend": "down"
+      }
+    },
+    "falcon_anom_note": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi rotation",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator"
+    },
+    "section_gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_gainers",
+        "gain_okzoo",
+        "gain_skyai",
+        "gain_truefi"
+      ]
+    },
+    "h_gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h3"
+      }
+    },
+    "gain_okzoo": {
+      "type": "Stat",
+      "props": {
+        "label": "OKZOO",
+        "value": "+201.47%",
+        "trend": "up"
+      }
+    },
+    "gain_skyai": {
+      "type": "Stat",
+      "props": {
+        "label": "SkyAI",
+        "value": "+56.91%",
+        "trend": "up"
+      }
+    },
+    "gain_truefi": {
+      "type": "Stat",
+      "props": {
+        "label": "TrueFi",
+        "value": "+47.28%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator"
+    },
+    "section_losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_losers",
+        "lose_tradoor",
+        "lose_nomina",
+        "lose_falcon"
+      ]
+    },
+    "h_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "lose_tradoor": {
+      "type": "Stat",
+      "props": {
+        "label": "Tradoor",
+        "value": "-23.14%",
+        "trend": "down"
+      }
+    },
+    "lose_nomina": {
+      "type": "Stat",
+      "props": {
+        "label": "Nomina",
+        "value": "-15.46%",
+        "trend": "down"
+      }
+    },
+    "lose_falcon": {
+      "type": "Stat",
+      "props": {
+        "label": "Falcon Finance",
+        "value": "-13.95%",
+        "trend": "down"
+      }
+    },
+    "sep4": {
+      "type": "Separator"
+    },
+    "section_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "h_tradfi",
+        "tradfi_gold",
+        "tradfi_oil",
+        "tradfi_yield"
+      ]
+    },
+    "h_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      }
+    },
+    "tradfi_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,748",
+        "delta": "-0.37%",
+        "trend": "down"
+      }
+    },
+    "tradfi_oil": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil",
+        "value": "$96.57",
+        "delta": "-0.46%",
+        "trend": "down"
+      }
+    },
+    "tradfi_yield": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Yield",
+        "value": "4.34%",
+        "delta": "+0.06%",
+        "trend": "up"
+      }
+    },
+    "sep5": {
+      "type": "Separator"
+    },
+    "section_key": {
+      "type": "Alert",
+      "props": {
+        "title": "Key",
+        "message": "OKZOO extreme speculation with $47M volume on $27M market cap. Core crypto down 1-3% amid rotation to speculative alts.",
+        "type": "warning"
+      }
+    }
+  }
+}
