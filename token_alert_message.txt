@@ -1,0 +1,37 @@
+Token Alert — 2026-04-12
+
+📈 Core Prices
+• BTC: $71,406 (-1.99%) Vol: $28.59B
+• ETH: $2,200 (-1.84%) Vol: $15.73B
+• SOL: $82.13 (-2.35%) Vol: $2.81B
+• HYPE: $40.56 (-4.01%) Vol: $236.45M
+• Gold: $4,759 (stable)
+
+🚨 Anomalies (10%+ moves)
+• OKZOO (AIOT): $0.0689 (+91.90%) — major spike
+• TRU: $0.0101 (+63.42%) — price surge
+• Aria.AI: $0.8675 (+60.75%) — AI token pump
+• Tradoor: $4.60 (+56.72%) — trading platform surge
+• SkyAI: $0.1342 (+36.92%) — AI sector momentum
+• ENJ: $0.0351 (+25.02%) — gaming/NFT revival
+• CTSI: $0.0344 (+18.18%) — infra pump
+• RAVE: $2.58 (+17.15%) — DAO token spike
+
+📈 Top Gainers (24h)
+• OKZOO: +91.90%
+• TRU: +63.42%
+• Aria.AI: +60.75%
+• Tradoor: +56.72%
+• SkyAI: +36.92%
+
+📉 Top Losers (24h)
+• EDGE: -8.47%
+• DASH: -8.16%
+• RNDR: -6.81%
+• MON: -6.62%
+• LIT: -4.41%
+
+📊 TradFi
+• Gold: $4,759 (stable at highs)
+• Oil (WTI): ~$95.5 (-2.35%)
+• 10Y Yield: 4.29-4.31% (steady)

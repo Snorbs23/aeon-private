@@ -1,0 +1,449 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-12"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_core",
+        "stack_core",
+        "sep_1",
+        "heading_anomalies",
+        "stack_anomalies",
+        "sep_2",
+        "heading_moves",
+        "stack_moves",
+        "sep_3",
+        "heading_tradfi",
+        "stack_tradfi"
+      ]
+    },
+    "heading_core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "stack_core": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "item_btc",
+        "item_eth",
+        "item_sol",
+        "item_hype",
+        "item_gold"
+      ]
+    },
+    "item_btc": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_btc",
+        "text_btc_vol"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$71,406",
+        "delta": "-1.99%",
+        "trend": "down"
+      }
+    },
+    "text_btc_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $28.59B",
+        "variant": "caption"
+      }
+    },
+    "item_eth": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_eth",
+        "text_eth_vol"
+      ]
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,200",
+        "delta": "-1.84%",
+        "trend": "down"
+      }
+    },
+    "text_eth_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $15.73B",
+        "variant": "caption"
+      }
+    },
+    "item_sol": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_sol",
+        "text_sol_vol"
+      ]
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$82.13",
+        "delta": "-2.35%",
+        "trend": "down"
+      }
+    },
+    "text_sol_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $2.81B",
+        "variant": "caption"
+      }
+    },
+    "item_hype": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_hype",
+        "text_hype_vol"
+      ]
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$40.56",
+        "delta": "-4.01%",
+        "trend": "down"
+      }
+    },
+    "text_hype_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $236.45M",
+        "variant": "caption"
+      }
+    },
+    "item_gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,759",
+        "delta": "stable",
+        "trend": "neutral"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "Anomalies (10%+ moves)",
+        "level": "h2"
+      }
+    },
+    "stack_anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anom_okzoo",
+        "anom_tru",
+        "anom_aria",
+        "anom_tradoor",
+        "anom_skyai",
+        "anom_enj"
+      ]
+    },
+    "anom_okzoo": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_okzoo",
+        "text_okzoo_desc"
+      ]
+    },
+    "stat_okzoo": {
+      "type": "Stat",
+      "props": {
+        "label": "OKZOO (AIOT)",
+        "value": "$0.0689",
+        "delta": "+91.90%",
+        "trend": "up"
+      }
+    },
+    "text_okzoo_desc": {
+      "type": "Text",
+      "props": {
+        "text": "major spike",
+        "variant": "caption"
+      }
+    },
+    "anom_tru": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_tru",
+        "text_tru_desc"
+      ]
+    },
+    "stat_tru": {
+      "type": "Stat",
+      "props": {
+        "label": "TRU",
+        "value": "$0.0101",
+        "delta": "+63.42%",
+        "trend": "up"
+      }
+    },
+    "text_tru_desc": {
+      "type": "Text",
+      "props": {
+        "text": "price surge",
+        "variant": "caption"
+      }
+    },
+    "anom_aria": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_aria",
+        "text_aria_desc"
+      ]
+    },
+    "stat_aria": {
+      "type": "Stat",
+      "props": {
+        "label": "Aria.AI",
+        "value": "$0.8675",
+        "delta": "+60.75%",
+        "trend": "up"
+      }
+    },
+    "text_aria_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI token pump",
+        "variant": "caption"
+      }
+    },
+    "anom_tradoor": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_tradoor",
+        "text_tradoor_desc"
+      ]
+    },
+    "stat_tradoor": {
+      "type": "Stat",
+      "props": {
+        "label": "Tradoor",
+        "value": "$4.60",
+        "delta": "+56.72%",
+        "trend": "up"
+      }
+    },
+    "text_tradoor_desc": {
+      "type": "Text",
+      "props": {
+        "text": "trading platform surge",
+        "variant": "caption"
+      }
+    },
+    "anom_skyai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_skyai",
+        "text_skyai_desc"
+      ]
+    },
+    "stat_skyai": {
+      "type": "Stat",
+      "props": {
+        "label": "SkyAI",
+        "value": "$0.1342",
+        "delta": "+36.92%",
+        "trend": "up"
+      }
+    },
+    "text_skyai_desc": {
+      "type": "Text",
+      "props": {
+        "text": "AI sector momentum",
+        "variant": "caption"
+      }
+    },
+    "anom_enj": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "xs"
+      },
+      "children": [
+        "stat_enj",
+        "text_enj_desc"
+      ]
+    },
+    "stat_enj": {
+      "type": "Stat",
+      "props": {
+        "label": "ENJ",
+        "value": "$0.0351",
+        "delta": "+25.02%",
+        "trend": "up"
+      }
+    },
+    "text_enj_desc": {
+      "type": "Text",
+      "props": {
+        "text": "gaming/NFT revival",
+        "variant": "caption"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_moves": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Gainers & Losers",
+        "level": "h2"
+      }
+    },
+    "stack_moves": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "text_gainers",
+        "text_losers"
+      ]
+    },
+    "text_gainers": {
+      "type": "Text",
+      "props": {
+        "text": "Top Gainers: OKZOO +91.90%, TRU +63.42%, Aria.AI +60.75%",
+        "variant": "body"
+      }
+    },
+    "text_losers": {
+      "type": "Text",
+      "props": {
+        "text": "Top Losers: EDGE -8.47%, DASH -8.16%, RNDR -6.81%",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "Traditional Finance",
+        "level": "h2"
+      }
+    },
+    "stack_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_gold_tf",
+        "stat_oil",
+        "stat_10y"
+      ]
+    },
+    "stat_gold_tf": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,759"
+      }
+    },
+    "stat_oil": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil",
+        "value": "$95.5",
+        "delta": "-2.35%",
+        "trend": "down"
+      }
+    },
+    "stat_10y": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Treasury",
+        "value": "4.29%"
+      }
+    }
+  }
+}
