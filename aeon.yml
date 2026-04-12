@@ -5,10 +5,10 @@
 skills:
   # --- 2 AM UTC (9 AM Bangkok) ---
   morning-brief: { enabled: true, schedule: "0 2 * * *" }
-  paper-digest: { enabled: true, schedule: "0 2 * * *" }
+  paper-digest: { enabled: false, schedule: "0 2 * * *" }
   token-alert: { enabled: true, schedule: "0 2 * * *" }
   # --- 4 AM UTC (11 AM Bangkok) ---
-  research-brief: { enabled: true, schedule: "0 4 * * *" }
+  research-brief: { enabled: false, schedule: "0 4 * * *" }
   # --- 9 AM UTC (4 PM Bangkok) ---
   token-alert-eve: { enabled: true, schedule: "0 9 * * *" }
   defi-overview: { enabled: true, schedule: "0 9 * * *" }
