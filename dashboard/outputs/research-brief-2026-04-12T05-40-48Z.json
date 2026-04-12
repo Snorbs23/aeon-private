@@ -1,0 +1,282 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Research Brief: The Orchestration Revolution"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "intro_text",
+        "market_sep",
+        "market_heading",
+        "market_stack",
+        "shift_sep",
+        "shift_heading",
+        "shift_stack",
+        "challenge_sep",
+        "challenge_heading",
+        "challenge_alert",
+        "technical_sep",
+        "technical_heading",
+        "technical_text",
+        "roi_sep",
+        "roi_heading",
+        "roi_stack",
+        "research_sep",
+        "research_heading",
+        "research_text",
+        "file_sep",
+        "file_link"
+      ]
+    },
+    "intro_text": {
+      "type": "Text",
+      "props": {
+        "text": "Multi-agent AI systems have hit an enterprise inflection point in 2026. Key findings:",
+        "variant": "lead"
+      }
+    },
+    "market_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "market_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Reality",
+        "level": "h2"
+      }
+    },
+    "market_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_72",
+        "stat_40",
+        "stat_market"
+      ]
+    },
+    "stat_72": {
+      "type": "Stat",
+      "props": {
+        "label": "Global 2000 deploying AI agents beyond pilots",
+        "value": "72%"
+      }
+    },
+    "stat_40": {
+      "type": "Stat",
+      "props": {
+        "label": "Enterprise apps to include agents by year-end",
+        "value": "40%"
+      }
+    },
+    "stat_market": {
+      "type": "Stat",
+      "props": {
+        "label": "Market growth projection by 2030",
+        "value": "$52B",
+        "delta": "From $7.8B"
+      }
+    },
+    "shift_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "shift_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "The Shift",
+        "level": "h2"
+      }
+    },
+    "shift_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "shift_text",
+        "stat_speed",
+        "stat_accuracy",
+        "stat_healthcare"
+      ]
+    },
+    "shift_text": {
+      "type": "Text",
+      "props": {
+        "text": "From generalist chatbots to specialized orchestration. Multi-agent systems deliver significant improvements:"
+      }
+    },
+    "stat_speed": {
+      "type": "Stat",
+      "props": {
+        "label": "Faster completion",
+        "value": "3x",
+        "trend": "up"
+      }
+    },
+    "stat_accuracy": {
+      "type": "Stat",
+      "props": {
+        "label": "Better accuracy",
+        "value": "60%",
+        "trend": "up"
+      }
+    },
+    "stat_healthcare": {
+      "type": "Stat",
+      "props": {
+        "label": "Healthcare adoption leading",
+        "value": "68%"
+      }
+    },
+    "challenge_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "challenge_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Critical Challenge",
+        "level": "h2"
+      }
+    },
+    "challenge_alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Production Failure Risk",
+        "message": "95% of AI initiatives still fail production due to orchestration complexity, not model limits. Over 40% of agentic projects risk failure by 2027.",
+        "type": "warning"
+      }
+    },
+    "technical_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "technical_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Technical Evolution",
+        "level": "h2"
+      }
+    },
+    "technical_text": {
+      "type": "Text",
+      "props": {
+        "text": "Emergence of standardized protocols (MCP, A2A) enabling agent coordination. Architecture focus shifts from single agents to orchestrated collectives."
+      }
+    },
+    "roi_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "roi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "ROI Evidence",
+        "level": "h2"
+      }
+    },
+    "roi_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "roi_text",
+        "stat_processing_speed",
+        "stat_underwriting",
+        "stat_dev_time"
+      ]
+    },
+    "roi_text": {
+      "type": "Text",
+      "props": {
+        "text": "Financial services and software engineering showing strong ROI metrics:"
+      }
+    },
+    "stat_processing_speed": {
+      "type": "Stat",
+      "props": {
+        "label": "Financial services processing speed improvement",
+        "value": "20x",
+        "trend": "up"
+      }
+    },
+    "stat_underwriting": {
+      "type": "Stat",
+      "props": {
+        "label": "Underwriting accuracy",
+        "value": "95%"
+      }
+    },
+    "stat_dev_time": {
+      "type": "Stat",
+      "props": {
+        "label": "Software engineering dev time reduction",
+        "value": "50%",
+        "trend": "up"
+      }
+    },
+    "research_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "research_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Research Highlights",
+        "level": "h2"
+      }
+    },
+    "research_text": {
+      "type": "Text",
+      "props": {
+        "text": "Recent arXiv papers establish orchestration layer as reliability foundation. Success depends on coordination sophistication, not just model capability."
+      }
+    },
+    "file_sep": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "file_link": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Full brief saved: articles/research-brief-2026-04-12.md",
+        "href": "articles/research-brief-2026-04-12.md",
+        "source": "Research Brief"
+      }
+    }
+  }
+}
