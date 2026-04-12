@@ -10,7 +10,7 @@ skills:
   # --- 4 AM UTC (11 AM Bangkok) ---
   research-brief: { enabled: false, schedule: "0 4 * * *" }
   # --- 9 AM UTC (4 PM Bangkok) ---
-  token-alert-eve: { enabled: true, schedule: "0 9 * * *" }
+  token-alert: { enabled: true, schedule: "0 9 * * *" }
   defi-overview: { enabled: true, schedule: "0 9 * * *" }
   # --- 12 PM UTC (7 PM Bangkok) ---
   idea-capture: { enabled: true, schedule: "0 12 * * *" }
