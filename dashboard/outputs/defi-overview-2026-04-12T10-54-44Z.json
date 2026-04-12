@@ -1,0 +1,300 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Anomalies",
+        "description": "2026-04-12"
+      },
+      "children": [
+        "tvl-stat",
+        "sep1",
+        "chains-section",
+        "sep2",
+        "dex-section",
+        "sep3",
+        "protocols-section",
+        "sep4",
+        "yields-section",
+        "sep5",
+        "assessment-section"
+      ]
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL",
+        "value": "$95.5B",
+        "delta": "+0.6%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "chains-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chains-heading",
+        "chains-content"
+      ]
+    },
+    "chains-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Chain Dominance",
+        "level": "h3"
+      }
+    },
+    "chains-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "eth-stat",
+        "sol-stat",
+        "bsc-stat",
+        "base-stat"
+      ]
+    },
+    "eth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Ethereum",
+        "value": "$54.2B",
+        "delta": "56.7% (down from 57%)"
+      }
+    },
+    "sol-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Solana",
+        "value": "$5.7B",
+        "delta": "stable"
+      }
+    },
+    "bsc-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BSC",
+        "value": "$5.4B",
+        "delta": "stable"
+      }
+    },
+    "base-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Base",
+        "value": "$4.3B",
+        "delta": "growing"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "dex-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "dex-heading",
+        "dex-content"
+      ]
+    },
+    "dex-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "DEX Activity",
+        "level": "h3"
+      }
+    },
+    "dex-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "dex-volume-stat",
+        "dex-note"
+      ]
+    },
+    "dex-volume-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "24h Volume",
+        "value": "$4.4B",
+        "delta": "-18.75%",
+        "trend": "down"
+      }
+    },
+    "dex-note": {
+      "type": "Text",
+      "props": {
+        "text": "Volume decline suggests lower trading activity",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "protocols-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "protocols-heading",
+        "protocols-content"
+      ]
+    },
+    "protocols-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Protocols",
+        "level": "h3"
+      }
+    },
+    "protocols-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "cex-stat",
+        "aave-stat",
+        "lido-stat"
+      ]
+    },
+    "cex-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Binance CEX",
+        "value": "$149B"
+      }
+    },
+    "aave-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Aave V3",
+        "value": "$24.9B"
+      }
+    },
+    "lido-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Lido",
+        "value": "$20.9B"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "yields-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yields-heading",
+        "yields-content"
+      ]
+    },
+    "yields-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Yields",
+        "level": "h3"
+      }
+    },
+    "yields-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "lido-steth-stat",
+        "sky-dollar-stat",
+        "maple-stat"
+      ]
+    },
+    "lido-steth-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Lido STETH",
+        "value": "2.37% APY"
+      }
+    },
+    "sky-dollar-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Sky Dollar (sUSDS)",
+        "value": "3.75% APY"
+      }
+    },
+    "maple-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Maple USDC",
+        "value": "4.18% APY"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "assessment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "assessment-heading",
+        "assessment-text"
+      ]
+    },
+    "assessment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "assessment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Stable DeFi market with minimal TVL growth. No major anomalies detected - all chains within normal ranges. DEX volume decline suggests consolidation phase.",
+        "variant": "body"
+      }
+    }
+  }
+}
