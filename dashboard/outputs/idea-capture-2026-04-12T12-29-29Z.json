@@ -1,0 +1,48 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "idea-capture"
+      },
+      "children": [
+        "stack_content"
+      ]
+    },
+    "stack_content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_status",
+        "text_waiting",
+        "alert_guard"
+      ]
+    },
+    "text_status": {
+      "type": "Text",
+      "props": {
+        "text": "Idea Capture triggered but no idea provided (var empty).",
+        "variant": "body"
+      }
+    },
+    "text_waiting": {
+      "type": "Text",
+      "props": {
+        "text": "Waiting for first idea via Telegram.",
+        "variant": "lead"
+      }
+    },
+    "alert_guard": {
+      "type": "Alert",
+      "props": {
+        "message": "Guard mechanism working correctly to prevent empty captures",
+        "type": "info"
+      }
+    }
+  }
+}
