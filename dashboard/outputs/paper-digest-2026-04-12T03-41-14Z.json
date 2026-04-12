@@ -1,0 +1,262 @@
+{
+  "root": "card-root",
+  "state": {},
+  "elements": {
+    "card-root": {
+      "type": "Card",
+      "props": {
+        "title": "Paper Digest — April 12, 2026"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-ai",
+        "sep-1",
+        "section-biotech",
+        "sep-2",
+        "section-health",
+        "sep-3",
+        "section-crypto",
+        "sep-4",
+        "text-footer"
+      ]
+    },
+    "section-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-ai",
+        "paper-1",
+        "paper-2"
+      ]
+    },
+    "heading-ai": {
+      "type": "Heading",
+      "props": {
+        "text": "AI & ML",
+        "level": "h2"
+      }
+    },
+    "paper-1": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-1",
+        "story-1"
+      ]
+    },
+    "badge-1": {
+      "type": "Badge",
+      "props": {
+        "text": "1"
+      }
+    },
+    "story-1": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DMax: Aggressive Parallel Decoding for dLLMs",
+        "href": "articles/paper-digest-2026-04-12.md",
+        "score": "Breakthrough in diffusion model efficiency enabling truly parallel generation"
+      }
+    },
+    "paper-2": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-2",
+        "story-2"
+      ]
+    },
+    "badge-2": {
+      "type": "Badge",
+      "props": {
+        "text": "2"
+      }
+    },
+    "story-2": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Human-LLM Collaborative Archetypes",
+        "href": "articles/paper-digest-2026-04-12.md",
+        "score": "Frameworks for optimal human-AI decision-making partnerships"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-biotech": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-biotech",
+        "paper-3"
+      ]
+    },
+    "heading-biotech": {
+      "type": "Heading",
+      "props": {
+        "text": "Biotech",
+        "level": "h2"
+      }
+    },
+    "paper-3": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-3",
+        "story-3"
+      ]
+    },
+    "badge-3": {
+      "type": "Badge",
+      "props": {
+        "text": "3"
+      }
+    },
+    "story-3": {
+      "type": "StoryLink",
+      "props": {
+        "title": "DISCO: Multimodal Protein Design",
+        "href": "articles/paper-digest-2026-04-12.md",
+        "score": "First AI system creating novel heme enzymes for new-to-nature chemistry"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-health",
+        "paper-4"
+      ]
+    },
+    "heading-health": {
+      "type": "Heading",
+      "props": {
+        "text": "Health & Longevity",
+        "level": "h2"
+      }
+    },
+    "paper-4": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-4",
+        "story-4"
+      ]
+    },
+    "badge-4": {
+      "type": "Badge",
+      "props": {
+        "text": "4"
+      }
+    },
+    "story-4": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Biological Coordination in Aging",
+        "href": "articles/paper-digest-2026-04-12.md",
+        "score": "Paradigm shift from \"fixing aging\" to preserving system coordination"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-crypto",
+        "paper-5"
+      ]
+    },
+    "heading-crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "Crypto & Web3",
+        "level": "h2"
+      }
+    },
+    "paper-5": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "badge-5",
+        "story-5"
+      ]
+    },
+    "badge-5": {
+      "type": "Badge",
+      "props": {
+        "text": "5"
+      }
+    },
+    "story-5": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Regulatory Frameworks for Decentralized Tech",
+        "href": "articles/paper-digest-2026-04-12.md",
+        "score": "Governance solutions for Web3 mainstream adoption"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text-footer": {
+      "type": "Text",
+      "props": {
+        "text": "Full digest covers system-level approaches across domains, saved to articles/paper-digest-2026-04-12.md",
+        "variant": "caption"
+      }
+    }
+  }
+}
