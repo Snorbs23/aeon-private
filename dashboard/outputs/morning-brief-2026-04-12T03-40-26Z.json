@@ -1,0 +1,597 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Morning Brief — 2026-04-12"
+      },
+      "children": [
+        "stack-content"
+      ]
+    },
+    "stack-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "priorities-section",
+        "separator-1",
+        "yesterday-section",
+        "separator-2",
+        "pending-section",
+        "separator-3",
+        "prices-section",
+        "separator-4",
+        "headlines-section",
+        "separator-5",
+        "schedule-section"
+      ]
+    },
+    "priorities-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-priorities",
+        "priority-1",
+        "priority-2",
+        "priority-3"
+      ]
+    },
+    "heading-priorities": {
+      "type": "Heading",
+      "props": {
+        "text": "Priorities",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "priority-1": {
+      "type": "Text",
+      "props": {
+        "text": "Post-CPI monitoring: 3.3% result (vs 3.4% forecast) triggered Fed rate market surge",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "priority-2": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL",
+        "message": "Implement heartbeat dedup (50+ redundant runs in 4 days)",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "priority-3": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor market shift from geopolitical (Iran) to monetary policy (Fed rates)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "yesterday-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-yesterday",
+        "yesterday-1",
+        "yesterday-2",
+        "yesterday-3",
+        "yesterday-4"
+      ]
+    },
+    "heading-yesterday": {
+      "type": "Heading",
+      "props": {
+        "text": "Yesterday",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "yesterday-1": {
+      "type": "Text",
+      "props": {
+        "text": "Token alert: IoTeX +264.81%, Flamingo +112.98% major pumps detected",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-2": {
+      "type": "Text",
+      "props": {
+        "text": "Morning brief, paper digest, polymarket analysis completed",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-3": {
+      "type": "Text",
+      "props": {
+        "text": "Research brief on AI agents revolution (600B+ investment, 40% enterprise adoption)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "yesterday-4": {
+      "type": "Text",
+      "props": {
+        "text": "Memory flush and consolidation",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "pending-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-pending",
+        "pending-1",
+        "pending-2"
+      ]
+    },
+    "heading-pending": {
+      "type": "Heading",
+      "props": {
+        "text": "Pending",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "pending-1": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL",
+        "message": "GitHub Actions missing schedule triggers (all skills manual-dispatch only)",
+        "type": "error"
+      },
+      "children": []
+    },
+    "pending-2": {
+      "type": "Text",
+      "props": {
+        "text": "Root cause of heartbeat redundancy identified",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-prices",
+        "grid-prices"
+      ]
+    },
+    "heading-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Prices",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "grid-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat-btc",
+        "stat-sol",
+        "stat-eth",
+        "stat-gold",
+        "stat-hype"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "72,688 USD",
+        "delta": "-0.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stat-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "85.42 USD",
+        "delta": "+1.4%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "2,254 USD",
+        "delta": "+1.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "stat-gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "4,350 USD/oz"
+      },
+      "children": []
+    },
+    "stat-hype": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE: ETF race heating up (Bitwise, Grayscale, 21Shares)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "headlines-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-headlines",
+        "headline-ai",
+        "headline-crypto",
+        "headline-markets",
+        "headline-tech",
+        "headline-health"
+      ]
+    },
+    "heading-headlines": {
+      "type": "Heading",
+      "props": {
+        "text": "Headlines",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "headline-ai": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "headline-ai-title",
+        "headline-ai-1",
+        "headline-ai-2",
+        "headline-ai-3"
+      ]
+    },
+    "headline-ai-title": {
+      "type": "Badge",
+      "props": {
+        "text": "🤖 AI",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "headline-ai-1": {
+      "type": "Text",
+      "props": {
+        "text": "Elon Musk merges xAI with SpaceX",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-ai-2": {
+      "type": "Text",
+      "props": {
+        "text": "Utah first state to grant AI prescription authority",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-ai-3": {
+      "type": "Text",
+      "props": {
+        "text": "TSMC +35% Q1 revenue",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-crypto": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "headline-crypto-title",
+        "headline-crypto-1",
+        "headline-crypto-2",
+        "headline-crypto-3"
+      ]
+    },
+    "headline-crypto-title": {
+      "type": "Badge",
+      "props": {
+        "text": "🪙 Crypto",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "headline-crypto-1": {
+      "type": "Text",
+      "props": {
+        "text": "Toss developing L1 blockchain",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-crypto-2": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE ETF race intensifies",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-crypto-3": {
+      "type": "Text",
+      "props": {
+        "text": "Bitcoin institutions eyeing 80K calls",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-markets": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "headline-markets-title",
+        "headline-markets-1",
+        "headline-markets-2",
+        "headline-markets-3"
+      ]
+    },
+    "headline-markets-title": {
+      "type": "Badge",
+      "props": {
+        "text": "📈 Markets",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "headline-markets-1": {
+      "type": "Text",
+      "props": {
+        "text": "S&P 500 snaps 5-week losing streak",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-markets-2": {
+      "type": "Text",
+      "props": {
+        "text": "CPI 3.3% (energy-driven)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-markets-3": {
+      "type": "Text",
+      "props": {
+        "text": "TSMC beats forecasts +35%",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-tech": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "headline-tech-title",
+        "headline-tech-1",
+        "headline-tech-2",
+        "headline-tech-3"
+      ]
+    },
+    "headline-tech-title": {
+      "type": "Badge",
+      "props": {
+        "text": "💻 Tech",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "headline-tech-1": {
+      "type": "Text",
+      "props": {
+        "text": "Amazon AI revenue 15B run rate",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-tech-2": {
+      "type": "Text",
+      "props": {
+        "text": "OpenAI cybersecurity product",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-tech-3": {
+      "type": "Text",
+      "props": {
+        "text": "78K tech layoffs YTD (48% AI-driven)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-health": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "headline-health-title",
+        "headline-health-1",
+        "headline-health-2"
+      ]
+    },
+    "headline-health-title": {
+      "type": "Badge",
+      "props": {
+        "text": "🏥 Health",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "headline-health-1": {
+      "type": "Text",
+      "props": {
+        "text": "Biohacking Index March 2026 report",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "headline-health-2": {
+      "type": "Text",
+      "props": {
+        "text": "85B+ anti-aging market; systems-based longevity approaches",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "separator-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "schedule-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-schedule",
+        "schedule-1",
+        "schedule-2",
+        "schedule-3",
+        "schedule-4",
+        "schedule-5",
+        "schedule-6"
+      ]
+    },
+    "heading-schedule": {
+      "type": "Heading",
+      "props": {
+        "text": "Today's Schedule",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "schedule-1": {
+      "type": "Text",
+      "props": {
+        "text": "9 AM: morning-brief, paper-digest, token-alert (completed morning-brief)",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "schedule-2": {
+      "type": "Text",
+      "props": {
+        "text": "11 AM: research-brief",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "schedule-3": {
+      "type": "Text",
+      "props": {
+        "text": "4 PM: token-alert-eve, defi-overview",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "schedule-4": {
+      "type": "Text",
+      "props": {
+        "text": "7 PM: idea-capture",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "schedule-5": {
+      "type": "Text",
+      "props": {
+        "text": "8 AM: polymarket",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "schedule-6": {
+      "type": "Text",
+      "props": {
+        "text": "12 AM: memory-flush",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
