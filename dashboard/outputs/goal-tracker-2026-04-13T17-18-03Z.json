@@ -1,0 +1,215 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Goal Tracker — 2026-04-13"
+      },
+      "children": [
+        "main_stack"
+      ]
+    },
+    "main_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "on_track_heading",
+        "on_track_stack",
+        "sep1",
+        "completed_heading",
+        "completed_stack",
+        "sep2",
+        "stalled_heading",
+        "stalled_stack",
+        "sep3",
+        "blocked_heading",
+        "blocked_stack"
+      ]
+    },
+    "on_track_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "On Track",
+        "level": "h3"
+      }
+    },
+    "on_track_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "on_track_1",
+        "on_track_2",
+        "on_track_3",
+        "on_track_4",
+        "on_track_5"
+      ]
+    },
+    "on_track_1": {
+      "type": "Text",
+      "props": {
+        "text": "AI token monitoring: OKZOO +201%, ARIA +60%, daily tracking active"
+      }
+    },
+    "on_track_2": {
+      "type": "Text",
+      "props": {
+        "text": "Market shift monitoring: Iran→Fed transition confirmed, rate markets tracked"
+      }
+    },
+    "on_track_3": {
+      "type": "Text",
+      "props": {
+        "text": "DeFi stability: Daily overviews showing TVL ~95B consolidation"
+      }
+    },
+    "on_track_4": {
+      "type": "Text",
+      "props": {
+        "text": "HYPE tracking: 41.60 (+2.48%), post-unlock monitoring active"
+      }
+    },
+    "on_track_5": {
+      "type": "Text",
+      "props": {
+        "text": "Iran ceasefire: Oil 105 (+8%) on blockade tensions, stability tracked"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "completed_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Completed",
+        "level": "h3"
+      }
+    },
+    "completed_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "completed_1",
+        "completed_2",
+        "completed_3"
+      ]
+    },
+    "completed_1": {
+      "type": "Text",
+      "props": {
+        "text": "Post-CPI monitoring: 3.3% result analyzed 2026-04-10, Fed rate impact tracked"
+      }
+    },
+    "completed_2": {
+      "type": "Text",
+      "props": {
+        "text": "Guard idea-capture: Working since 2026-04-08, prevents empty runs"
+      }
+    },
+    "completed_3": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor CPI print: Released 2026-04-10, comprehensive analysis completed"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stalled_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Stalled",
+        "level": "h3"
+      }
+    },
+    "stalled_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stalled_1",
+        "stalled_2",
+        "stalled_3",
+        "stalled_4"
+      ]
+    },
+    "stalled_1": {
+      "type": "Text",
+      "props": {
+        "text": "Fix GitHub Actions workflow: Critical issue identified 2026-04-12, no fix attempt"
+      }
+    },
+    "stalled_2": {
+      "type": "Text",
+      "props": {
+        "text": "Heartbeat dedup check: Still 50+ redundant runs, continues through 2026-04-13"
+      }
+    },
+    "stalled_3": {
+      "type": "Text",
+      "props": {
+        "text": "Morning-brief dedup: Still running multiple times daily"
+      }
+    },
+    "stalled_4": {
+      "type": "Text",
+      "props": {
+        "text": "Capture first idea: Guards work but no actual ideas received via Telegram"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "blocked_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Blocked",
+        "level": "h3"
+      }
+    },
+    "blocked_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "blocked_1",
+        "blocked_2"
+      ]
+    },
+    "blocked_1": {
+      "type": "Text",
+      "props": {
+        "text": "Add weekly-review/rss-digest to cron: Requires workflow scheduler fix first"
+      }
+    },
+    "blocked_2": {
+      "type": "Text",
+      "props": {
+        "text": "Add schedule cron trigger: Same as workflow fix - highest priority blocker"
+      }
+    }
+  }
+}

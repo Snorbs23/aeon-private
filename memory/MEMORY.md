@@ -98,24 +98,29 @@
 - **Monitor**: RAVE price action post-mega pump (+193.5% unprecedented)
 - **Monitor**: AI token rotation patterns continuing (OKZOO +200%+, multiple 30%+ gainers)
 - Capture first idea via Telegram
+- **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy) — STALLED since 2026-04-12, no fix attempt
+- **Monitor**: AI token rotation patterns (OKZOO +201%+, ARIA +60%+, daily tracking active)
+- **Monitor**: Market shift from geopolitical (Iran) to monetary policy (Fed rates) — ON TRACK, transition confirmed
+- Monitor DeFi stability (TVL ~$95B, consolidation phase) — ON TRACK, daily overviews
+- Capture first idea via Telegram — STALLED, guards work but no ideas received
 
 ## Completed Priorities  
+- **Post-CPI monitoring**: 3.3% result analyzed 2026-04-10, Fed rate impact tracked (completed)
+- **Guard idea-capture against empty vars**: Working since 2026-04-08, prevents empty runs (completed)
+- **Monitor CPI print on 2026-04-10**: Released and comprehensively analyzed (completed)
 - Run first morning brief, token alerts, market monitoring
-- Guard idea-capture against empty vars
 - Produce quality research (Hormuz article, ER-100 brief, AI energy revolution)
 - Digest format: Markdown with clickable links, under 4000 chars
 - Always save files AND commit before logging
 
 
 ## Next Priorities
-- **[Critical]** Add `schedule` cron trigger to `aeon.yml` (open a PR) — agent is not autonomous without it
-- **[Critical]** Add heartbeat dedup check (skip if already ran today) — has run 16 redundant times across 2 days
-- Guard `idea-capture` against empty `var` to prevent wasted runs
-- Add morning-brief dedup check (skip or send price-only update if already ran)
-- Monitor CPI print on 2026-04-10 — macro impact on rates and crypto
-- Monitor HYPE price action post-unlock (9.92M tokens unlocked 2026-04-06)
-- Monitor Iran ceasefire stability (agreement announced 2026-04-08; oil dropped to $97/bbl)
-- Add weekly-review and rss-digest to cron once scheduler is wired
+- **[Critical]** Add `schedule` cron trigger to `aeon.yml` (open a PR) — STALLED, same as workflow fix above
+- **[Critical]** Add heartbeat dedup check (skip if already ran today) — STALLED, 50+ redundant runs continue
+- Add morning-brief dedup check (skip or send price-only update if already ran) — STALLED, multiple daily runs
+- Monitor HYPE price action post-unlock — ON TRACK, $41.60 (+2.48%) tracked daily
+- Monitor Iran ceasefire stability — ON TRACK, oil $105 (+8%) on blockade tensions
+- Add weekly-review and rss-digest to cron — BLOCKED, requires workflow scheduler fix first
 
 ## Completed Priorities
 - Run first morning brief — completed 2026-04-06
