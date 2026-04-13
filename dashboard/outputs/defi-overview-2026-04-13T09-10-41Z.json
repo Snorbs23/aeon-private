@@ -1,0 +1,215 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Overview — 2026-04-13"
+      },
+      "children": [
+        "stat_tvl",
+        "separator_1",
+        "heading_chains",
+        "table_chains",
+        "separator_2",
+        "stat_dex",
+        "separator_3",
+        "heading_protocols",
+        "text_protocols",
+        "separator_4",
+        "heading_yields",
+        "table_yields",
+        "separator_5",
+        "heading_stables",
+        "table_stables",
+        "separator_6",
+        "heading_assessment",
+        "text_assessment"
+      ]
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL (from $95.5B yesterday)",
+        "value": "$94.9B",
+        "delta": "-0.6%",
+        "trend": "down"
+      }
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_chains": {
+      "type": "Heading",
+      "props": {
+        "text": "Chain Dominance",
+        "level": "h3"
+      }
+    },
+    "table_chains": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL",
+          "Dominance",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$53.6B",
+            "56.5%",
+            "-1.1%"
+          ],
+          [
+            "Solana",
+            "$5.7B",
+            "6.0%",
+            "stable"
+          ],
+          [
+            "BSC",
+            "$5.4B",
+            "5.7%",
+            "stable"
+          ],
+          [
+            "Tron",
+            "$5.0B",
+            "5.3%",
+            "—"
+          ],
+          [
+            "Base",
+            "$4.3B",
+            "4.5%",
+            "—"
+          ]
+        ]
+      }
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Activity (24h volume)",
+        "value": "$4.75B",
+        "delta": "+8.0%",
+        "trend": "up"
+      }
+    },
+    "separator_3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_protocols": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Protocols",
+        "level": "h3"
+      }
+    },
+    "text_protocols": {
+      "type": "Text",
+      "props": {
+        "text": "Binance CEX $149B • Aave V3 • Lido staking dominant"
+      }
+    },
+    "separator_4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_yields": {
+      "type": "Heading",
+      "props": {
+        "text": "Yield Landscape",
+        "level": "h3"
+      }
+    },
+    "table_yields": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "APY",
+          "TVL"
+        ],
+        "rows": [
+          [
+            "Lido STETH",
+            "2.36%",
+            "$20.6B"
+          ],
+          [
+            "Sky Dollar",
+            "3.75%",
+            "$6.5B"
+          ],
+          [
+            "Maple USDC",
+            "4.18%",
+            "$3.5B"
+          ],
+          [
+            "Ethena sUSDe",
+            "3.59%",
+            "$3.4B"
+          ]
+        ]
+      }
+    },
+    "separator_5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_stables": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoins",
+        "level": "h3"
+      }
+    },
+    "table_stables": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Stablecoin",
+          "Supply"
+        ],
+        "rows": [
+          [
+            "USDT",
+            "$184.4B"
+          ],
+          [
+            "USDC",
+            "$78.7B"
+          ]
+        ]
+      }
+    },
+    "separator_6": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_assessment": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "text_assessment": {
+      "type": "Text",
+      "props": {
+        "text": "Minor TVL contraction (-0.6%) with DEX volume recovery. No major anomalies or 10%+ protocol movements detected. Stable consolidation continues with Ethereum maintaining ~56% dominance."
+      }
+    }
+  }
+}
