@@ -1,0 +1,193 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Self Review",
+        "description": "2026-04-13"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "quality-group",
+        "sep1",
+        "reliability-group",
+        "sep2",
+        "actions-group",
+        "sep3",
+        "recommendations-group"
+      ]
+    },
+    "quality-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "quality-heading",
+        "quality-row"
+      ]
+    },
+    "quality-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Quality",
+        "level": "h2"
+      }
+    },
+    "quality-row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "md"
+      },
+      "children": [
+        "quality-badge",
+        "quality-desc"
+      ]
+    },
+    "quality-badge": {
+      "type": "Badge",
+      "props": {
+        "text": "A+",
+        "variant": "default"
+      }
+    },
+    "quality-desc": {
+      "type": "Text",
+      "props": {
+        "text": "excellent research articles, accurate market analysis",
+        "variant": "body"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "reliability-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reliability-heading",
+        "reliability-stat",
+        "reliability-desc"
+      ]
+    },
+    "reliability-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Reliability",
+        "level": "h2"
+      }
+    },
+    "reliability-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Skills running",
+        "value": "7/10+"
+      }
+    },
+    "reliability-desc": {
+      "type": "Text",
+      "props": {
+        "text": "guards working, schedule triggers still missing",
+        "variant": "caption"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "actions-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "actions-heading",
+        "actions-text"
+      ]
+    },
+    "actions-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Actions Taken",
+        "level": "h2"
+      }
+    },
+    "actions-text": {
+      "type": "Text",
+      "props": {
+        "text": "Confirmed content quality maintained, identified persistent infrastructure gap",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "recommendations-group": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "recommendations-heading",
+        "rec-critical",
+        "rec-2",
+        "rec-3"
+      ]
+    },
+    "recommendations-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Recommendations",
+        "level": "h2"
+      }
+    },
+    "rec-critical": {
+      "type": "Alert",
+      "props": {
+        "title": "CRITICAL",
+        "message": "Add schedule triggers to GitHub workflow (4 days overdue)",
+        "type": "warning"
+      }
+    },
+    "rec-2": {
+      "type": "Text",
+      "props": {
+        "text": "Fix duplicate token-alert keys in aeon.yml",
+        "variant": "body"
+      }
+    },
+    "rec-3": {
+      "type": "Text",
+      "props": {
+        "text": "Monitor execution efficiency post-schedule restoration",
+        "variant": "body"
+      }
+    }
+  }
+}
