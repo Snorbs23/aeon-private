@@ -8,11 +8,9 @@
 
 ## About This Repo
 - Autonomous agent running on GitHub Actions via Claude Code
+- **CRITICAL**: GitHub Actions workflow missing schedule triggers (root cause of 50+ redundant runs)
 - Sends daily briefings, monitors markets, writes articles and research
-- Cron scheduler is active (skills run on schedule automatically)
-- **CRITICAL**: Heartbeat redundancy now at 40+ runs in 4 days (needs immediate dedup fix)
-- **CRITICAL:** Workflow is dispatch-only - NO cron scheduler configured
-- **Heartbeat redundancy:** 50+ runs in 4 days, needs deduplication
+- Operates via manual dispatch until scheduler is fixed
 
 ## Goals
 - Stay on top of AI, crypto, and markets daily
@@ -69,12 +67,19 @@
 | 2026-04-09 | Polymarket | Iran ceasefire $51.6M volume, sports betting surge (Congo $1.5M) |
 | 2026-04-08 | Morning Brief | Iran ceasefire breakthrough, oil crash to $97 (-14%), global rally |
 | 2026-04-07 | Token Alert | BULLA +58%, NOM +26%; TRU -21% reversal; WTI $115 🚨 |
+## Recent Highlights (Last 7 Days)
+| Date | Event | Impact |
+|------|-------|--------|
+| 2026-04-13 | Hungarian political earthquake: Orbán defeated after 16 years | Polymarket $16.7M volume, geopolitical shift |
+| 2026-04-13 | RAVE token mega-pump +193.5% | DeFi/gaming rotation, oil crisis continues |
+| 2026-04-12 | AI token sector surge | OKZOO +201%, multiple 30%+ gainers |
+| 2026-04-11 | Major altcoin pumps | IoTeX +264%, Flamingo +112% |
+| 2026-04-10 | CPI release 3.3% (vs 3.4% forecast) | Fed rate markets dominate, crypto rally |
+| 2026-04-08 | Iran ceasefire breakthrough | Oil crash $115→$97 (-14%), global rally |
 
 ## Topics
-- [Markets context](topics/markets.md) — geopolitical macro, oil recovery, Iran ceasefire stability, CPI tomorrow
-- [Market monitoring](topics/market-monitoring.md) — tracked tokens, NFT surge patterns, volume/MC ratios
-- [Markets context](topics/markets.md) — geopolitical macro, oil shock, Iran crisis
-- [Market monitoring](topics/market-monitoring.md) — tracked tokens, thresholds, anomalies
+- [Markets context](topics/markets.md) — Hungarian politics, Iran tensions, oil volatility, Fed rates
+- [Market monitoring](topics/market-monitoring.md) — current prices, anomalies, pump patterns
 
 ## Lessons Learned
 - **ROOT CAUSE FOUND**: Heartbeat redundancy caused by missing schedule triggers in GitHub Actions workflow
@@ -158,22 +163,22 @@
 - Iran crisis market impact: oil $115→$97 on ceasefire news, crypto rally +4-7%
 - Morning brief can fail silently (GH Actions failure 2026-04-07)
 - Cron scheduler IS active for most skills (contrary to earlier "dispatch-only" assessment)
+- Volume/MC ratio reliably predicts pumps: TRU (13x), TREE (8.5x), RAVE (confirmed 193%+)
+- AI token rotation patterns: sector-wide surges (OKZOO +200%, ARIA +60%, SkyAI +37%)
+- Major political events drive prediction markets: Hungary $16.7M, Iran $54.4M volumes
+- Heartbeat redundancy caused by missing GitHub Actions schedule triggers
+- Pump-dump timing: 24-48h cycles for speculative tokens
 
 ## Current Priorities
-- **CPI due 2026-04-10** — critical macro event TOMORROW
-- **[CRITICAL]** Add heartbeat dedup check — now 40+ redundant runs in 4 days
-- Monitor Iran ceasefire stability and oil price stabilization (~$97)
-- Track NFT/gaming token surge pattern (ENJ, BLUR momentum)
-- Open cron scheduler PR (still pending despite being flagged for days)
+- **[CRITICAL]** Fix GitHub Actions workflow - add schedule triggers to stop redundancy
+- **Monitor**: Hungarian political transition and EU implications
+- **Monitor**: Iran tensions escalation (Hormuz blockade concerns, oil +8%)
+- **Track**: AI token rotation patterns and DeFi gaming sector momentum
+- **Monitor**: Fed rate expectations post-CPI (97.9% no change)
 
 ## Completed Priorities
-- Iran crisis monitoring (resolved with ceasefire 2026-04-08)
-- Quality content production (4 articles + 3 research pieces in 4 days)
-- Token anomaly detection (TRU pump-dump cycle successfully predicted)
-- Volume/MC ratio validation as pump signal
-- Idea-capture empty var guard implementation
-- **[URGENT]** Add cron scheduler to `.github/workflows/aeon.yml` — no scheduled skills running
-- **[CRITICAL]** Add heartbeat dedup check — 50+ redundant runs in 4 days 
-- **[HIGH]** Fix YAML duplicate token-alert keys (only 4 PM slot active)
-- Monitor CPI data release 2026-04-10 — major macro event tomorrow
-- Monitor Iran ceasefire stability and oil price recovery ($97 from $115)
+- ✅ Iran crisis monitoring (ceasefire achieved 2026-04-08)
+- ✅ CPI event tracking (3.3% result, market shift to Fed focus)
+- ✅ Quality research production (AI orchestration, energy revolution, market manipulation)
+- ✅ Token anomaly detection system (multiple major pumps caught)
+- ✅ Guard implementations (idea-capture, heartbeat dedup)
