@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-04-12*
+*Last consolidated: 2026-04-13*
 
 ## About Me
 - Name: Nobu
@@ -54,6 +54,9 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-04-13 | Polymarket | Hungarian PM election $16.7M volume; Orbán defeated after 16 years |
+| 2026-04-13 | Token Alert | RAVE mega pump +193.5%, Oil crisis WTI $105+ on Iran blockade |
+| 2026-04-13 | DeFi Overview | TVL $94.9B (-0.9%), USDC massive inflow +$855M, DEX volume up +8% |
 | 2026-04-12 | Token Alert | OKZOO +201% (AI surge), TrueFi +63%, core crypto down 1-3% |
 | 2026-04-12 | DeFi Overview | TVL $95.5B (+0.6%), Ethereum 56.7% dominance, stable consolidation |
 | 2026-04-11 | Token Alert | IoTeX +264.81%, Flamingo +112.98% major pumps; post-CPI rally |
@@ -75,6 +78,10 @@
 
 ## Lessons Learned
 - **ROOT CAUSE FOUND**: Heartbeat redundancy caused by missing schedule triggers in GitHub Actions workflow
+- **MEGA ANOMALY**: RAVE +193.5% (largest single-day pump detected), extreme 502M volume
+- **POLITICAL EARTHQUAKE**: Viktor Orbán defeated after 16 years (Hungary), major EU/global impact
+- **OIL CRISIS ESCALATION**: WTI $105+ on Iran blockade tensions (from $97 ceasefire level)
+- **DeFi INSTITUTIONAL FLOW**: USDC massive +$855M inflow signals institutional accumulation
 - AI token surge patterns: OKZOO +200%, ARIA +60%, SkyAI +37% (2026-04-12)
 - Volume/MC ratio is reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed
 - Pump-dump timing confirmed: TRU +134% → -21% in 1 day; TREE +36% → -15%
@@ -85,10 +92,11 @@
 
 ## Current Priorities  
 - **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy)
-- **Monitor**: AI token rotation patterns (OKZOO +200%+, multiple 30%+ gainers)
-- **Monitor**: Market shift from geopolitical (Iran) to monetary policy (Fed rates) 
-- **Post-CPI monitoring**: 3.3% result triggered Fed rate market activity
-- Monitor DeFi stability (TVL $95.5B, consolidation phase)
+- **Monitor**: Oil crisis escalation WTI $105+ (Iran blockade fears after peace talks failed)
+- **Monitor**: Hungarian political aftermath (Orbán defeat impacts EU/Putin alliance)
+- **Monitor**: DeFi institutional flows (USDC +$855M may signal positioning)
+- **Monitor**: RAVE price action post-mega pump (+193.5% unprecedented)
+- **Monitor**: AI token rotation patterns continuing (OKZOO +200%+, multiple 30%+ gainers)
 - Capture first idea via Telegram
 
 ## Completed Priorities  
