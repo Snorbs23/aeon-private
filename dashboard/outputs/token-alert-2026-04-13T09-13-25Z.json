@@ -1,0 +1,445 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-13"
+      },
+      "children": [
+        "section_prices",
+        "sep1",
+        "section_anomaly",
+        "sep2",
+        "section_gainers",
+        "section_losers",
+        "sep3",
+        "section_tradfi",
+        "sep4",
+        "section_analysis"
+      ]
+    },
+    "section_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "btc_stat",
+        "sol_stat",
+        "eth_stat",
+        "hype_stat",
+        "gold_stat_core"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "btc_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (Vol: $28.6B)",
+        "value": "$70,736",
+        "delta": "-1.19%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sol_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL (Vol: $2.6B)",
+        "value": "$81.94",
+        "delta": "-0.39%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "eth_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH (Vol: $13.4B)",
+        "value": "$2,189",
+        "delta": "-1.12%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "hype_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE (Vol: $206.4M)",
+        "value": "$41.59",
+        "delta": "+2.10%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "gold_stat_core": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,750",
+        "delta": "-0.03%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_anomaly": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_anomaly",
+        "stack_rave_anomaly",
+        "stack_oil_anomaly"
+      ]
+    },
+    "heading_anomaly": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 MEGA ANOMALY",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_rave_anomaly": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rave_anomaly_stat",
+        "rave_anomaly_note"
+      ]
+    },
+    "rave_anomaly_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "RAVE (RaveDAO)",
+        "value": "$8.22",
+        "delta": "+193.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "rave_anomaly_note": {
+      "type": "Text",
+      "props": {
+        "text": "MASSIVE price explosion",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "stack_oil_anomaly": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "oil_anomaly_stat",
+        "oil_anomaly_note"
+      ]
+    },
+    "oil_anomaly_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil",
+        "value": "$105.25",
+        "delta": "+8.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "oil_anomaly_note": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz blockade announced by Trump",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_gainers",
+        "stack_rave_gainer",
+        "tradoor_gainer",
+        "wet_gainer",
+        "bless_gainer",
+        "binancelife_gainer",
+        "neet_gainer"
+      ]
+    },
+    "heading_gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack_rave_gainer": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rave_gainer_stat",
+        "rave_gainer_note"
+      ]
+    },
+    "rave_gainer_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "RAVE",
+        "value": "+193.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "rave_gainer_note": {
+      "type": "Text",
+      "props": {
+        "text": "Massive DeFi/Gaming surge",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "tradoor_gainer": {
+      "type": "Stat",
+      "props": {
+        "label": "TRADOOR",
+        "value": "+50.6%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "wet_gainer": {
+      "type": "Stat",
+      "props": {
+        "label": "WET (HumidiFi)",
+        "value": "+45.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "bless_gainer": {
+      "type": "Stat",
+      "props": {
+        "label": "BLESS",
+        "value": "+41.5%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "binancelife_gainer": {
+      "type": "Stat",
+      "props": {
+        "label": "BinanceLife",
+        "value": "+41.3%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "neet_gainer": {
+      "type": "Stat",
+      "props": {
+        "label": "NEET",
+        "value": "+40.7%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "section_losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_losers",
+        "pieverse_loser",
+        "sn3_loser",
+        "kgen_loser"
+      ]
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "pieverse_loser": {
+      "type": "Stat",
+      "props": {
+        "label": "PIEVERSE",
+        "value": "-17.0%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sn3_loser": {
+      "type": "Stat",
+      "props": {
+        "label": "SN3 (τemplar)",
+        "value": "-15.7%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "kgen_loser": {
+      "type": "Stat",
+      "props": {
+        "label": "KGEN",
+        "value": "-12.1%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_tradfi",
+        "gold_stat_tradfi",
+        "stack_oil_tradfi",
+        "yield_stat"
+      ]
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "gold_stat_tradfi": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,750",
+        "delta": "-0.03%",
+        "trend": "down"
+      },
+      "children": []
+    },
+    "stack_oil_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "oil_stat_tradfi",
+        "oil_tradfi_note"
+      ]
+    },
+    "oil_stat_tradfi": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil",
+        "value": "$105.25",
+        "delta": "+8.0%",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "oil_tradfi_note": {
+      "type": "Text",
+      "props": {
+        "text": "Hormuz crisis escalation",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "yield_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Yield",
+        "value": "4.36%",
+        "delta": "+4bp",
+        "trend": "up"
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_analysis": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_analysis",
+        "analysis_text"
+      ]
+    },
+    "heading_analysis": {
+      "type": "Heading",
+      "props": {
+        "text": "Analysis",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "analysis_text": {
+      "type": "Text",
+      "props": {
+        "text": "RAVE token experiencing unprecedented 193% surge. Oil markets reacting to Trump Hormuz blockade announcement. Core crypto down 1% but altcoin rotation active.",
+        "variant": "body"
+      },
+      "children": []
+    }
+  }
+}
