@@ -1,0 +1,413 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-13"
+      },
+      "children": [
+        "heading_earthquake",
+        "sep1",
+        "heading_top_volume",
+        "market1",
+        "market2",
+        "market3",
+        "market4",
+        "market5",
+        "sep2",
+        "heading_political_story",
+        "text_political_story",
+        "sep3",
+        "heading_sports",
+        "text_sports",
+        "sep4",
+        "heading_new_markets",
+        "new_market_stack",
+        "sep5",
+        "text_total_volume"
+      ]
+    },
+    "heading_earthquake": {
+      "type": "Heading",
+      "props": {
+        "text": "MAJOR POLITICAL EARTHQUAKE",
+        "level": "h2"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_top_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h3"
+      }
+    },
+    "market1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market1_title",
+        "market1_odds_stack",
+        "market1_volume"
+      ]
+    },
+    "market1_title": {
+      "type": "Text",
+      "props": {
+        "text": "1. Will the next Prime Minister of Hungary be Viktor Orban?"
+      }
+    },
+    "market1_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market1_yes",
+        "market1_no"
+      ]
+    },
+    "market1_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 1,
+        "max": 100,
+        "label": "YES 1%"
+      }
+    },
+    "market1_no": {
+      "type": "Progress",
+      "props": {
+        "value": 99,
+        "max": 100,
+        "label": "NO 99%"
+      }
+    },
+    "market1_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "9.9M",
+        "delta": "-28%",
+        "trend": "down"
+      }
+    },
+    "market2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market2_title",
+        "market2_odds_stack",
+        "market2_volume"
+      ]
+    },
+    "market2_title": {
+      "type": "Text",
+      "props": {
+        "text": "2. Will the next Prime Minister of Hungary be Peter Magyar?"
+      }
+    },
+    "market2_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market2_yes",
+        "market2_no"
+      ]
+    },
+    "market2_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 99,
+        "max": 100,
+        "label": "YES 99%"
+      }
+    },
+    "market2_no": {
+      "type": "Progress",
+      "props": {
+        "value": 1,
+        "max": 100,
+        "label": "NO 1%"
+      }
+    },
+    "market2_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "6.8M",
+        "delta": "+28%",
+        "trend": "up"
+      }
+    },
+    "market3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market3_title",
+        "market3_odds_stack",
+        "market3_volume",
+        "market3_badge"
+      ]
+    },
+    "market3_title": {
+      "type": "Text",
+      "props": {
+        "text": "3. Magic vs. Celtics"
+      }
+    },
+    "market3_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market3_yes",
+        "market3_no"
+      ]
+    },
+    "market3_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 0,
+        "max": 100,
+        "label": "YES 0%"
+      }
+    },
+    "market3_no": {
+      "type": "Progress",
+      "props": {
+        "value": 100,
+        "max": 100,
+        "label": "NO 100%"
+      }
+    },
+    "market3_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "5.1M",
+        "delta": "-82%",
+        "trend": "down"
+      }
+    },
+    "market3_badge": {
+      "type": "Badge",
+      "props": {
+        "text": "completed"
+      }
+    },
+    "market4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market4_title",
+        "market4_odds_stack",
+        "market4_volume"
+      ]
+    },
+    "market4_title": {
+      "type": "Text",
+      "props": {
+        "text": "4. Nuggets vs. Spurs"
+      }
+    },
+    "market4_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market4_yes",
+        "market4_no"
+      ]
+    },
+    "market4_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 67,
+        "max": 100,
+        "label": "YES 67%"
+      }
+    },
+    "market4_no": {
+      "type": "Progress",
+      "props": {
+        "value": 34,
+        "max": 100,
+        "label": "NO 34%"
+      }
+    },
+    "market4_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "4.4M",
+        "delta": "+46%",
+        "trend": "up"
+      }
+    },
+    "market5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "market5_title",
+        "market5_odds_stack",
+        "market5_volume"
+      ]
+    },
+    "market5_title": {
+      "type": "Text",
+      "props": {
+        "text": "5. Will Rory McIlroy win the 2026 Masters?"
+      }
+    },
+    "market5_odds_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "sm"
+      },
+      "children": [
+        "market5_yes",
+        "market5_no"
+      ]
+    },
+    "market5_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 100,
+        "max": 100,
+        "label": "YES 100%"
+      }
+    },
+    "market5_no": {
+      "type": "Progress",
+      "props": {
+        "value": 0,
+        "max": 100,
+        "label": "NO 0%"
+      }
+    },
+    "market5_volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "4.2M",
+        "delta": "+63%",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_political_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Political Story",
+        "level": "h3"
+      }
+    },
+    "text_political_story": {
+      "type": "Text",
+      "props": {
+        "text": "ORBAN DEFEATED: Viktor Orban conceded defeat after 16 years in power. Peter Magyar's Tisza party won 138/199 seats (53.6% vs 37.8%). Ends major Trump/Putin ally's rule."
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_sports": {
+      "type": "Heading",
+      "props": {
+        "text": "Sports Highlight",
+        "level": "h3"
+      }
+    },
+    "text_sports": {
+      "type": "Text",
+      "props": {
+        "text": "MCILROY MASTERS SURGE: Tied for lead at 11-under going into Sunday final round, explaining massive odds spike."
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "heading_new_markets": {
+      "type": "Heading",
+      "props": {
+        "text": "New Markets",
+        "level": "h3"
+      }
+    },
+    "new_market_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "new_market1",
+        "new_market2",
+        "new_market3"
+      ]
+    },
+    "new_market1": {
+      "type": "Text",
+      "props": {
+        "text": "Short-term crypto Up/Down markets (BTC, ETH, XRP) for 5-min windows tonight"
+      }
+    },
+    "new_market2": {
+      "type": "Text",
+      "props": {
+        "text": "MLB betting spreads and totals"
+      }
+    },
+    "new_market3": {
+      "type": "Text",
+      "props": {
+        "text": "All created today with minimal volume yet"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "text_total_volume": {
+      "type": "Text",
+      "props": {
+        "text": "Total volume across top 10: ~43M (Hungarian elections dominating)"
+      }
+    }
+  }
+}
