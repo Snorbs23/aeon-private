@@ -1,0 +1,462 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-13"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "section-core-prices",
+        "sep-1",
+        "section-anomalies",
+        "sep-2",
+        "section-gainers",
+        "sep-3",
+        "section-losers",
+        "sep-4",
+        "section-tradfi"
+      ]
+    },
+    "section-core-prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-core-prices",
+        "grid-core-prices"
+      ]
+    },
+    "heading-core-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h3"
+      }
+    },
+    "grid-core-prices": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc",
+        "stat-sol",
+        "stat-eth",
+        "stat-hype",
+        "stat-gold"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$70,799",
+        "delta": "-1.09%",
+        "trend": "down"
+      }
+    },
+    "stat-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$82.05",
+        "delta": "-0.33%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,192",
+        "delta": "-0.96%",
+        "trend": "down"
+      }
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$41.60",
+        "delta": "+2.11%",
+        "trend": "up"
+      }
+    },
+    "stat-gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,780",
+        "delta": "+1.2%",
+        "trend": "up"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-anomalies",
+        "stack-anomalies-content"
+      ]
+    },
+    "heading-anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves only)",
+        "level": "h3"
+      }
+    },
+    "stack-anomalies-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-rave",
+        "stat-tradoor",
+        "stat-wet",
+        "stat-inx",
+        "stat-lab",
+        "stat-drift",
+        "stat-enj",
+        "stat-0g",
+        "stat-tru",
+        "stat-nom"
+      ]
+    },
+    "stat-rave": {
+      "type": "Stat",
+      "props": {
+        "label": "RAVE",
+        "value": "$8.22",
+        "delta": "+193.52%",
+        "trend": "up"
+      }
+    },
+    "stat-tradoor": {
+      "type": "Stat",
+      "props": {
+        "label": "TRADOOR",
+        "value": "$5.65",
+        "delta": "+50.62%",
+        "trend": "up"
+      }
+    },
+    "stat-wet": {
+      "type": "Stat",
+      "props": {
+        "label": "WET",
+        "value": "$0.131",
+        "delta": "+45.73%",
+        "trend": "up"
+      }
+    },
+    "stat-inx": {
+      "type": "Stat",
+      "props": {
+        "label": "INX",
+        "value": "$0.018",
+        "delta": "+38.89%",
+        "trend": "up"
+      }
+    },
+    "stat-lab": {
+      "type": "Stat",
+      "props": {
+        "label": "LAB",
+        "value": "$0.631",
+        "delta": "+30.92%",
+        "trend": "up"
+      }
+    },
+    "stat-drift": {
+      "type": "Stat",
+      "props": {
+        "label": "DRIFT",
+        "value": "$0.043",
+        "delta": "+15.34%",
+        "trend": "up"
+      }
+    },
+    "stat-enj": {
+      "type": "Stat",
+      "props": {
+        "label": "ENJ",
+        "value": "$0.036",
+        "delta": "+11.29%",
+        "trend": "up"
+      }
+    },
+    "stat-0g": {
+      "type": "Stat",
+      "props": {
+        "label": "0G",
+        "value": "$0.607",
+        "delta": "+11.92%",
+        "trend": "up"
+      }
+    },
+    "stat-tru": {
+      "type": "Stat",
+      "props": {
+        "label": "TRU",
+        "value": "$0.0078",
+        "delta": "-27.49%",
+        "trend": "down"
+      }
+    },
+    "stat-nom": {
+      "type": "Stat",
+      "props": {
+        "label": "NOM",
+        "value": "$0.0035",
+        "delta": "-17.23%",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-gainers",
+        "stack-gainers-content"
+      ]
+    },
+    "heading-gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h3"
+      }
+    },
+    "stack-gainers-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-gainer-1",
+        "stat-gainer-2",
+        "stat-gainer-3",
+        "stat-gainer-4",
+        "stat-gainer-5"
+      ]
+    },
+    "stat-gainer-1": {
+      "type": "Stat",
+      "props": {
+        "label": "RAVE",
+        "value": "+193.52%",
+        "trend": "up"
+      }
+    },
+    "stat-gainer-2": {
+      "type": "Stat",
+      "props": {
+        "label": "TRADOOR",
+        "value": "+50.62%",
+        "trend": "up"
+      }
+    },
+    "stat-gainer-3": {
+      "type": "Stat",
+      "props": {
+        "label": "WET",
+        "value": "+45.73%",
+        "trend": "up"
+      }
+    },
+    "stat-gainer-4": {
+      "type": "Stat",
+      "props": {
+        "label": "Bianrensheng",
+        "value": "+41.29%",
+        "trend": "up"
+      }
+    },
+    "stat-gainer-5": {
+      "type": "Stat",
+      "props": {
+        "label": "INX",
+        "value": "+38.89%",
+        "trend": "up"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-losers",
+        "stack-losers-content"
+      ]
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "stack-losers-content": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-loser-1",
+        "stat-loser-2",
+        "stat-loser-3",
+        "stat-loser-4",
+        "stat-loser-5"
+      ]
+    },
+    "stat-loser-1": {
+      "type": "Stat",
+      "props": {
+        "label": "TRU",
+        "value": "-27.49%",
+        "trend": "down"
+      }
+    },
+    "stat-loser-2": {
+      "type": "Stat",
+      "props": {
+        "label": "NOM",
+        "value": "-17.23%",
+        "trend": "down"
+      }
+    },
+    "stat-loser-3": {
+      "type": "Stat",
+      "props": {
+        "label": "CTSI",
+        "value": "-9.65%",
+        "trend": "down"
+      }
+    },
+    "stat-loser-4": {
+      "type": "Stat",
+      "props": {
+        "label": "ARIA",
+        "value": "-9.54%",
+        "trend": "down"
+      }
+    },
+    "stat-loser-5": {
+      "type": "Stat",
+      "props": {
+        "label": "FF",
+        "value": "-9.35%",
+        "trend": "down"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "section-tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "heading-tradfi",
+        "grid-tradfi"
+      ]
+    },
+    "heading-tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      }
+    },
+    "grid-tradfi": {
+      "type": "Grid",
+      "props": {
+        "columns": 3,
+        "gap": "sm"
+      },
+      "children": [
+        "stat-gold-tradfi",
+        "stat-oil",
+        "stat-yield"
+      ]
+    },
+    "stat-gold-tradfi": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,780",
+        "delta": "+1.2%",
+        "trend": "up"
+      }
+    },
+    "stat-oil": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil (WTI)",
+        "value": "$105.25",
+        "delta": "+8.8%",
+        "trend": "up"
+      }
+    },
+    "stat-yield": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Yield",
+        "value": "4.36%",
+        "delta": "+0.04%",
+        "trend": "up"
+      }
+    }
+  }
+}
