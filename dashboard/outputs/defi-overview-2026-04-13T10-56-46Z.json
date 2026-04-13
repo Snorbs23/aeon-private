@@ -1,0 +1,201 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Market Analysis — April 13, 2026"
+      },
+      "children": [
+        "stat_tvl",
+        "sep1",
+        "heading_chains",
+        "table_chains",
+        "sep2",
+        "stat_dex",
+        "text_divergence",
+        "sep3",
+        "heading_stablecoin",
+        "table_stablecoin",
+        "sep4",
+        "heading_yield",
+        "table_yield",
+        "sep5",
+        "alert_assessment"
+      ]
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL",
+        "value": "$94.67B",
+        "delta": "-0.87% (-$830M)",
+        "trend": "down"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_chains": {
+      "type": "Heading",
+      "props": {
+        "text": "Chain Dominance",
+        "level": "h3"
+      }
+    },
+    "table_chains": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL",
+          "Share",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$53.5B",
+            "56.5%",
+            "-0.2pp"
+          ],
+          [
+            "Solana",
+            "$5.71B",
+            "6.0%",
+            "stable"
+          ],
+          [
+            "BSC",
+            "$5.37B",
+            "5.7%",
+            "stable"
+          ],
+          [
+            "Tron",
+            "$4.98B",
+            "5.3%",
+            "—"
+          ],
+          [
+            "Base",
+            "$4.33B",
+            "4.6%",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "stat_dex": {
+      "type": "Stat",
+      "props": {
+        "label": "DEX Activity",
+        "value": "$4.72B",
+        "delta": "+7.3% vs $4.4B yesterday",
+        "trend": "up"
+      }
+    },
+    "text_divergence": {
+      "type": "Text",
+      "props": {
+        "text": "Volume up despite TVL decline - potential rotation signal",
+        "variant": "muted"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_stablecoin": {
+      "type": "Heading",
+      "props": {
+        "text": "Stablecoin Flows",
+        "level": "h3"
+      }
+    },
+    "table_stablecoin": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Stablecoin",
+          "Flow"
+        ],
+        "rows": [
+          [
+            "USDC",
+            "+$855M (massive inflow)"
+          ],
+          [
+            "USDT",
+            "+$28M (modest growth)"
+          ],
+          [
+            "USDS",
+            "-$13M (Sky Dollar outflow)"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_yield": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Yield",
+        "level": "h3"
+      }
+    },
+    "table_yield": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Product",
+          "Amount",
+          "APY"
+        ],
+        "rows": [
+          [
+            "Lido STETH",
+            "$20.6B",
+            "2.36%"
+          ],
+          [
+            "Binance WBETH",
+            "$7.6B",
+            "2.50%"
+          ]
+        ]
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_assessment": {
+      "type": "Alert",
+      "props": {
+        "title": "Assessment",
+        "message": "Market consolidation with notable volume/TVL divergence and significant USDC accumulation suggesting potential positioning ahead of macro events.",
+        "type": "info"
+      }
+    }
+  }
+}
