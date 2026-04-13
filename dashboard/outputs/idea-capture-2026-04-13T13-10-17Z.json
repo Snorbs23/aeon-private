@@ -1,0 +1,22 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "idea-capture"
+      },
+      "children": [
+        "alert_skip"
+      ]
+    },
+    "alert_skip": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "message": "Skipped execution - no idea provided (empty var). Guard working correctly to prevent wasted runs."
+      }
+    }
+  }
+}
