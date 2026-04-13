@@ -1,0 +1,315 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-13"
+      },
+      "children": [
+        "core-prices-section",
+        "separator1",
+        "anomalies-section",
+        "separator2",
+        "gainers-section",
+        "separator3",
+        "losers-section",
+        "separator4",
+        "tradfi-section",
+        "separator5",
+        "context-section"
+      ]
+    },
+    "core-prices-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "prices-heading",
+        "prices-table"
+      ]
+    },
+    "prices-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "prices-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price",
+          "Change",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "$70,766",
+            "-0.99%",
+            "$28.3B"
+          ],
+          [
+            "SOL",
+            "$81.81",
+            "-0.53%",
+            "$2.6B"
+          ],
+          [
+            "ETH",
+            "$2,183.39",
+            "-1.15%",
+            "$13.1B"
+          ],
+          [
+            "HYPE",
+            "$41.60",
+            "+2.48%",
+            "$205.9M"
+          ],
+          [
+            "Gold",
+            "$4,733",
+            "-0.59%",
+            "—"
+          ]
+        ]
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "anomalies-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "anomalies-heading",
+        "wti-alert",
+        "rave-stat",
+        "rave-volume",
+        "dash-stat"
+      ]
+    },
+    "anomalies-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Major Anomalies",
+        "level": "h2"
+      }
+    },
+    "wti-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "WTI Oil: $104.32 (+8% 24h) — Geopolitical Spike",
+        "message": "Spiked above $100 on US Navy Hormuz blockade preparation concern",
+        "type": "warning"
+      }
+    },
+    "rave-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "RAVE",
+        "value": "$5.95",
+        "delta": "+180.84%",
+        "trend": "up"
+      }
+    },
+    "rave-volume": {
+      "type": "Text",
+      "props": {
+        "text": "Massive price spike — $502M volume",
+        "variant": "caption"
+      }
+    },
+    "dash-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "DASH",
+        "value": "$41.74",
+        "delta": "-11.56%",
+        "trend": "down"
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "gainers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "gainers-heading",
+        "gainers-table"
+      ]
+    },
+    "gainers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h3"
+      }
+    },
+    "gainers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Change"
+        ],
+        "rows": [
+          [
+            "RAVE",
+            "+180.84%"
+          ],
+          [
+            "SIREN",
+            "+6.55%"
+          ],
+          [
+            "JUST",
+            "+4.55%"
+          ]
+        ]
+      }
+    },
+    "separator3": {
+      "type": "Separator"
+    },
+    "losers-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "losers-heading",
+        "losers-table"
+      ]
+    },
+    "losers-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "losers-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Change"
+        ],
+        "rows": [
+          [
+            "DASH",
+            "-11.56%"
+          ],
+          [
+            "CHZ",
+            "-9.11%"
+          ],
+          [
+            "DCR",
+            "-8.99%"
+          ]
+        ]
+      }
+    },
+    "separator4": {
+      "type": "Separator"
+    },
+    "tradfi-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "tradfi-heading",
+        "tradfi-table"
+      ]
+    },
+    "tradfi-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      }
+    },
+    "tradfi-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price/Rate",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Gold",
+            "$4,733",
+            "-0.59%"
+          ],
+          [
+            "Oil (WTI)",
+            "$104.32",
+            "+8%"
+          ],
+          [
+            "10Y Yield",
+            "~4.31%",
+            "—"
+          ]
+        ]
+      }
+    },
+    "separator5": {
+      "type": "Separator"
+    },
+    "context-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "context-heading",
+        "context-text",
+        "fear-alert"
+      ]
+    },
+    "context-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Context",
+        "level": "h2"
+      }
+    },
+    "context-text": {
+      "type": "Text",
+      "props": {
+        "text": "Crypto down 0.4% to $2.5T. Oil spiked on US Navy Hormuz blockade preparation. Selective altcoin momentum despite broader weakness."
+      }
+    },
+    "fear-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Extreme Fear Index: 12",
+        "message": "Fear level at critical low — traders heavily risk-averse",
+        "type": "warning"
+      }
+    }
+  }
+}
