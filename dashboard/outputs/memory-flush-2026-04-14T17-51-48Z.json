@@ -1,0 +1,120 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "Memory Flush"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "status_text",
+        "sep1",
+        "iran_text",
+        "sep2",
+        "defi_section",
+        "sep3",
+        "tokens_section",
+        "sep4",
+        "polymarket_text"
+      ]
+    },
+    "status_text": {
+      "type": "Text",
+      "props": {
+        "text": "Memory Flush Complete: Promoted key 2026-04-14 events to long-term memory",
+        "variant": "lead"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "iran_text": {
+      "type": "Text",
+      "props": {
+        "text": "Iran naval blockade escalation",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "defi_section": {
+      "type": "Stat",
+      "props": {
+        "label": "DeFi TVL Surge",
+        "value": "$98.76B",
+        "delta": "+4.31%",
+        "trend": "up"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tokens_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tokens_heading",
+        "tokens_table"
+      ]
+    },
+    "tokens_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Multi-token Mega Pumps",
+        "level": "h3"
+      }
+    },
+    "tokens_table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Change"
+        ],
+        "rows": [
+          [
+            "MEZO",
+            "+179%"
+          ],
+          [
+            "CommonWealth",
+            "+167%"
+          ],
+          [
+            "Genius",
+            "+149%"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "polymarket_text": {
+      "type": "Text",
+      "props": {
+        "text": "Polymarket short-term crypto betting launch",
+        "variant": "body"
+      }
+    }
+  }
+}

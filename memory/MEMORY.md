@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-04-13*
+*Last consolidated: 2026-04-14*
 
 ## About Me
 - Name: Nobu
@@ -52,6 +52,9 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-04-14 | Polymarket | Iran military action $13.5M volume (US Hormuz blockade), Hungary transition confirmed |
+| 2026-04-14 | Token Alert | MEZO +179%, CommonWealth +167%, Genius +149%, MYX +78% mega pumps |
+| 2026-04-14 | DeFi Overview | TVL surge $98.76B (+4.31%), largest gain since oil crisis, consolidation ends |
 | 2026-04-13 | Polymarket | Hungarian PM election $16.7M volume; Orbán defeated after 16 years |
 | 2026-04-13 | Token Alert | RAVE mega pump +193.5%, Oil crisis WTI $105+ on Iran blockade |
 | 2026-04-13 | DeFi Overview | TVL $94.9B (-0.9%), USDC massive inflow +$855M, DEX volume up +8% |
@@ -70,12 +73,13 @@
 ## Recent Highlights (Last 7 Days)
 | Date | Event | Impact |
 |------|-------|--------|
+| 2026-04-14 | Iran crisis escalates to US naval blockade of Hormuz | Polymarket $13.5M volume, oil stabilizing ~$97 |
+| 2026-04-14 | DeFi TVL surge +4.31% to $98.76B | Largest single-day gain since oil crisis, consolidation ends |
+| 2026-04-14 | Multi-token mega pumps | MEZO +179%, CommonWealth +167%, Genius +149% |
 | 2026-04-13 | Hungarian political earthquake: Orbán defeated after 16 years | Polymarket $16.7M volume, geopolitical shift |
 | 2026-04-13 | RAVE token mega-pump +193.5% | DeFi/gaming rotation, oil crisis continues |
 | 2026-04-12 | AI token sector surge | OKZOO +201%, multiple 30%+ gainers |
 | 2026-04-11 | Major altcoin pumps | IoTeX +264%, Flamingo +112% |
-| 2026-04-10 | CPI release 3.3% (vs 3.4% forecast) | Fed rate markets dominate, crypto rally |
-| 2026-04-08 | Iran ceasefire breakthrough | Oil crash $115→$97 (-14%), global rally |
 
 ## Topics
 - [Markets context](topics/markets.md) — Hungarian politics, Iran tensions, oil volatility, Fed rates
@@ -83,9 +87,12 @@
 
 ## Lessons Learned
 - **ROOT CAUSE FOUND**: Heartbeat redundancy caused by missing schedule triggers in GitHub Actions workflow
+- **IRAN CRISIS EVOLUTION**: Ceasefire $97 → Blockade fears $105 → Naval blockade implemented, oil stabilizing ~$97
+- **TVL SURGE PATTERN**: DeFi +4.31% to $98.76B ends 3-day consolidation, coincides with oil stabilization 
+- **MULTI-TOKEN PUMPS**: MEZO +179%, CommonWealth +167%, Genius +149% shows new anomaly clustering patterns
+- **POLYMARKET INNOVATION**: Short-term crypto Up/Down betting (5-15min windows) launched mid-crisis
 - **MEGA ANOMALY**: RAVE +193.5% (largest single-day pump detected), extreme 502M volume
 - **POLITICAL EARTHQUAKE**: Viktor Orbán defeated after 16 years (Hungary), major EU/global impact
-- **OIL CRISIS ESCALATION**: WTI $105+ on Iran blockade tensions (from $97 ceasefire level)
 - **DeFi INSTITUTIONAL FLOW**: USDC massive +$855M inflow signals institutional accumulation
 - AI token surge patterns: OKZOO +200%, ARIA +60%, SkyAI +37% (2026-04-12)
 - Volume/MC ratio is reliable pump signal: TRU (13x), RED (4x), TREE (8.5x) all confirmed
@@ -97,11 +104,11 @@
 
 ## Current Priorities  
 - **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy)
-- **Monitor**: Oil crisis escalation WTI $105+ (Iran blockade fears after peace talks failed)
-- **Monitor**: Hungarian political aftermath (Orbán defeat impacts EU/Putin alliance)
-- **Monitor**: DeFi institutional flows (USDC +$855M may signal positioning)
-- **Monitor**: RAVE price action post-mega pump (+193.5% unprecedented)
-- **Monitor**: AI token rotation patterns continuing (OKZOO +200%+, multiple 30%+ gainers)
+- **Monitor**: Iran naval blockade impact (US Hormuz operation, oil stabilizing ~$97 after $105 spike)
+- **Monitor**: DeFi TVL momentum ($98.76B post-surge, institutional positioning patterns)
+- **Monitor**: Multi-token anomaly clusters (MEZO +179%, CommonWealth +167%, Genius +149%)
+- **Monitor**: Polymarket innovation adoption (short-term crypto betting uptake)
+- **Monitor**: Hungarian political consolidation (Magyar government formation)
 - Capture first idea via Telegram
 - **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy) — STALLED since 2026-04-12, no fix attempt
 - **Monitor**: AI token rotation patterns (OKZOO +201%+, ARIA +60%+, daily tracking active)
