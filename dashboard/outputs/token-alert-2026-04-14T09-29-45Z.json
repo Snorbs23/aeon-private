@@ -1,0 +1,399 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-14"
+      },
+      "children": [
+        "mainStack"
+      ]
+    },
+    "mainStack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "core_prices_heading",
+        "core_prices_stack",
+        "sep1",
+        "anomalies_heading",
+        "anomalies_alert",
+        "anomalies_list",
+        "sep2",
+        "gainers_heading",
+        "gainers_stack",
+        "sep3",
+        "losers_heading",
+        "losers_stack",
+        "sep4",
+        "tradfi_heading",
+        "tradfi_stack",
+        "sep5",
+        "market_note_heading",
+        "market_note_text"
+      ]
+    },
+    "core_prices_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "core_prices_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "btc_stack",
+        "sol_stack",
+        "eth_stack",
+        "hype_stack",
+        "gold_core_stack"
+      ]
+    },
+    "btc_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_btc",
+        "text_btc_vol"
+      ]
+    },
+    "stat_btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC",
+        "value": "$74,798",
+        "delta": "+5.80%",
+        "trend": "up"
+      }
+    },
+    "text_btc_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $55.74B",
+        "variant": "caption"
+      }
+    },
+    "sol_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_sol",
+        "text_sol_vol"
+      ]
+    },
+    "stat_sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL",
+        "value": "$86.23"
+      }
+    },
+    "text_sol_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: ~$2B est",
+        "variant": "caption"
+      }
+    },
+    "eth_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_eth",
+        "text_eth_vol"
+      ]
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH",
+        "value": "$2,392"
+      }
+    },
+    "text_eth_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: ~$20B est",
+        "variant": "caption"
+      }
+    },
+    "hype_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_hype",
+        "text_hype_vol"
+      ]
+    },
+    "stat_hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE",
+        "value": "$42.30",
+        "delta": "+18.20% 7d",
+        "trend": "up"
+      }
+    },
+    "text_hype_vol": {
+      "type": "Text",
+      "props": {
+        "text": "Vol: $239.84M",
+        "variant": "caption"
+      }
+    },
+    "gold_core_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_gold_core"
+      ]
+    },
+    "stat_gold_core": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,761",
+        "delta": "+0.33%",
+        "trend": "up"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "anomalies_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves only)",
+        "level": "h2"
+      }
+    },
+    "anomalies_alert": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Extreme price movements detected"
+      }
+    },
+    "anomalies_list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "anom_iotex",
+        "anom_flamingo",
+        "anom_jito",
+        "anom_acquire"
+      ]
+    },
+    "anom_iotex": {
+      "type": "Text",
+      "props": {
+        "text": "IoTeX: +264.81% (currently $0.0175) — MEGA PUMP",
+        "variant": "lead"
+      }
+    },
+    "anom_flamingo": {
+      "type": "Text",
+      "props": {
+        "text": "Flamingo: +112.98% (currently $0.0065) — MASSIVE SPIKE",
+        "variant": "lead"
+      }
+    },
+    "anom_jito": {
+      "type": "Text",
+      "props": {
+        "text": "Jito: +18.55% — significant gain",
+        "variant": "body"
+      }
+    },
+    "anom_acquire": {
+      "type": "Text",
+      "props": {
+        "text": "Acquire.Fi: +11,189% volume spike (24h)",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "gainers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h2"
+      }
+    },
+    "gainers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_gainer_iotex",
+        "badge_gainer_flamingo",
+        "badge_gainer_jito"
+      ]
+    },
+    "badge_gainer_iotex": {
+      "type": "Badge",
+      "props": {
+        "text": "IoTeX: +264.81%",
+        "variant": "default"
+      }
+    },
+    "badge_gainer_flamingo": {
+      "type": "Badge",
+      "props": {
+        "text": "Flamingo: +112.98%",
+        "variant": "default"
+      }
+    },
+    "badge_gainer_jito": {
+      "type": "Badge",
+      "props": {
+        "text": "Jito: +18.55%",
+        "variant": "default"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "losers_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "losers_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "badge_loser_symbiosis",
+        "badge_loser_tranchess",
+        "badge_loser_alchemist"
+      ]
+    },
+    "badge_loser_symbiosis": {
+      "type": "Badge",
+      "props": {
+        "text": "Symbiosis Finance: -29.38%",
+        "variant": "destructive"
+      }
+    },
+    "badge_loser_tranchess": {
+      "type": "Badge",
+      "props": {
+        "text": "Tranchess: -22.50%",
+        "variant": "destructive"
+      }
+    },
+    "badge_loser_alchemist": {
+      "type": "Badge",
+      "props": {
+        "text": "Alchemist AI: -7.04%",
+        "variant": "destructive"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "tradfi_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      }
+    },
+    "tradfi_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat_gold_tradfi",
+        "stat_oil",
+        "text_yield"
+      ]
+    },
+    "stat_gold_tradfi": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,761",
+        "delta": "+0.33%",
+        "trend": "up"
+      }
+    },
+    "stat_oil": {
+      "type": "Stat",
+      "props": {
+        "label": "Oil (WTI)",
+        "value": "$96.37",
+        "delta": "-2.74%",
+        "trend": "down"
+      }
+    },
+    "text_yield": {
+      "type": "Text",
+      "props": {
+        "text": "10Y Yield: 4.31-4.39% (+major surge, curve un-inversion)",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "market_note_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Note",
+        "level": "h3"
+      }
+    },
+    "market_note_text": {
+      "type": "Text",
+      "props": {
+        "text": "BTC above $74k with strong volume. IoTeX showing extreme 264% pump - potential speculative frenzy. Oil volatile on Iran crisis.",
+        "variant": "body"
+      }
+    }
+  }
+}
