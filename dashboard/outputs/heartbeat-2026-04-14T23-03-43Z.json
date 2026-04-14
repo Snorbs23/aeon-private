@@ -1,0 +1,87 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert",
+        "separator",
+        "details_stack"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 HEARTBEAT ALERT",
+        "message": "morning-brief skill missing today",
+        "type": "error"
+      }
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "schedule_info",
+        "overdue_stat",
+        "other_skills_status",
+        "root_cause_section"
+      ]
+    },
+    "schedule_info": {
+      "type": "Text",
+      "props": {
+        "text": "Scheduled for 2 AM UTC"
+      }
+    },
+    "overdue_stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Overdue",
+        "value": "21 hours"
+      }
+    },
+    "other_skills_status": {
+      "type": "Text",
+      "props": {
+        "text": "All other scheduled skills executed normally"
+      }
+    },
+    "root_cause_section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "root_cause_label",
+        "root_cause_text"
+      ]
+    },
+    "root_cause_label": {
+      "type": "Heading",
+      "props": {
+        "text": "Root cause",
+        "level": "h4"
+      }
+    },
+    "root_cause_text": {
+      "type": "Text",
+      "props": {
+        "text": "GitHub Actions workflow still missing schedule triggers"
+      }
+    }
+  }
+}
