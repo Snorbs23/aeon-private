@@ -1,0 +1,212 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Anomalies — 2026-04-14"
+      },
+      "children": [
+        "stat_tvl",
+        "text_tvl_prev",
+        "sep1",
+        "heading_chains",
+        "stack_chains",
+        "sep2",
+        "alert_anomaly",
+        "sep3",
+        "heading_pools",
+        "table_pools",
+        "sep4",
+        "heading_assessment",
+        "text_assessment",
+        "sep5",
+        "heading_context",
+        "text_context"
+      ]
+    },
+    "stat_tvl": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL",
+        "value": "$98.76B",
+        "delta": "+4.31%",
+        "trend": "up"
+      }
+    },
+    "text_tvl_prev": {
+      "type": "Text",
+      "props": {
+        "text": "Previous day (yesterday): $94.67B",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_chains": {
+      "type": "Heading",
+      "props": {
+        "text": "Chain Changes",
+        "level": "h3"
+      }
+    },
+    "stack_chains": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_eth",
+        "stat_solana",
+        "stat_bsc",
+        "stat_tron",
+        "stat_base"
+      ]
+    },
+    "stat_eth": {
+      "type": "Stat",
+      "props": {
+        "label": "Ethereum: $56.2B (56.9% dominance)",
+        "value": "+5.0%",
+        "trend": "up"
+      }
+    },
+    "stat_solana": {
+      "type": "Stat",
+      "props": {
+        "label": "Solana: $5.89B (6.0%)",
+        "value": "stable",
+        "trend": "neutral"
+      }
+    },
+    "stat_bsc": {
+      "type": "Stat",
+      "props": {
+        "label": "BSC: $5.44B (5.5%)",
+        "value": "stable",
+        "trend": "neutral"
+      }
+    },
+    "stat_tron": {
+      "type": "Stat",
+      "props": {
+        "label": "Tron: $5.12B (5.2%)",
+        "value": "stable",
+        "trend": "neutral"
+      }
+    },
+    "stat_base": {
+      "type": "Stat",
+      "props": {
+        "label": "Base: $4.50B (4.6%)",
+        "value": "+4.0% recovery",
+        "trend": "up"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "alert_anomaly": {
+      "type": "Alert",
+      "props": {
+        "title": "🔥 ANOMALY DETECTED: TVL Surge +4.31%",
+        "message": "Largest single-day gain since oil crisis\n\n• Ethereum TVL jumped +$2.7B in 24h\n• Total market gained +$4.09B vs -$830M decline yesterday\n• Reverses 3-day consolidation pattern",
+        "type": "warning"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_pools": {
+      "type": "Heading",
+      "props": {
+        "text": "Top Yield Pools",
+        "level": "h3"
+      }
+    },
+    "table_pools": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Pool",
+          "TVL",
+          "APY"
+        ],
+        "rows": [
+          [
+            "Lido STETH (largest pool)",
+            "$22.5B",
+            "2.39%"
+          ],
+          [
+            "Binance WBETH",
+            "$8.3B",
+            "2.54%"
+          ],
+          [
+            "Sky SUSDS",
+            "$6.3B",
+            "3.75%"
+          ],
+          [
+            "Ether.fi WEETH",
+            "$6.2B",
+            "2.93%"
+          ]
+        ]
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_assessment": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "text_assessment": {
+      "type": "Text",
+      "props": {
+        "text": "Major capital inflow reversal after 3-day decline phase; institutional accumulation continues post-USDC +$855M signal",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h3"
+      }
+    },
+    "text_context": {
+      "type": "Text",
+      "props": {
+        "text": "TVL surge coincides with oil market stabilization and potential macro rotation",
+        "variant": "muted"
+      }
+    }
+  }
+}
