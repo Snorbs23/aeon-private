@@ -1,0 +1,23 @@
+{
+  "root": "card_root",
+  "state": {},
+  "elements": {
+    "card_root": {
+      "type": "Card",
+      "props": {
+        "title": "idea-capture"
+      },
+      "children": [
+        "alert_status"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "info",
+        "title": "Idea Capture Check Complete",
+        "message": "No idea provided to capture (var empty). Guard working correctly to prevent empty runs."
+      }
+    }
+  }
+}
