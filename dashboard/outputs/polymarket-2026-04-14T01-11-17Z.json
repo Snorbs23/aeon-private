@@ -1,0 +1,369 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-14"
+      },
+      "children": [
+        "heading_volume",
+        "market_1",
+        "market_2",
+        "market_3",
+        "market_4",
+        "market_5",
+        "sep_1",
+        "heading_story",
+        "story_text",
+        "sep_2",
+        "heading_political",
+        "political_text",
+        "sep_3",
+        "heading_new",
+        "new_text",
+        "sep_4",
+        "heading_context",
+        "context_text"
+      ]
+    },
+    "heading_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "market_1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m1_q",
+        "m1_odds",
+        "m1_vol"
+      ]
+    },
+    "m1_q": {
+      "type": "Text",
+      "props": {
+        "text": "Military action against Iran ends by April 17?"
+      }
+    },
+    "m1_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "m1_yes",
+        "m1_no"
+      ]
+    },
+    "m1_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 99.95,
+        "label": "YES"
+      }
+    },
+    "m1_no": {
+      "type": "Progress",
+      "props": {
+        "value": 0.05,
+        "label": "NO"
+      }
+    },
+    "m1_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$13.5M"
+      }
+    },
+    "market_2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m2_q",
+        "m2_odds",
+        "m2_vol"
+      ]
+    },
+    "m2_q": {
+      "type": "Text",
+      "props": {
+        "text": "Will La U win the third most seats in the 2026 Colombian Chamber?"
+      }
+    },
+    "m2_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "m2_yes",
+        "m2_no"
+      ]
+    },
+    "m2_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 5.8,
+        "label": "YES"
+      }
+    },
+    "m2_no": {
+      "type": "Progress",
+      "props": {
+        "value": 94.2,
+        "label": "NO"
+      }
+    },
+    "m2_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$2.8M"
+      }
+    },
+    "market_3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m3_q",
+        "m3_odds",
+        "m3_vol"
+      ]
+    },
+    "m3_q": {
+      "type": "Text",
+      "props": {
+        "text": "Will the next Prime Minister of Hungary be Péter Magyar?"
+      }
+    },
+    "m3_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "m3_yes",
+        "m3_no"
+      ]
+    },
+    "m3_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 99.35,
+        "label": "YES"
+      }
+    },
+    "m3_no": {
+      "type": "Progress",
+      "props": {
+        "value": 0.65,
+        "label": "NO"
+      }
+    },
+    "m3_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$2.4M"
+      }
+    },
+    "market_4": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m4_q",
+        "m4_odds",
+        "m4_vol"
+      ]
+    },
+    "m4_q": {
+      "type": "Text",
+      "props": {
+        "text": "Hurricanes vs. Flyers"
+      }
+    },
+    "m4_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "m4_yes",
+        "m4_no"
+      ]
+    },
+    "m4_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 46.5,
+        "label": "Hurricanes"
+      }
+    },
+    "m4_no": {
+      "type": "Progress",
+      "props": {
+        "value": 53.5,
+        "label": "Flyers"
+      }
+    },
+    "m4_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$2.1M"
+      }
+    },
+    "market_5": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "m5_q",
+        "m5_odds",
+        "m5_vol"
+      ]
+    },
+    "m5_q": {
+      "type": "Text",
+      "props": {
+        "text": "Will Mexico win the 2026 FIFA World Cup?"
+      }
+    },
+    "m5_odds": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "m5_yes",
+        "m5_no"
+      ]
+    },
+    "m5_yes": {
+      "type": "Progress",
+      "props": {
+        "value": 1.15,
+        "label": "YES"
+      }
+    },
+    "m5_no": {
+      "type": "Progress",
+      "props": {
+        "value": 98.85,
+        "label": "NO"
+      }
+    },
+    "m5_vol": {
+      "type": "Stat",
+      "props": {
+        "label": "Volume (24h)",
+        "value": "$1.98M"
+      }
+    },
+    "sep_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_story": {
+      "type": "Heading",
+      "props": {
+        "text": "Biggest Story: Iran Blockade Escalation",
+        "level": "h2"
+      }
+    },
+    "story_text": {
+      "type": "Text",
+      "props": {
+        "text": "US naval blockade of Strait of Hormuz began April 13 after failed peace talks. Trump administration intercepting Iranian port traffic; Iran calls it \"piracy\" and threatens \"severe response.\" Military action deadline market at 99.95% NO reflects extreme market skepticism of near-term resolution.",
+        "variant": "body"
+      }
+    },
+    "sep_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_political": {
+      "type": "Heading",
+      "props": {
+        "text": "Political Earthquake Aftermath",
+        "level": "h2"
+      }
+    },
+    "political_text": {
+      "type": "Text",
+      "props": {
+        "text": "Hungary markets still active post-election: Magyar win confirmed at 99.35% (up from yesterday's 99%). Orbán defeat market at 99.7%. Combined $4M volume as traders position for EU policy shifts and democracy implications.",
+        "variant": "body"
+      }
+    },
+    "sep_3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_new": {
+      "type": "Heading",
+      "props": {
+        "text": "New Markets",
+        "level": "h2"
+      }
+    },
+    "new_text": {
+      "type": "Text",
+      "props": {
+        "text": "Short-term crypto betting surge: 5-15 minute BTC/ETH/SOL Up/Down markets launched today (zero volume yet).",
+        "variant": "body"
+      }
+    },
+    "sep_4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Context",
+        "level": "h2"
+      }
+    },
+    "context_text": {
+      "type": "Text",
+      "props": {
+        "text": "Iran crisis drives $15M+ volume across multiple markets; Hungarian political transition adds $4M.",
+        "variant": "body"
+      }
+    }
+  }
+}
