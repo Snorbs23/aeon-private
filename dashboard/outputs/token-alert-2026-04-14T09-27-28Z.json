@@ -1,0 +1,328 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — 2026-04-14"
+      },
+      "children": [
+        "section_prices",
+        "sep1",
+        "section_anomalies",
+        "sep2",
+        "section_gainers",
+        "sep3",
+        "section_losers",
+        "sep4",
+        "section_tradfi"
+      ]
+    },
+    "section_prices": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_prices",
+        "table_prices"
+      ]
+    },
+    "heading_prices": {
+      "type": "Heading",
+      "props": {
+        "text": "🔍 Core Prices",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price",
+          "Change",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "$74,336",
+            "+5.80%",
+            "$24.8B"
+          ],
+          [
+            "ETH",
+            "$2,378",
+            "-1.46%",
+            "$11.9B"
+          ],
+          [
+            "SOL",
+            "$83.50",
+            "+1.08%",
+            "$2.8B"
+          ],
+          [
+            "HYPE",
+            "$41.60",
+            "+2.53%",
+            "$215M"
+          ],
+          [
+            "Gold",
+            "$4,761",
+            "+0.33%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_anomalies",
+        "table_anomalies"
+      ]
+    },
+    "heading_anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_anomalies": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Change",
+          "Price",
+          "Note"
+        ],
+        "rows": [
+          [
+            "MEZO",
+            "+179.2%",
+            "$0.0867",
+            "mega pump"
+          ],
+          [
+            "CommonWealth (CWU)",
+            "+167.6%",
+            "$0.0354",
+            "massive spike"
+          ],
+          [
+            "Genius (GENIUS)",
+            "+149.8%",
+            "$0.4909",
+            "extreme surge"
+          ],
+          [
+            "MYX Finance",
+            "+78.5%",
+            "$0.3781",
+            "major pump"
+          ],
+          [
+            "RaveDAO (RAVE)",
+            "+57.4%",
+            "$13.78",
+            "strong rally"
+          ],
+          [
+            "BUILDon (B)",
+            "-31.0%",
+            "$0.118",
+            "major drop"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_gainers",
+        "table_gainers"
+      ]
+    },
+    "heading_gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_gainers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Change"
+        ],
+        "rows": [
+          [
+            "MEZO",
+            "+179.2%"
+          ],
+          [
+            "CommonWealth",
+            "+167.6%"
+          ],
+          [
+            "Genius",
+            "+149.8%"
+          ],
+          [
+            "MYX Finance",
+            "+78.5%"
+          ],
+          [
+            "RaveDAO",
+            "+57.4%"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_losers",
+        "table_losers"
+      ]
+    },
+    "heading_losers": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_losers": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Change"
+        ],
+        "rows": [
+          [
+            "BUILDon",
+            "-31.0%"
+          ],
+          [
+            "Infinex",
+            "-20.5%"
+          ],
+          [
+            "Ultima",
+            "-14.6%"
+          ],
+          [
+            "Naoris Protocol",
+            "-13.5%"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "section_tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading_tradfi",
+        "table_tradfi"
+      ]
+    },
+    "heading_tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "table_tradfi": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price",
+          "Change"
+        ],
+        "rows": [
+          [
+            "Gold",
+            "$4,761",
+            "+0.33%"
+          ],
+          [
+            "Oil",
+            "$97.45",
+            "-1.64%"
+          ],
+          [
+            "10Y Yield",
+            "4.359%",
+            ""
+          ]
+        ]
+      },
+      "children": []
+    }
+  }
+}
