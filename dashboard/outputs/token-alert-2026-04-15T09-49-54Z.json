@@ -1,0 +1,387 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-date",
+        "heading-core",
+        "stack-core",
+        "sep-1",
+        "heading-anomalies",
+        "stack-anomalies",
+        "sep-2",
+        "heading-gainers",
+        "stack-gainers",
+        "sep-3",
+        "heading-losers",
+        "stack-losers",
+        "sep-4",
+        "heading-tradfi",
+        "stack-tradfi"
+      ]
+    },
+    "heading-date": {
+      "type": "Text",
+      "props": {
+        "text": "2026-04-15",
+        "variant": "caption"
+      }
+    },
+    "heading-core": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h3"
+      }
+    },
+    "stack-core": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-btc",
+        "stat-sol",
+        "stat-eth",
+        "stat-hype",
+        "stat-gold"
+      ]
+    },
+    "stat-btc": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC (Vol: $48.48B)",
+        "value": "$73,980",
+        "delta": "-0.68%",
+        "trend": "down"
+      }
+    },
+    "stat-sol": {
+      "type": "Stat",
+      "props": {
+        "label": "SOL (Vol: $4.51B)",
+        "value": "$83.11",
+        "delta": "-3.42%",
+        "trend": "down"
+      }
+    },
+    "stat-eth": {
+      "type": "Stat",
+      "props": {
+        "label": "ETH (Vol: $21.41B)",
+        "value": "$2,321",
+        "delta": "-2.74%",
+        "trend": "down"
+      }
+    },
+    "stat-hype": {
+      "type": "Stat",
+      "props": {
+        "label": "HYPE (Vol: $357.74M)",
+        "value": "$43.65",
+        "delta": "-2.69%",
+        "trend": "down"
+      }
+    },
+    "stat-gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,793",
+        "delta": "-1.01%",
+        "trend": "down"
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves only)",
+        "level": "h3"
+      }
+    },
+    "stack-anomalies": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-rosa",
+        "stat-bless",
+        "stat-bedrock",
+        "stat-pumpcade",
+        "stat-enj",
+        "stat-bcgame",
+        "stat-commonwealth",
+        "stat-mezo"
+      ]
+    },
+    "stat-rosa": {
+      "type": "Stat",
+      "props": {
+        "label": "ROSA — massive pump",
+        "value": "+61.3%",
+        "trend": "up"
+      }
+    },
+    "stat-bless": {
+      "type": "Stat",
+      "props": {
+        "label": "BLESS — major spike",
+        "value": "+54.2%",
+        "trend": "up"
+      }
+    },
+    "stat-bedrock": {
+      "type": "Stat",
+      "props": {
+        "label": "Bedrock — large move",
+        "value": "+49.2%",
+        "trend": "up"
+      }
+    },
+    "stat-pumpcade": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMPCADE — pump detected",
+        "value": "+40.7%",
+        "trend": "up"
+      }
+    },
+    "stat-enj": {
+      "type": "Stat",
+      "props": {
+        "label": "ENJ — gaming token surge",
+        "value": "+31.5%",
+        "trend": "up"
+      }
+    },
+    "stat-bcgame": {
+      "type": "Stat",
+      "props": {
+        "label": "BCGame — major drop",
+        "value": "-27.2%",
+        "trend": "down"
+      }
+    },
+    "stat-commonwealth": {
+      "type": "Stat",
+      "props": {
+        "label": "CommonWealth — sharp decline",
+        "value": "-22.2%",
+        "trend": "down"
+      }
+    },
+    "stat-mezo": {
+      "type": "Stat",
+      "props": {
+        "label": "MEZO — significant loss",
+        "value": "-16.9%",
+        "trend": "down"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h3"
+      }
+    },
+    "stack-gainers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-gain-rosa",
+        "stat-gain-bless",
+        "stat-gain-bedrock",
+        "stat-gain-pumpcade",
+        "stat-gain-infinit"
+      ]
+    },
+    "stat-gain-rosa": {
+      "type": "Stat",
+      "props": {
+        "label": "ROSA",
+        "value": "+61.3%",
+        "trend": "up"
+      }
+    },
+    "stat-gain-bless": {
+      "type": "Stat",
+      "props": {
+        "label": "BLESS",
+        "value": "+54.2%",
+        "trend": "up"
+      }
+    },
+    "stat-gain-bedrock": {
+      "type": "Stat",
+      "props": {
+        "label": "Bedrock",
+        "value": "+49.2%",
+        "trend": "up"
+      }
+    },
+    "stat-gain-pumpcade": {
+      "type": "Stat",
+      "props": {
+        "label": "PUMPCADE",
+        "value": "+40.7%",
+        "trend": "up"
+      }
+    },
+    "stat-gain-infinit": {
+      "type": "Stat",
+      "props": {
+        "label": "INFINIT",
+        "value": "+37.3%",
+        "trend": "up"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h3"
+      }
+    },
+    "stack-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-loss-bcgame",
+        "stat-loss-commonwealth",
+        "stat-loss-humidifi",
+        "stat-loss-mezo",
+        "stat-loss-lab"
+      ]
+    },
+    "stat-loss-bcgame": {
+      "type": "Stat",
+      "props": {
+        "label": "BCGame",
+        "value": "-27.2%",
+        "trend": "down"
+      }
+    },
+    "stat-loss-commonwealth": {
+      "type": "Stat",
+      "props": {
+        "label": "CommonWealth",
+        "value": "-22.2%",
+        "trend": "down"
+      }
+    },
+    "stat-loss-humidifi": {
+      "type": "Stat",
+      "props": {
+        "label": "HumidiFi",
+        "value": "-18.1%",
+        "trend": "down"
+      }
+    },
+    "stat-loss-mezo": {
+      "type": "Stat",
+      "props": {
+        "label": "MEZO",
+        "value": "-16.9%",
+        "trend": "down"
+      }
+    },
+    "stat-loss-lab": {
+      "type": "Stat",
+      "props": {
+        "label": "LAB",
+        "value": "-14.5%",
+        "trend": "down"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h3"
+      }
+    },
+    "stack-tradfi": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-tf-gold",
+        "text-tf-oil",
+        "stat-tf-yield"
+      ]
+    },
+    "stat-tf-gold": {
+      "type": "Stat",
+      "props": {
+        "label": "Gold",
+        "value": "$4,793",
+        "delta": "-1.01%",
+        "trend": "down"
+      }
+    },
+    "text-tf-oil": {
+      "type": "Text",
+      "props": {
+        "text": "Oil: ~$92 (stabilizing post-Iran talks)"
+      }
+    },
+    "stat-tf-yield": {
+      "type": "Stat",
+      "props": {
+        "label": "10Y Yield",
+        "value": "~4.29%"
+      }
+    }
+  }
+}
