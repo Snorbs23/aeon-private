@@ -1,0 +1,247 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "DeFi Anomalies — 2026-04-15"
+      },
+      "children": [
+        "tvl-stack",
+        "separator1",
+        "chain-section",
+        "separator2",
+        "dex-stat",
+        "separator3",
+        "yields-section",
+        "separator4",
+        "stablecoins-section",
+        "separator5",
+        "assessment"
+      ]
+    },
+    "tvl-stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "tvl-stat",
+        "tvl-context"
+      ]
+    },
+    "tvl-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "Total TVL",
+        "value": "$97.56B",
+        "delta": "-1.22%",
+        "trend": "down"
+      }
+    },
+    "tvl-context": {
+      "type": "Text",
+      "props": {
+        "text": "vs yesterday's $98.76B — CONSOLIDATION after major surge",
+        "variant": "muted"
+      }
+    },
+    "separator1": {
+      "type": "Separator"
+    },
+    "chain-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "chain-heading",
+        "chain-table"
+      ]
+    },
+    "chain-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🔻 Chain Changes",
+        "level": "h3"
+      }
+    },
+    "chain-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Chain",
+          "TVL",
+          "Dominance",
+          "Change vs Yesterday"
+        ],
+        "rows": [
+          [
+            "Ethereum",
+            "$55.57B",
+            "56.9%",
+            "-1.1% (was $56.2B)"
+          ],
+          [
+            "Solana",
+            "$5.77B",
+            "—",
+            "-2.0% (was $5.89B)"
+          ],
+          [
+            "Base",
+            "$4.45B",
+            "—",
+            "-1.1% (was $4.50B)"
+          ],
+          [
+            "BSC",
+            "$5.42B",
+            "—",
+            "-0.4% (stable)"
+          ],
+          [
+            "Tron",
+            "$5.10B",
+            "—",
+            "-0.4% (stable)"
+          ]
+        ]
+      }
+    },
+    "separator2": {
+      "type": "Separator"
+    },
+    "dex-stat": {
+      "type": "Stat",
+      "props": {
+        "label": "💧 DEX Volume",
+        "value": "$7.59B",
+        "delta": "across all chains"
+      }
+    },
+    "separator3": {
+      "type": "Separator"
+    },
+    "yields-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "yields-heading",
+        "yields-table"
+      ]
+    },
+    "yields-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "🏆 Top Yields",
+        "level": "h3"
+      }
+    },
+    "yields-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Protocol",
+          "TVL",
+          "APY"
+        ],
+        "rows": [
+          [
+            "Lido STETH",
+            "$21.88B",
+            "2.41%"
+          ],
+          [
+            "Binance WBETH",
+            "$8.10B",
+            "2.55%"
+          ],
+          [
+            "Sky SUSDS",
+            "$6.37B",
+            "3.75%"
+          ],
+          [
+            "Maple USDC 💎",
+            "$3.40B",
+            "4.21%"
+          ]
+        ]
+      }
+    },
+    "separator4": {
+      "type": "Separator"
+    },
+    "stablecoins-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stablecoins-heading",
+        "stablecoins-table"
+      ]
+    },
+    "stablecoins-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "💱 Stablecoins",
+        "level": "h3"
+      }
+    },
+    "stablecoins-table": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Stablecoin",
+          "Circulating Supply"
+        ],
+        "rows": [
+          [
+            "USDT",
+            "$185.48B"
+          ],
+          [
+            "USDC",
+            "$78.78B"
+          ]
+        ]
+      }
+    },
+    "separator5": {
+      "type": "Separator"
+    },
+    "assessment": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "assessment-heading",
+        "assessment-text"
+      ]
+    },
+    "assessment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "assessment-text": {
+      "type": "Text",
+      "props": {
+        "text": "Normal consolidation phase after yesterday's +4.31% surge. No major anomalies detected. Ethereum dominance stable at ~57%. High-yield opportunities in Maple (4%+) and Sky (3.75%)."
+      }
+    }
+  }
+}
