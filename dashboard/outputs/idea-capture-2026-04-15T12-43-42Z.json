@@ -1,0 +1,22 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "Idea Capture"
+      },
+      "children": [
+        "message"
+      ]
+    },
+    "message": {
+      "type": "Text",
+      "props": {
+        "text": "Empty run correctly prevented (no idea provided via Telegram). Guards working as intended to avoid wasted executions."
+      },
+      "children": []
+    }
+  }
+}
