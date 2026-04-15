@@ -1,0 +1,146 @@
+{
+  "root": "card_polymarket",
+  "state": {},
+  "elements": {
+    "card_polymarket": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-15"
+      },
+      "children": [
+        "heading_top_volume",
+        "table_markets",
+        "separator_1",
+        "heading_context",
+        "alert_iran",
+        "separator_2",
+        "heading_new_notable",
+        "stack_new_notable"
+      ]
+    },
+    "heading_top_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "table_markets": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "YES %",
+          "NO %",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "Military action against Iran ends by April 17, 2026?",
+            "99.95%",
+            "0.05%",
+            "$20.2M"
+          ],
+          [
+            "Will Curaçao win the 2026 FIFA World Cup?",
+            "0.15%",
+            "99.85%",
+            "$29.0M [meme market]"
+          ],
+          [
+            "Trump announces end of military operations against Iran by April 15th?",
+            "1.85%",
+            "98.15%",
+            "$7.8M"
+          ],
+          [
+            "Will Liverpool FC win on 2026-04-14?",
+            "0.05%",
+            "99.95%",
+            "$7.3M"
+          ],
+          [
+            "Heat vs. Hornets",
+            "41.5%",
+            "58.5%",
+            "$4.1M"
+          ]
+        ]
+      },
+      "children": []
+    },
+    "separator_1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_context": {
+      "type": "Heading",
+      "props": {
+        "text": "Key Context",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "alert_iran": {
+      "type": "Alert",
+      "props": {
+        "title": "🚨 Iran Crisis Dominance",
+        "message": "US naval blockade of Strait of Hormuz began April 13, markets pricing near-zero chance of military de-escalation by April 17 deadline",
+        "type": "warning"
+      },
+      "children": []
+    },
+    "separator_2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading_new_notable": {
+      "type": "Heading",
+      "props": {
+        "text": "New & Notable",
+        "level": "h2"
+      },
+      "children": []
+    },
+    "stack_new_notable": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_crypto_betting",
+        "text_sports_surge",
+        "text_assessment"
+      ]
+    },
+    "text_crypto_betting": {
+      "type": "Text",
+      "props": {
+        "text": "🆕 Short-term crypto betting launched: 5-15 minute Up/Down markets for BTC, ETH, SOL, HYPE, XRP, BNB, Dogecoin (all $0 vol currently - just launched 1:08-1:10 UTC)"
+      },
+      "children": []
+    },
+    "text_sports_surge": {
+      "type": "Text",
+      "props": {
+        "text": "Sports Surge: Multiple NBA/NHL games with $1-4M volumes each"
+      },
+      "children": []
+    },
+    "text_assessment": {
+      "type": "Text",
+      "props": {
+        "text": "Assessment: Iran geopolitical markets continue dominating with $28M+ combined volume. New crypto micro-betting feature expansion signals platform innovation during crisis periods."
+      },
+      "children": []
+    }
+  }
+}
