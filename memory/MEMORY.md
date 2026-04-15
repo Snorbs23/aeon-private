@@ -1,5 +1,5 @@
 # Long-term Memory
-*Last consolidated: 2026-04-14*
+*Last consolidated: 2026-04-15*
 
 ## About Me
 - Name: Nobu
@@ -52,6 +52,9 @@
 ## Recent Digests
 | Date | Type | Key Topics |
 |------|------|------------|
+| 2026-04-15 | Polymarket | Iran military resolution $20.17M volume (99.95% NO de-escalation by Apr 17), short-term crypto betting launch |
+| 2026-04-15 | Token Alert | Consolidation mode: BTC +1.12%, Jito +18.55% only major anomaly, oil -7% on peace talks |
+| 2026-04-15 | DeFi Overview | TVL $97.56B (-1.22%) healthy consolidation after surge, Ethereum 56.9% dominance stable |
 | 2026-04-14 | Polymarket | Iran military action $13.5M volume (US Hormuz blockade), Hungary transition confirmed |
 | 2026-04-14 | Token Alert | MEZO +179%, CommonWealth +167%, Genius +149%, MYX +78% mega pumps |
 | 2026-04-14 | DeFi Overview | TVL surge $98.76B (+4.31%), largest gain since oil crisis, consolidation ends |
@@ -87,10 +90,10 @@
 
 ## Lessons Learned
 - **ROOT CAUSE FOUND**: Heartbeat redundancy caused by missing schedule triggers in GitHub Actions workflow
-- **IRAN CRISIS EVOLUTION**: Ceasefire $97 → Blockade fears $105 → Naval blockade implemented, oil stabilizing ~$97
-- **TVL SURGE PATTERN**: DeFi +4.31% to $98.76B ends 3-day consolidation, coincides with oil stabilization 
+- **IRAN CRISIS EVOLUTION**: Ceasefire $97 → Blockade fears $105 → Naval blockade implemented → Market pricing 99.95% NO de-escalation by Apr 17
+- **TVL PATTERN**: DeFi surge +4.31% to $98.76B → Healthy consolidation -1.22% to $97.56B (normal post-surge behavior)
 - **MULTI-TOKEN PUMPS**: MEZO +179%, CommonWealth +167%, Genius +149% shows new anomaly clustering patterns
-- **POLYMARKET INNOVATION**: Short-term crypto Up/Down betting (5-15min windows) launched mid-crisis
+- **POLYMARKET INNOVATION**: Short-term crypto Up/Down betting (5-15min windows) launched mid-crisis, gaining adoption
 - **MEGA ANOMALY**: RAVE +193.5% (largest single-day pump detected), extreme 502M volume
 - **POLITICAL EARTHQUAKE**: Viktor Orbán defeated after 16 years (Hungary), major EU/global impact
 - **DeFi INSTITUTIONAL FLOW**: USDC massive +$855M inflow signals institutional accumulation
@@ -104,10 +107,10 @@
 
 ## Current Priorities  
 - **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy)
-- **Monitor**: Iran naval blockade impact (US Hormuz operation, oil stabilizing ~$97 after $105 spike)
-- **Monitor**: DeFi TVL momentum ($98.76B post-surge, institutional positioning patterns)
-- **Monitor**: Multi-token anomaly clusters (MEZO +179%, CommonWealth +167%, Genius +149%)
-- **Monitor**: Polymarket innovation adoption (short-term crypto betting uptake)
+- **Monitor**: Iran crisis final stage (markets 99.95% expect NO de-escalation by Apr 17 deadline)
+- **Monitor**: DeFi consolidation phase ($97.56B after surge, normal post-rally behavior)
+- **Monitor**: Token market return to normalcy (consolidation with typical altcoin volatility)
+- **Monitor**: Polymarket short-term crypto betting adoption (new feature uptake)
 - **Monitor**: Hungarian political consolidation (Magyar government formation)
 - Capture first idea via Telegram
 - **CRITICAL**: Fix GitHub Actions workflow - missing schedule triggers (root cause of redundancy) — STALLED since 2026-04-12, no fix attempt
