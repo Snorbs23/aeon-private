@@ -1,0 +1,263 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Token Alert — April 15, 2026"
+      },
+      "children": [
+        "stack-main"
+      ]
+    },
+    "stack-main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "heading-prices",
+        "table-prices",
+        "sep-1",
+        "heading-anomalies",
+        "alert-anomalies",
+        "sep-2",
+        "heading-gainers",
+        "stat-jito-gain",
+        "sep-3",
+        "heading-losers",
+        "stack-losers",
+        "sep-4",
+        "heading-tradfi",
+        "table-tradfi",
+        "sep-5",
+        "heading-market",
+        "stack-market"
+      ]
+    },
+    "heading-prices": {
+      "type": "Heading",
+      "props": {
+        "text": "Core Prices",
+        "level": "h2"
+      }
+    },
+    "table-prices": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Token",
+          "Price",
+          "24h Change",
+          "Volume"
+        ],
+        "rows": [
+          [
+            "BTC",
+            "$73,725.82",
+            "+1.12%",
+            "$24.04B"
+          ],
+          [
+            "SOL",
+            "$83.76",
+            "-2.40%",
+            "$6.29B"
+          ],
+          [
+            "ETH",
+            "$2,319.98",
+            "~0%",
+            "$21.95B"
+          ],
+          [
+            "HYPE",
+            "$43.55",
+            "+3.37%",
+            "$483.68M"
+          ],
+          [
+            "Gold",
+            "$4,830.31",
+            "-0.24%",
+            "—"
+          ]
+        ]
+      }
+    },
+    "sep-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-anomalies": {
+      "type": "Heading",
+      "props": {
+        "text": "🚨 Anomalies (10%+ moves only)",
+        "level": "h2"
+      }
+    },
+    "alert-anomalies": {
+      "type": "Alert",
+      "props": {
+        "title": "Jito: +18.55% 24h",
+        "message": "major price spike",
+        "type": "warning"
+      }
+    },
+    "sep-2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-gainers": {
+      "type": "Heading",
+      "props": {
+        "text": "📈 Top Gainers (24h)",
+        "level": "h2"
+      }
+    },
+    "stat-jito-gain": {
+      "type": "Stat",
+      "props": {
+        "label": "Jito",
+        "value": "+18.55%",
+        "trend": "up"
+      }
+    },
+    "sep-3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-losers": {
+      "type": "Heading",
+      "props": {
+        "text": "📉 Top Losers (24h)",
+        "level": "h2"
+      }
+    },
+    "stack-losers": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-symbiosis",
+        "stat-tranchess"
+      ]
+    },
+    "stat-symbiosis": {
+      "type": "Stat",
+      "props": {
+        "label": "Symbiosis Finance",
+        "value": "-29.38%",
+        "trend": "down"
+      }
+    },
+    "stat-tranchess": {
+      "type": "Stat",
+      "props": {
+        "label": "Tranchess",
+        "value": "-22.50%",
+        "trend": "down"
+      }
+    },
+    "sep-4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-tradfi": {
+      "type": "Heading",
+      "props": {
+        "text": "📊 TradFi",
+        "level": "h2"
+      }
+    },
+    "table-tradfi": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Asset",
+          "Price",
+          "24h Change",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "Gold",
+            "$4,830.31",
+            "-0.24%",
+            ""
+          ],
+          [
+            "Oil",
+            "$93",
+            "-7%",
+            "Iran peace talks"
+          ],
+          [
+            "10Y Yield",
+            "4.26%",
+            "—",
+            ""
+          ]
+        ]
+      }
+    },
+    "sep-5": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading-market": {
+      "type": "Heading",
+      "props": {
+        "text": "Market Summary",
+        "level": "h2"
+      }
+    },
+    "stack-market": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "stat-sentiment",
+        "stat-volume",
+        "stat-btc-dom"
+      ]
+    },
+    "stat-sentiment": {
+      "type": "Stat",
+      "props": {
+        "label": "Market Sentiment",
+        "value": "50% green"
+      }
+    },
+    "stat-volume": {
+      "type": "Stat",
+      "props": {
+        "label": "Total Volume",
+        "value": "$121B"
+      }
+    },
+    "stat-btc-dom": {
+      "type": "Stat",
+      "props": {
+        "label": "BTC Dominance",
+        "value": "57.3%"
+      }
+    }
+  }
+}
