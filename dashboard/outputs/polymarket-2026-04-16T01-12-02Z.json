@@ -1,0 +1,201 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Polymarket — 2026-04-16"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "lg"
+      },
+      "children": [
+        "heading_volume",
+        "table_markets",
+        "separator1",
+        "heading_iran",
+        "text_iran_context",
+        "stack_iran_links",
+        "separator2",
+        "heading_fed",
+        "text_fed",
+        "separator3",
+        "heading_sports",
+        "text_sports",
+        "separator4",
+        "heading_crypto",
+        "text_crypto"
+      ]
+    },
+    "heading_volume": {
+      "type": "Heading",
+      "props": {
+        "text": "Top by Volume (24h)",
+        "level": "h2"
+      }
+    },
+    "table_markets": {
+      "type": "Table",
+      "props": {
+        "columns": [
+          "Market",
+          "YES %",
+          "NO %",
+          "24h Volume"
+        ],
+        "rows": [
+          [
+            "Fed 50+ bps rate cut after April 2026 meeting?",
+            "0%",
+            "100%",
+            "$34.7M"
+          ],
+          [
+            "Military action against Iran ends by April 17, 2026?",
+            "100%",
+            "0%",
+            "$26.3M"
+          ],
+          [
+            "Fed 25+ bps rate hike after April 2026 meeting?",
+            "0%",
+            "100%",
+            "$21.5M"
+          ],
+          [
+            "Israel x Hezbollah ceasefire by April 15, 2026?",
+            "3%",
+            "97%",
+            "$7.1M"
+          ],
+          [
+            "US x Iran permanent peace deal by April 22, 2026?",
+            "23%",
+            "78%",
+            "$5.0M"
+          ]
+        ]
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_iran": {
+      "type": "Heading",
+      "props": {
+        "text": "Iran Crisis Context",
+        "level": "h2"
+      }
+    },
+    "text_iran_context": {
+      "type": "Text",
+      "props": {
+        "text": "Markets pricing near-certainty (99.95%) that military action will NOT end by April 17 deadline. US blockade of Strait of Hormuz active since April 13, after failed Islamabad talks. Iran calls blockade \"piracy\"; shipping severely curtailed."
+      }
+    },
+    "stack_iran_links": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "link_blockade",
+        "link_islamabad",
+        "link_shipping"
+      ]
+    },
+    "link_blockade": {
+      "type": "StoryLink",
+      "props": {
+        "title": "US blockade of Strait of Hormuz",
+        "href": "https://www.cnn.com/2026/04/14/world/live-news/iran-war-blockade-us-trump",
+        "source": "CNN"
+      }
+    },
+    "link_islamabad": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Islamabad talks",
+        "href": "https://www.aljazeera.com/news/liveblog/2026/4/13/iran-war-live-us-military-to-block-iranian-port-traffic-in-hormuz-strait",
+        "source": "Al Jazeera"
+      }
+    },
+    "link_shipping": {
+      "type": "StoryLink",
+      "props": {
+        "title": "Shipping severely curtailed",
+        "href": "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-blockade-iran-war-hormuz-israel-lebanon-talks-rcna331668",
+        "source": "NBC News"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_fed": {
+      "type": "Heading",
+      "props": {
+        "text": "Fed Rate Markets",
+        "level": "h2"
+      }
+    },
+    "text_fed": {
+      "type": "Text",
+      "props": {
+        "text": "Combined $56M+ volume betting against ANY rate changes in April 2026 meeting (Apr 28-29). Markets price 100% probability of no change after recent economic data."
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_sports": {
+      "type": "Heading",
+      "props": {
+        "text": "Sports Activity",
+        "level": "h2"
+      }
+    },
+    "text_sports": {
+      "type": "Text",
+      "props": {
+        "text": "Strong esports volume: CS matches $4.3M+ (Vitality vs Falcons, FURIA vs MOUZ). Traditional sports: Magic vs 76ers $4.3M, Rangers vs Lightning $2.4M."
+      }
+    },
+    "separator4": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "heading_crypto": {
+      "type": "Heading",
+      "props": {
+        "text": "New Feature",
+        "level": "h2"
+      }
+    },
+    "text_crypto": {
+      "type": "Text",
+      "props": {
+        "text": "🆕 Short-term crypto Up/Down betting continues (BTC/ETH/SOL 5-15min windows) — zero volume but regular launches show platform innovation during crisis periods."
+      }
+    }
+  }
+}
